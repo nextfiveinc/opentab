@@ -3,7 +3,8 @@
 # Nothing below the publish bar goes live: it waits in the review queue for you.
 # Setup and day-to-day use: README_LOCAL.md (kept locally) → Deploying.
 # GitHub lists a schedule-only workflow under Actions only after a push that changes
-# this file; a repository's first push may not register it.
+# this file; a repository's first push may not register it (a second push that touches
+# this file does).
 #
 # This repository is public, and so are its Actions logs, job summaries and commit
 # messages. Everything that names candidates, sources or rejection reasons goes to the
