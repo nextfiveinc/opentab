@@ -1,0 +1,95 @@
+{
+  "id": "1560ccda",
+  "url": "https://tools.simonwillison.net/audio-spectrum",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Audio Spectrum Visualizer",
+  "summary": "Renders a live frequency-spectrum visualisation of audio in the browser, charting how sound energy is distributed across frequency bands.",
+  "why": "Turns sound into an immediate visual read of its frequency balance: see pitch, noise and changes at a glance.",
+  "category": "experiments",
+  "subcategory": "art-pieces",
+  "tags": [
+    "audio",
+    "visualization",
+    "spectrum",
+    "real-time",
+    "browser-tool"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/audio-spectrum",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.8936,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.97,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.32,
+      "category": {
+        "choice": "experiments",
+        "p": 0.96
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.93
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Audio Spectrum Visualizer",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/audio-spectrum",
+    "alt": "Screenshot of Audio Spectrum Visualizer",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

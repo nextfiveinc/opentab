@@ -1,0 +1,92 @@
+{
+  "id": "7ca3b419",
+  "url": "https://misty-woods.vercel.app/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Stormsword - Classic RPG",
+  "summary": "A classic role-playing game (RPG) featuring a warrior character, detailed stats, and combat mechanics.",
+  "why": "A nostalgic experience for fans of classic tabletop or computer RPG adventures.",
+  "category": "games",
+  "subcategory": "strategy",
+  "tags": [
+    "rpg",
+    "classic",
+    "dnd",
+    "fantasy",
+    "adventure",
+    "turn-based"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48457542",
+      "item_url": "https://misty-woods.vercel.app/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8749,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.93,
+      "is_free_to_use": 0.96,
+      "is_game": 0.96,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "games",
+        "p": 0.98
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.88
+      },
+      "listing_quality": {
+        "level": 1
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "fingerprint": {
+    "host": "misty-woods.vercel.app",
+    "title": "Stormsword - Classic RPG",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://misty-woods.vercel.app/",
+    "alt": "Screenshot of Stormsword - Classic RPG",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

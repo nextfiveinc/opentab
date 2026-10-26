@@ -1,0 +1,92 @@
+{
+  "id": "22501fa5",
+  "url": "https://hackertyper.net",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Hacker Typer",
+  "summary": "Type anything and lines of fake hacking code appear on screen, recreating the movie stereotype. Options adjust colour, speed and font size.",
+  "why": "A long-running gag that turns random keystrokes into movie-style code; handy for pranks, videos and screen backdrops.",
+  "category": "experiments",
+  "subcategory": "toys-visualisers",
+  "tags": [
+    "novelty",
+    "prank",
+    "typing",
+    "code",
+    "keyboard",
+    "fullscreen"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/hackertyper",
+      "item_url": "https://hackertyper.net",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9412,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.64,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.19,
+      "category": {
+        "choice": "experiments",
+        "p": 0.75
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "fingerprint": {
+    "host": "hackertyper.net",
+    "title": "Hacker Typer",
+    "site_name": "",
+    "description": "The original HackerTyper. Turning all your hacker dreams into pseudo reality since 2011."
+  },
+  "image": {
+    "src": "https://hackertyper.net",
+    "alt": "Screenshot of Hacker Typer",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

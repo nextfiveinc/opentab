@@ -1,0 +1,90 @@
+{
+  "id": "a245a5ee",
+  "url": "https://nextfive.xyz/tools/abhyasa/",
+  "source": "nextfive-library",
+  "tier": "A",
+  "title": "Abhyasa - Kannada Verb Drill",
+  "summary": "Abhyasa is a Kannada verb drill that uses spaced repetition to help users practice and learn foundational verbs and sentence structures.",
+  "why": "Practice Kannada verbs using a spaced repetition system with customizable drills and offline access.",
+  "category": "education",
+  "subcategory": "language-learning",
+  "tags": [
+    "kannada",
+    "verbs",
+    "drill",
+    "spaced-repetition",
+    "offline"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "nextfive-library",
+      "url": "https://nextfive.xyz/library",
+      "item_url": "https://nextfive.xyz/tools/abhyasa/",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9031,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.95,
+      "is_game": 0.15,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "education",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "nextfive.xyz",
+    "title": "Abhyasa - Kannada Verb Drill",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://nextfive.xyz/tools/abhyasa/",
+    "alt": "Screenshot of Abhyasa - Kannada Verb Drill",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

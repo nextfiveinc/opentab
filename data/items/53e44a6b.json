@@ -1,0 +1,90 @@
+{
+  "id": "53e44a6b",
+  "url": "https://remixer-dec.github.io/chip8emu",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Chip-8 interactive emulator | experimental project",
+  "summary": "Browser-based Chip-8 emulator with configurable execution speed, rendering, blink reduction and a live debug console; loads built-in and external ROMs.",
+  "why": "Dozens of tunable settings (instruction pacing, render modes, live registers) make it a hands-on lab for seeing how Chip-8 executes programs.",
+  "category": "dev-tools",
+  "subcategory": "regex-snippets",
+  "tags": [
+    "emulator",
+    "chip8",
+    "retro",
+    "debugging",
+    "offline",
+    "roms"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/chip-8-emulator",
+      "item_url": "https://remixer-dec.github.io/chip8emu",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.14,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.02,
+      "is_open_source": 0.42,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.8
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "remixer-dec.github.io",
+    "title": "Chip-8 interactive emulator | experimental project",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://remixer-dec.github.io/chip8emu",
+    "alt": "Screenshot of Chip-8 interactive emulator | experimental project",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

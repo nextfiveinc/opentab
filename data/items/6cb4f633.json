@@ -1,0 +1,96 @@
+{
+  "id": "6cb4f633",
+  "url": "https://tools.simonwillison.net/clipboard-viewer",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Clipboard Format Viewer",
+  "summary": "A utility that allows users to paste content and view all available clipboard formats and associated data structures.",
+  "why": "Useful for developers to inspect and understand the various data formats stored in the clipboard.",
+  "category": "dev-tools",
+  "subcategory": "formatters",
+  "tags": [
+    "clipboard",
+    "data",
+    "format",
+    "viewer",
+    "utility",
+    "developer"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/clipboard-viewer",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9127,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.33,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.82
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.95
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Clipboard Format Viewer",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/clipboard-viewer",
+    "alt": "Screenshot of Clipboard Format Viewer",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

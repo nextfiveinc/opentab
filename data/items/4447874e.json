@@ -1,0 +1,90 @@
+{
+  "id": "4447874e",
+  "url": "https://undsh.com/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "undsh.com clean up AI text",
+  "summary": "A utility that cleans AI-generated text by replacing em dashes with hyphens and stripping emojis to make the writing appear more standard.",
+  "why": "Useful for standardizing AI output by removing common stylistic giveaways like em dashes and excessive emojis.",
+  "category": "utilities",
+  "subcategory": "text-tools",
+  "tags": [
+    "ai-text",
+    "clean-up",
+    "text-tool",
+    "em-dash",
+    "emoji",
+    "writing"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48456700",
+      "item_url": "https://undsh.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.02,
+      "is_open_source": 0.11,
+      "category": {
+        "choice": "utilities",
+        "p": 0.95
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.99
+      },
+      "listing_quality": {
+        "level": 1
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "undsh.com",
+    "title": "undsh.com clean up AI text",
+    "site_name": "",
+    "description": "Paste AI-generated text to replace em dashes with hyphens, strip emoji, and copy a cleaner version in your browser."
+  },
+  "image": {
+    "src": "https://undsh.com/",
+    "alt": "Screenshot of undsh.com clean up AI text",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

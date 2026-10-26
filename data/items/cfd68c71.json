@@ -1,0 +1,89 @@
+{
+  "id": "cfd68c71",
+  "url": "https://fontjoy.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Fontjoy - Generate font pairings in one click",
+  "summary": "Generates font pairings; lock fonts you want to keep and edit the preview text to see combinations with your own copy.",
+  "why": "Takes some of the guesswork out of mixing fonts: suggested pairings can be locked, swapped, and previewed with your own copy.",
+  "category": "creative",
+  "subcategory": "generative-art",
+  "tags": [
+    "typography",
+    "fonts",
+    "pairing",
+    "design",
+    "generator"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/fontjoy",
+      "item_url": "https://fontjoy.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9127,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.87,
+      "category": {
+        "choice": "creative",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.9
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "fontjoy.com",
+    "title": "Fontjoy - Generate font pairings in one click",
+    "site_name": "",
+    "description": "Fontjoy helps designers choose the best font combinations. Mix and match different fonts for the perfect pairing."
+  },
+  "image": {
+    "src": "https://fontjoy.com",
+    "alt": "Screenshot of Fontjoy - Generate font pairings in one click",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

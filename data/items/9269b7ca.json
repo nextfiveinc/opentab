@@ -1,0 +1,90 @@
+{
+  "id": "9269b7ca",
+  "url": "https://platmath.com",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Credit Card Break-Even Calculator | PlatMath",
+  "summary": "Calculator that compares a premium credit card's annual fee against the statement credits you actually use, showing net savings and the break-even point.",
+  "why": "Sliders let you model only the credits you'd realistically use, so the fee verdict reflects your habits rather than the card's marketing.",
+  "category": "money",
+  "subcategory": "budgeting",
+  "tags": [
+    "calculator",
+    "credit-cards",
+    "personal-finance",
+    "break-even",
+    "annual-fee",
+    "money"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48460469",
+      "item_url": "https://platmath.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8567,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.93,
+      "is_free_to_use": 0.94,
+      "is_game": 0.04,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.16,
+      "category": {
+        "choice": "money",
+        "p": 0.89
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.83
+      },
+      "listing_quality": {
+        "level": 1
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "platmath.com",
+    "title": "Credit Card Break-Even Calculator | PlatMath",
+    "site_name": "",
+    "description": "Find out if your premium credit card pays for itself. Drag sliders to the credits you actually use and see if you break even on the annual fee."
+  },
+  "image": {
+    "src": "https://platmath.com",
+    "alt": "Screenshot of Credit Card Break-Even Calculator | PlatMath",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "df38400e",
+  "url": "https://www.calculator.net",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Calculator.net: Free Online Calculators - Math, Fitness, Finance, Science",
+  "summary": "Around 200 free online calculators covering finance, fitness, health, math, dates and conversions, each with explanatory background.",
+  "why": "Covers most everyday calculations (mortgage, BMI, percentages, dates) in one place, free and without registration.",
+  "category": "utilities",
+  "subcategory": "calculators",
+  "tags": [
+    "calculator",
+    "finance",
+    "math",
+    "health",
+    "dates",
+    "conversion"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/calculator-app",
+      "item_url": "https://www.calculator.net",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9411,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.99,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.1,
+      "category": {
+        "choice": "utilities",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "calculator.net",
+    "title": "Calculator.net: Free Online Calculators - Math, Fitness, Finance, Science",
+    "site_name": "",
+    "description": "Online calculator for quick calculations, along with a large collection of calculators on math, finance, fitness, and more, each with in-depth information."
+  },
+  "image": {
+    "src": "https://www.calculator.net",
+    "alt": "Screenshot of Calculator.net: Free Online Calculators - Math, Fitness, Finance, Science",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

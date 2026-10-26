@@ -1,0 +1,96 @@
+{
+  "id": "77d0605b",
+  "url": "https://tools.simonwillison.net/lightning-timer",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Lightning Timer",
+  "summary": "A simple web timer with configurable duration and an optional warning time, suited to short timed talks or tasks.",
+  "why": "A distraction-free countdown you can tune for lightning talks, demos or any fixed-length activity.",
+  "category": "productivity",
+  "subcategory": "timers-focus",
+  "tags": [
+    "timer",
+    "countdown",
+    "presentations",
+    "timekeeping",
+    "talks",
+    "clock"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/lightning-timer",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9412,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.02,
+      "is_open_source": 0.35,
+      "category": {
+        "choice": "productivity",
+        "p": 0.97
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.96
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Lightning Timer",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/lightning-timer",
+    "alt": "Screenshot of Lightning Timer",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

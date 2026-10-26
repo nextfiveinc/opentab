@@ -1,0 +1,89 @@
+{
+  "id": "61114003",
+  "url": "https://periodic-table.io",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Periodic Table - Periodic Table",
+  "summary": "An interactive periodic table providing detailed chemical properties, configurations, and data for all elements. Includes various scientific calculators.",
+  "why": "A comprehensive and easy-to-use resource for students and enthusiasts studying chemistry and the properties of elements.",
+  "category": "education",
+  "subcategory": "maths-science",
+  "tags": [
+    "periodic table",
+    "chemistry",
+    "science",
+    "elements",
+    "interactive",
+    "education"
+  ],
+  "attrs": {
+    "cost": "freemium",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/periodic-table",
+      "item_url": "https://periodic-table.io",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8561,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.91,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.19,
+      "category": {
+        "choice": "education",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "freemium",
+        "p": 0.93
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://periodic-table.io/images/og-images/en/index.png",
+    "alt": "Preview of Periodic Table - Periodic Table"
+  },
+  "fingerprint": {
+    "host": "periodic-table.io",
+    "title": "Periodic Table - Periodic Table",
+    "site_name": "Periodic-Table.io",
+    "description": "Interactive periodic table of the chemical elements; Properties, history, name origin, facts, applications, isotopes, electronic configuation, crystal structure, hazards and more."
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

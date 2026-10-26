@@ -1,0 +1,95 @@
+{
+  "id": "99e26f1c",
+  "url": "https://tools.simonwillison.net/aria-live-regions",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Live region notification demo",
+  "summary": "Interactive demo of ARIA live regions with polite and assertive modes, plus instructions for testing notifications with VoiceOver on macOS and iOS.",
+  "why": "Hear how live-region announcements actually sound in a screen reader, with instant and ten-second delayed examples.",
+  "category": "accessibility",
+  "subcategory": "voice-tools",
+  "tags": [
+    "aria",
+    "accessibility",
+    "screenreaders",
+    "voiceover",
+    "demo"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/aria-live-regions",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.8644,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.9,
+      "is_free_to_use": 0.98,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.27,
+      "category": {
+        "choice": "accessibility",
+        "p": 0.93
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.87
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Live region notification demo",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/aria-live-regions",
+    "alt": "Screenshot of Live region notification demo",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Open Tab",
+  "short_name": "Open Tab",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#faf9f6",
+  "theme_color": "#0f9d6e",
+  "icons": []
+}

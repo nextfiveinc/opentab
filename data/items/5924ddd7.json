@@ -1,0 +1,88 @@
+{
+  "id": "5924ddd7",
+  "url": "https://tableconvert.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Table Convert - Free Online Table Converter and Generator",
+  "summary": "TableConvert is a free online tool that converts data between over 30 formats, including Excel, CSV, JSON, Markdown, and SQL. It also allows data generation and",
+  "why": "Useful for developers and data analysts needing to quickly transform structured data between various formats.",
+  "category": "utilities",
+  "subcategory": "converters",
+  "tags": [
+    "table-converter",
+    "data-conversion",
+    "excel-to-json",
+    "csv",
+    "markdown",
+    "utility"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/tableconvert",
+      "item_url": "https://tableconvert.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.21,
+      "category": {
+        "choice": "utilities",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.82
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://tableconvert.com/images/preview.png",
+    "alt": "Preview of Table Convert - Free Online Table Converter and Generator"
+  },
+  "fingerprint": {
+    "host": "tableconvert.com",
+    "title": "Table Convert - Free Online Table Converter and Generator",
+    "site_name": "Table Convert",
+    "description": "TableConvert is a free online table converter and data generator tool supporting conversion between 30+ formats including Excel, CSV, JSON, Markdown, LaTeX, SQL and more."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

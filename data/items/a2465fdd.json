@@ -1,0 +1,88 @@
+{
+  "id": "a2465fdd",
+  "url": "https://carbon.now.sh",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Carbon | Create and share beautiful images of your source code",
+  "summary": "Carbon is a tool that allows users to input source code and generate high-quality, stylized images of that code for sharing.",
+  "why": "Useful for developers who want to share code snippets with a professional and visually appealing presentation.",
+  "category": "dev-tools",
+  "subcategory": "formatters",
+  "tags": [
+    "code",
+    "snippet",
+    "developer",
+    "formatting",
+    "visualizer",
+    "share"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/carbon-now",
+      "item_url": "https://carbon.now.sh",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9033,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.07,
+      "is_open_source": 0.49,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.93
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.89
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://carbon.now.sh/static/brand/banner.png",
+    "alt": "Preview of Carbon | Create and share beautiful images of your source code"
+  },
+  "fingerprint": {
+    "host": "carbon.now.sh",
+    "title": "Carbon | Create and share beautiful images of your source code",
+    "site_name": "",
+    "description": "Carbon is the easiest way to create and share beautiful images of your source code."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "a2234f9a",
+  "url": "https://v-d-w.de/e-rechnung-viewer/app",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "E-Rechnung Viewer · XRechnung und ZUGFeRD lesen und prüfen",
+  "summary": "A free web application from vdw GmbH that allows users to open, view, and validate XRechnung (XML) and ZUGFeRD (PDF) electronic invoices.",
+  "why": "Useful tool for businesses to read and check sums on e-invoices without needing specialized software or registration.",
+  "category": "money",
+  "subcategory": "quotes-invoices",
+  "tags": [
+    "invoice",
+    "e-rechnung",
+    "viewer",
+    "xml",
+    "pdf",
+    "business"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/e-rechnung-viewer",
+      "item_url": "https://v-d-w.de/e-rechnung-viewer/app",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9411,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.99,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.12,
+      "category": {
+        "choice": "money",
+        "p": 0.96
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://v-d-w.de/e-rechnung-viewer/icons/icon-1024.png",
+    "alt": "Preview of E-Rechnung Viewer · XRechnung und ZUGFeRD lesen und prüfen"
+  },
+  "fingerprint": {
+    "host": "v-d-w.de",
+    "title": "E-Rechnung Viewer · XRechnung und ZUGFeRD lesen und prüfen",
+    "site_name": "vdw GmbH",
+    "description": "Kostenloser E-Rechnung Viewer der vdw GmbH: XRechnung (XML) und ZUGFeRD (PDF) öffnen, lesbar anzeigen, Summen prüfen, drucken. Ohne Anmeldung, die Datei bleibt auf Ihrem Gerät."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

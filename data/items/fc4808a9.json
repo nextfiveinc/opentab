@@ -1,0 +1,88 @@
+{
+  "id": "fc4808a9",
+  "url": "https://excalidraw.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Excalidraw - Collaborative whiteboarding made easy",
+  "summary": "Excalidraw is a virtual collaborative whiteboard tool that allows users to sketch diagrams and flowcharts with a hand-drawn aesthetic.",
+  "why": "A simple and effective tool for brainstorming, visual documentation, and collaborative sketching.",
+  "category": "productivity",
+  "subcategory": "",
+  "tags": [
+    "whiteboard",
+    "diagram",
+    "drawing",
+    "collaboration",
+    "sketch",
+    "productivity"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/excalidraw",
+      "item_url": "https://excalidraw.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8561,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.91,
+      "is_free_to_use": 0.96,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.09,
+      "is_open_source": 0.83,
+      "category": {
+        "choice": "productivity",
+        "p": 0.72
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.73
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://excalidraw.com/og-image-3.png",
+    "alt": "Preview of Excalidraw - Collaborative whiteboarding made easy"
+  },
+  "fingerprint": {
+    "host": "excalidraw.com",
+    "title": "Excalidraw — Collaborative whiteboarding made easy",
+    "site_name": "Excalidraw",
+    "description": "Excalidraw is a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "21c240bb",
+  "url": "https://clockmaster.pages.dev",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Clock Master - Online Alarm Clock, Digital Clock & Timer",
+  "summary": "An online utility providing a digital clock, alarm, countdown timer, stopwatch, and world time converter. It also includes a Pomodoro study timer with ambient,",
+  "why": "A comprehensive, client-side time management tool that offers multiple functions in one free, distraction-free web app.",
+  "category": "utilities",
+  "subcategory": "date-time",
+  "tags": [
+    "clock",
+    "timer",
+    "world-time",
+    "pomodoro",
+    "utility",
+    "alarm"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/clock-master",
+      "item_url": "https://clockmaster.pages.dev",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.17,
+      "category": {
+        "choice": "utilities",
+        "p": 0.84
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://clockmaster.pages.dev",
+    "alt": "Screenshot of Clock Master - Online Alarm Clock, Digital Clock & Timer",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "fingerprint": {
+    "host": "clockmaster.pages.dev",
+    "title": "Clock Master — Online Alarm Clock, Digital Clock & Timer",
+    "site_name": "",
+    "description": "Clock Master is a free online alarm clock, full-screen digital clock, countdown timer, and stopwatch with custom sound alerts and world time tracking."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

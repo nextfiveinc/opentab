@@ -1,0 +1,88 @@
+{
+  "id": "eeb6f850",
+  "url": "https://www.timerhub.io/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Online Timer - Free Countdown Timer with Alarm | TimerHub",
+  "summary": "TimerHub is a versatile online tool offering countdown timers, Pomodoro rooms, and stopwatch functions. It also includes quick games and group study features.",
+  "why": "A comprehensive, ad-free platform for managing time, planning events, and testing reflexes.",
+  "category": "productivity",
+  "subcategory": "timers-focus",
+  "tags": [
+    "productivity",
+    "timer",
+    "countdown",
+    "focus",
+    "game",
+    "study"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/timerhub",
+      "item_url": "https://www.timerhub.io/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.11,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "productivity",
+        "p": 0.85
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://www.timerhub.io/og-image.png",
+    "alt": "Preview of Online Timer - Free Countdown Timer with Alarm | TimerHub"
+  },
+  "fingerprint": {
+    "host": "timerhub.io",
+    "title": "Online Timer - Free Countdown Timer with Alarm | TimerHub",
+    "site_name": "TimerHub",
+    "description": "Start a 5, 10, 30, or 45 minute timer, or set any countdown from one second to 24 hours. Alarm at zero and a fullscreen display. No ads, no signup."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "74967ac8",
+  "url": "https://tools.simonwillison.net/badge-repl",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Badge Interactive REPL",
+  "summary": "Browser REPL that connects to a hardware badge over Web Serial, letting you send commands, list files, and check CPU and memory.",
+  "why": "A hands-on terminal for badge hardware straight from the browser, no install needed (Chrome/Edge desktop only).",
+  "category": "dev-tools",
+  "subcategory": "regex-snippets",
+  "tags": [
+    "serial",
+    "hardware",
+    "repl",
+    "terminal",
+    "chrome-only"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/badge-repl",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.875,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.93,
+      "is_free_to_use": 0.97,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.37,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.97
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.98
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Badge Interactive REPL",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/badge-repl",
+    "alt": "Screenshot of Badge Interactive REPL",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

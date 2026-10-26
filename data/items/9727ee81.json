@@ -1,0 +1,90 @@
+{
+  "id": "9727ee81",
+  "url": "https://flexboxfroggy.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Flexbox Froggy",
+  "summary": "A browser puzzle game that teaches CSS flexbox: solve levels by writing justify-content, align-items and related properties to position frogs.",
+  "why": "Hands-on levels give instant visual feedback, making flexbox easier to grasp than reading docs.",
+  "category": "education",
+  "subcategory": "interactive-explainers",
+  "tags": [
+    "css",
+    "flexbox",
+    "game",
+    "tutorial",
+    "interactive",
+    "beginner"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/flexbox-froggy",
+      "item_url": "https://flexboxfroggy.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9508,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.99,
+      "is_free_to_use": 0.98,
+      "is_game": 0.96,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.8,
+      "category": {
+        "choice": "education",
+        "p": 0.96
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://flexboxfroggy.com/images/screenshot.png",
+    "alt": "Preview of Flexbox Froggy"
+  },
+  "fingerprint": {
+    "host": "flexboxfroggy.com",
+    "title": "Flexbox Froggy",
+    "site_name": "",
+    "description": "A game for learning CSS flexbox"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

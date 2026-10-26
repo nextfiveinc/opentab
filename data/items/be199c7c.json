@@ -1,0 +1,87 @@
+{
+  "id": "be199c7c",
+  "url": "https://myfastingclock.com/?ref=pwadirectory",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Free fasting timer online | My Fasting Clock",
+  "summary": "A free, browser-based fasting timer supporting protocols like 16:8 and OMAD. It tracks elapsed time without requiring sign-up or installation.",
+  "why": "A simple, free, browser-based tool for tracking fasting periods without needing an app or account.",
+  "category": "health",
+  "subcategory": "food-nutrition",
+  "tags": [
+    "fasting",
+    "timer",
+    "nutrition",
+    "16:8",
+    "health"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/myfastingclock",
+      "item_url": "https://myfastingclock.com/?ref=pwadirectory",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "health",
+        "p": 0.98
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://myfastingclock.com/og-card.png",
+    "alt": "Preview of Free fasting timer online | My Fasting Clock"
+  },
+  "fingerprint": {
+    "host": "myfastingclock.com",
+    "title": "Free fasting timer online | My Fasting Clock",
+    "site_name": "MyFastingClock",
+    "description": "A free fasting clock in your browser. No install, no account, no paywall. Time 16:8, OMAD or open-ended fasts. Not medical advice."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "91152719",
+  "url": "https://intaj.shop/tools/invoice-generator/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Free Invoice Generator: invoices and quotes, no sign-up | Intaj",
+  "summary": "Fill-in form that turns invoice or quote details into a downloadable PDF, with document labels and number formats in 15 languages, including Arabic.",
+  "why": "Handles the bilingual case (write in your own language, switch the labels for the client) with no account and data kept in the browser.",
+  "category": "money",
+  "subcategory": "budgeting",
+  "tags": [
+    "invoicing",
+    "quotes",
+    "pdf",
+    "bilingual",
+    "arabic",
+    "freelance"
+  ],
+  "attrs": {
+    "cost": "freemium",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/intaj-invoice",
+      "item_url": "https://intaj.shop/tools/invoice-generator/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.1,
+      "category": {
+        "choice": "money",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "freemium",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://intaj.shop/assets/img/og-home-v2.jpg",
+    "alt": "Preview of Free Invoice Generator: invoices and quotes, no sign-up | Intaj"
+  },
+  "fingerprint": {
+    "host": "intaj.shop",
+    "title": "Free Invoice Generator: invoices and quotes, no sign-up | Intaj",
+    "site_name": "",
+    "description": "Make a clean invoice or quote in a minute and download it as a PDF. Free, no sign-up, any currency. Your data stays on your device."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

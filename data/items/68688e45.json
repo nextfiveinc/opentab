@@ -1,0 +1,96 @@
+{
+  "id": "68688e45",
+  "url": "https://tools.simonwillison.net/manyana",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Merge State Visualizer",
+  "summary": "A visualizer demonstrating CRDT merge generation and state management. Users can edit two branches and observe how conflicts are resolved deterministically.",
+  "why": "Excellent tool for understanding complex concepts like CRDTs, conflict resolution, and distributed data structures.",
+  "category": "experiments",
+  "subcategory": "toys-visualisers",
+  "tags": [
+    "crdt",
+    "merge",
+    "visualization",
+    "distributed-systems",
+    "data-structure",
+    "python"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": true
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/manyana",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9031,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.97,
+      "is_game": 0.04,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.02,
+      "is_open_source": 0.92,
+      "category": {
+        "choice": "experiments",
+        "p": 0.49
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.94
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Merge State Visualizer",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/manyana",
+    "alt": "Screenshot of Merge State Visualizer",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "cbb94ccf",
+  "url": "https://checksum-f2436.web.app/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Checksum",
+  "summary": "Scan a restaurant receipt, check the amounts it reads, adjust tip and currency, then split the bill between people and share the result.",
+  "why": "Turns end-of-meal arithmetic into a few taps: scan, tick the items that count, set tip, split and copy or share the totals.",
+  "category": "money",
+  "subcategory": "budgeting",
+  "tags": [
+    "receipts",
+    "splitting",
+    "ocr",
+    "expenses",
+    "camera",
+    "sharing"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/checksum-by-magasine",
+      "item_url": "https://checksum-f2436.web.app/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.866,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.93,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.19,
+      "category": {
+        "choice": "money",
+        "p": 0.89
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "checksum-f2436.web.app",
+    "title": "Checksum",
+    "site_name": "",
+    "description": "Read a restaurant receipt, check the amounts, split the bill."
+  },
+  "image": {
+    "src": "https://checksum-f2436.web.app/",
+    "alt": "Screenshot of Checksum",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

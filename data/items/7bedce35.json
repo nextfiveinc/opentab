@@ -1,0 +1,88 @@
+{
+  "id": "7bedce35",
+  "url": "https://theundercurrent.fm",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Undercurrent - 89.3 The Current Playlist Analytics",
+  "summary": "Search and explore every song played on Minnesota Public Radio's 89.3 The Current since December 2005: an archive of about two million plays.",
+  "why": "Nearly 20 years of airplay from one station, searchable: you can trace when songs and artists entered rotation and how playlists shift.",
+  "category": "data-viz",
+  "subcategory": "data-explorers",
+  "tags": [
+    "music",
+    "radio",
+    "playlist",
+    "archive",
+    "search",
+    "data"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48450830",
+      "item_url": "https://theundercurrent.fm",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8567,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.93,
+      "is_free_to_use": 0.94,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.25,
+      "category": {
+        "choice": "data-viz",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.76
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://theundercurrent.fm/preview.png",
+    "alt": "Preview of Undercurrent - 89.3 The Current Playlist Analytics"
+  },
+  "fingerprint": {
+    "host": "theundercurrent.fm",
+    "title": "Undercurrent — 89.3 The Current Playlist Analytics",
+    "site_name": "Undercurrent",
+    "description": "Every song played on 89.3 The Current since December 22, 2005. Search, explore and analyze two million plays from Minnesota Public Radio's independent music station."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,35 @@
+[project]
+name = "catalogue-engine"
+version = "0.1.0"
+description = "Reusable catalogue engine: discover, qualify, enrich, gate, build."
+requires-python = ">=3.12"
+dependencies = [
+  "httpx>=0.27",
+  "feedparser>=6.0",
+  "selectolax>=0.3",
+  "jsonschema>=4.21",
+  "pyyaml>=6.0",
+  "rfc3339-validator>=0.1.4",
+  "pillow>=10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.4"]
+screenshots = [
+    "playwright>=1.45",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["engine*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

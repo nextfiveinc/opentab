@@ -1,0 +1,88 @@
+{
+  "id": "cb9a4b00",
+  "url": "https://imgmin.pro/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Free Image Compressor - No Upload Required | ImgMin Pro",
+  "summary": "A browser-based tool for compressing JPG, PNG, and WebP images locally without uploading files. It supports batch processing and custom size targets.",
+  "why": "Compress images directly in your browser without uploading sensitive data to a server.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "image-compression",
+    "file-tool",
+    "privacy",
+    "browser-based",
+    "webp",
+    "png"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/imgmin",
+      "item_url": "https://imgmin.pro/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "utilities",
+        "p": 0.92
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://imgmin.pro/social/brand-en-20261020.jpg",
+    "alt": "Preview of Free Image Compressor - No Upload Required | ImgMin Pro"
+  },
+  "fingerprint": {
+    "host": "imgmin.pro",
+    "title": "Free Image Compressor — No Upload Required | ImgMin Pro",
+    "site_name": "ImgMin Pro",
+    "description": "Compress JPG, PNG and WebP images directly in your browser. No upload, no account, batch processing and target file size controls. Free with ImgMin Pro."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

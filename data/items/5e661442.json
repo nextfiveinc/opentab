@@ -1,0 +1,94 @@
+{
+  "id": "5e661442",
+  "url": "https://egeozcan.github.io/unnamed_rts/game/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Unnamed RTS",
+  "summary": "An unnamed real-time strategy game featuring various game modes, resource management, and AI opponents.",
+  "why": "A functional, open-source RTS experience that allows players to test their skills against AI or other players.",
+  "category": "games",
+  "subcategory": "strategy",
+  "tags": [
+    "rts",
+    "strategy",
+    "ai",
+    "real-time",
+    "game"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48460931",
+      "item_url": "https://egeozcan.github.io/unnamed_rts/game/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "inferred",
+  "quality": {
+    "confidence": 0.922,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.96,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.98,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.7
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "downgraded": [
+      "ai_claim:self-declared->inferred"
+    ],
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "fingerprint": {
+    "host": "egeozcan.github.io",
+    "title": "Unnamed RTS",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://egeozcan.github.io/unnamed_rts/game/",
+    "alt": "Screenshot of Unnamed RTS",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

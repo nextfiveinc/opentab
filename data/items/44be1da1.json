@@ -1,0 +1,89 @@
+{
+  "id": "44be1da1",
+  "url": "https://pdfminty.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "PDFMinty - Free Privacy-First PDF Toolkit",
+  "summary": "A browser-based toolkit for managing PDFs, offering features like merging, splitting, editing, and OCR. It processes files locally without uploading them to a.",
+  "why": "A highly private PDF utility that runs entirely in the browser using WebAssembly, ensuring your documents never leave your device.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "pdf",
+    "utility",
+    "privacy",
+    "browser",
+    "file-manager",
+    "ocr"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/pdfminty",
+      "item_url": "https://pdfminty.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9127,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.18,
+      "category": {
+        "choice": "utilities",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://pdfminty.com/og-image.png",
+    "alt": "Preview of PDFMinty - Free Privacy-First PDF Toolkit"
+  },
+  "fingerprint": {
+    "host": "pdfminty.com",
+    "title": "PDFMinty — Free Privacy-First PDF Toolkit",
+    "site_name": "",
+    "description": "Free privacy-first PDF toolkit. Merge, split, protect, sign, OCR, and edit PDFs 100% in your browser. No uploads, no sign-up, complete confidentiality."
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

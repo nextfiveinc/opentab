@@ -1,0 +1,33 @@
+name: Report a problem with a listing
+description: Something about an app on the site is wrong, broken or out of date.
+labels: [report]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Listing id
+      description: Filled in for you when you come from the app's page.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: App address
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      options:
+        - It doesn't open or doesn't work
+        - It now needs an account or payment
+        - The description or details are wrong
+        - The picture is wrong, or I'd like it removed
+        - It shouldn't be listed (unsafe, spam, not an app)
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Anything that helps us check it.

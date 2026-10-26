@@ -1,0 +1,89 @@
+{
+  "id": "b083a822",
+  "url": "https://kremerman.me/pixelate/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "pixelate",
+  "summary": "An in-browser utility that applies pixelation effects to uploaded images. Users can select from various presets or define custom dimensions for the effect.",
+  "why": "Easily apply pixelation to any image directly in your browser without needing external software.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "image-tool",
+    "pixelate",
+    "utility",
+    "browser",
+    "image-editor"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48450818",
+      "item_url": "https://kremerman.me/pixelate/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.05,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.12,
+      "category": {
+        "choice": "utilities",
+        "p": 0.78
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.99
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "kremerman.me",
+    "title": "pixelate",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://kremerman.me/pixelate/",
+    "alt": "Screenshot of pixelate",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "edc26691",
+  "url": "https://phuket.anyplans.events/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Афиша Пхукета: все события и мероприятия - Any plans? Phuket",
+  "summary": "Russian-language daily events listings for Phuket: parties, concerts, markets, sports and community events, with a calendar, map radar and search.",
+  "why": "Calendar and map radar make it easy to see what is on in Phuket on a given day, beyond mainstream tourist listings.",
+  "category": "life-home",
+  "subcategory": "local-community",
+  "tags": [
+    "events",
+    "calendar",
+    "map",
+    "travel",
+    "phuket",
+    "russian"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/anyplans",
+      "item_url": "https://phuket.anyplans.events/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9126,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.18,
+      "category": {
+        "choice": "life-home",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://phuket.anyplans.events/assets/og-ru-b2f245c8.png",
+    "alt": "Preview of Афиша Пхукета: все события и мероприятия - Any plans? Phuket"
+  },
+  "fingerprint": {
+    "host": "phuket.anyplans.events",
+    "title": "Афиша Пхукета: все события и мероприятия — Any plans? Phuket",
+    "site_name": "Any plans? Phuket",
+    "description": "Афиша Пхукета на каждый день: вечеринки, концерты, маркеты, спорт, мастер-классы и события сообществ. Календарь, live-радар на карте и поиск — не только популярное, но и андеграунд."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

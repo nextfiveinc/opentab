@@ -1,0 +1,90 @@
+{
+  "id": "04c1d282",
+  "url": "https://www.nytimes.com/games/wordle",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Wordle - A daily word game",
+  "summary": "Daily word puzzle: guess a hidden five-letter word in six tries, with feedback on each guess and one new puzzle per day.",
+  "why": "A quick daily deduction game with simple rules and a one-puzzle-per-day format, playable in the browser.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "word",
+    "puzzle",
+    "daily",
+    "logic",
+    "guessing",
+    "browser"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/wordle-nyt",
+      "item_url": "https://www.nytimes.com/games/wordle",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9124,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.95,
+      "is_game": 0.99,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.92
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://www.nytimes.com/games-assets/v2/assets/wordle/wordle_og_1200x630.png",
+    "alt": "Preview of Wordle - A daily word game"
+  },
+  "fingerprint": {
+    "host": "nytimes.com",
+    "title": "Wordle - A daily word game",
+    "site_name": "",
+    "description": "Guess the hidden word in 6 tries. A new puzzle is available each day."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

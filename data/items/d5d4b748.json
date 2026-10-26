@@ -1,0 +1,88 @@
+{
+  "id": "d5d4b748",
+  "url": "https://gizmobench.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "GizmoBench: Free Browser Tools for Everyday Tasks",
+  "summary": "A collection of small single-purpose browser tools: converters, calculators, generators, games, and daily puzzles across many everyday categories.",
+  "why": "Hundreds of single-purpose utilities in one place, usable without an account, ranging from file converters to games.",
+  "category": "utilities",
+  "subcategory": "text-tools",
+  "tags": [
+    "tool collection",
+    "calculators",
+    "converters",
+    "generators",
+    "puzzles",
+    "no signup"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/gizmobench",
+      "item_url": "https://gizmobench.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8548,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.89,
+      "is_free_to_use": 0.98,
+      "is_game": 0.09,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.17,
+      "category": {
+        "choice": "utilities",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://gizmobench.com/opengraph-image?3b857cdba164f9ec",
+    "alt": "Preview of GizmoBench: Free Browser Tools for Everyday Tasks"
+  },
+  "fingerprint": {
+    "host": "gizmobench.com",
+    "title": "GizmoBench: Free Browser Tools for Everyday Tasks",
+    "site_name": "Gizmobench",
+    "description": "Free tools for files, calculations and everyday tasks. Files are processed locally; network lookups use our server. No account is needed."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

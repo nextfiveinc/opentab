@@ -1,0 +1,90 @@
+{
+  "id": "3e95db67",
+  "url": "https://nomber.netlify.app",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "NOMBER",
+  "summary": "A minimal tap counter with start and reset controls, theme options, share, and an install button for home-screen use.",
+  "why": "A distraction-free tally counter that installs to the home screen for quick, repeat counting.",
+  "category": "productivity",
+  "subcategory": "timers-focus",
+  "tags": [
+    "counter",
+    "tally",
+    "pwa",
+    "minimal",
+    "tap",
+    "utility"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/nomber",
+      "item_url": "https://nomber.netlify.app",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9126,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.97,
+      "is_game": 0.07,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.24,
+      "category": {
+        "choice": "productivity",
+        "p": 0.96
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 1
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "nomber.netlify.app",
+    "title": "NOMBER",
+    "site_name": "",
+    "description": "A simple tap counter app built with PWA technologies."
+  },
+  "image": {
+    "src": "https://nomber.netlify.app",
+    "alt": "Screenshot of NOMBER",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

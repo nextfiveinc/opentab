@@ -1,0 +1,90 @@
+{
+  "id": "092afd39",
+  "url": "https://gridpuzzles.app/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Grid Puzzles - Daily Sudoku, Zip, Tango & Today’s Answers",
+  "summary": "Grid Puzzles provides seven daily logic puzzles, including Sudoku, Mini Sudoku, Patches, Wend, Zip, and Tango. Users can practice unlimited puzzles for free.",
+  "why": "Enjoy a variety of daily logic challenges, from classic Sudoku to unique puzzles like Patches and Zip, all available for free.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "puzzle",
+    "logic",
+    "sudoku",
+    "daily",
+    "brain",
+    "free"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/grid-puzzles-games",
+      "item_url": "https://gridpuzzles.app/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9124,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.98,
+      "is_game": 0.97,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://gridpuzzles.app/og/home.png",
+    "alt": "Preview of Grid Puzzles - Daily Sudoku, Zip, Tango & Today’s Answers"
+  },
+  "fingerprint": {
+    "host": "gridpuzzles.app",
+    "title": "Grid Puzzles — Daily Sudoku, Zip, Tango & Today’s Answers",
+    "site_name": "",
+    "description": "Seven free daily logic puzzles (Sudoku, Mini Sudoku, Patches, Wend, Pips, Zip, Tango) with unlimited practice, plus same-day hints and answers for NYT Pips and all eight LinkedIn games."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

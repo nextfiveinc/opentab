@@ -1,0 +1,63 @@
+{
+  "id": "93dcc073",
+  "url": "http://genewarrior.com",
+  "title": "GeneWarrior",
+  "summary": "Online DNA and protein sequence tools: alignments, reverse complement, translation, sequence annotation and PCR primer design.",
+  "why": "Primer design and everyday sequence edits in the browser with no account: handy for teaching and quick lab checks.",
+  "category": "education",
+  "subcategory": "maths-science",
+  "tags": [
+    "dna",
+    "bioinformatics",
+    "primer-design",
+    "sequences",
+    "science"
+  ],
+  "attrs": {
+    "built_with": [],
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-22",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-show",
+      "url": "https://news.ycombinator.com/item?id=14129602",
+      "item_url": "http://genewarrior.com",
+      "seen": "2026-10-22"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.62,
+    "classify_mode": "rules",
+    "enriched": "manual"
+  },
+  "flags": [],
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  },
+  "fingerprint": {
+    "host": "genewarrior.com",
+    "title": "GeneWarrior - DNA and Protein Sequence Manipulation Tools and Primer Design",
+    "site_name": "",
+    "description": "Online DNA and Protein Sequence Tools, Alignments, Reverse complement, Translation, Sequence annotation, design Primers"
+  },
+  "image": {
+    "src": "http://genewarrior.com",
+    "alt": "Screenshot of GeneWarrior",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  }
+}

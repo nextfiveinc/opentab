@@ -1,0 +1,95 @@
+{
+  "id": "2339f520",
+  "url": "https://tools.simonwillison.net/iframe-resize",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Seamless Sandboxed Iframe Prototype",
+  "summary": "Demo of a sandboxed iframe (allow-scripts only) that reports its height via postMessage so the parent page scrolls seamlessly without allow-same-origin.",
+  "why": "Shows a practical pattern for embedding untrusted content with dynamic height while keeping the sandbox isolated.",
+  "category": "dev-tools",
+  "subcategory": "prototyping",
+  "tags": [
+    "iframe",
+    "sandbox",
+    "security",
+    "javascript",
+    "prototype"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/iframe-resize",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.8555,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.9,
+      "is_free_to_use": 0.97,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.02,
+      "is_open_source": 0.31,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.94
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.95
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Seamless Sandboxed Iframe Prototype",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/iframe-resize",
+    "alt": "Screenshot of Seamless Sandboxed Iframe Prototype",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

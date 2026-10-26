@@ -1,0 +1,98 @@
+# Two-level taxonomy, App Store style. Editable without touching code.
+# keywords power the rules-only classification fallback.
+categories:
+  productivity:
+    label: Productivity
+    keywords: [notes, writing, planner, tracker, todo, focus, timer, pomodoro, template, form]
+    subcategories:
+      - { id: notes-and-writing, label: Notes and writing aids }
+      - { id: planners-trackers, label: Planners and trackers }
+      - { id: timers-focus, label: Timers and focus }
+      - { id: templates-forms, label: Templates and forms }
+  utilities:
+    label: Utilities
+    keywords: [converter, calculator, generator, unit, color picker, qr, lorem, diff, formatter, file]
+    subcategories:
+      - { id: converters, label: Converters }
+      - { id: calculators, label: Calculators }
+      - { id: generators, label: Generators }
+      - { id: text-tools, label: Text tools }
+      - { id: file-image-tools, label: File and image tools }
+      - { id: date-time, label: Date and time }
+  education:
+    label: Education
+    keywords: [language learning, flashcards, maths, math, science, study, explainer, quiz, learn]
+    subcategories:
+      - { id: language-learning, label: Language learning }
+      - { id: maths-science, label: Maths and science }
+      - { id: study-aids, label: Study aids }
+      - { id: interactive-explainers, label: Interactive explainers }
+  creative:
+    label: Creative
+    keywords: [image, design, music, audio, video, story, drawing, art generator, midi, palette]
+    subcategories:
+      - { id: image-design, label: Image and design }
+      - { id: music-audio, label: Music and audio }
+      - { id: video, label: Video }
+      - { id: storytelling, label: Storytelling }
+      - { id: generative-art, label: Generative art }
+  data-viz:
+    label: Data and visualisation
+    keywords: [chart, dashboard, map, data explorer, visualisation, visualization, graph, csv]
+    subcategories:
+      - { id: charts-dashboards, label: Charts and dashboards }
+      - { id: maps, label: Maps }
+      - { id: data-explorers, label: Data explorers }
+  dev-tools:
+    label: Developer tools
+    keywords: [regex, json, api, snippet, formatter, diff, playground, editor, compiler, code]
+    subcategories:
+      - { id: formatters, label: Formatters }
+      - { id: regex-snippets, label: Regex and snippets }
+      - { id: api-json-tools, label: API and JSON tools }
+      - { id: prototyping, label: Prototyping }
+  health:
+    label: Health and wellbeing
+    keywords: [fitness, habit, sleep, meditation, mindfulness, nutrition, workout, water]
+    subcategories:
+      - { id: fitness-habits, label: Fitness and habits }
+      - { id: sleep-mindfulness, label: Sleep and mindfulness }
+      - { id: food-nutrition, label: Food and nutrition }
+  money:
+    label: Money and business
+    keywords: [budget, invoice, quote, expense, salary, mortgage, planning calculator, marketing]
+    subcategories:
+      - { id: budgeting, label: Budgeting }
+      - { id: quotes-invoices, label: Quotes and invoices }
+      - { id: planning-calculators, label: Planning calculators }
+      - { id: marketing-tools, label: Marketing tools }
+  life-home:
+    label: Life and home
+    keywords: [travel, recipe, cooking, family, community, local, shopping list, garden]
+    subcategories:
+      - { id: travel-maps, label: Travel and maps }
+      - { id: cooking, label: Cooking }
+      - { id: family, label: Family }
+      - { id: local-community, label: Local and community }
+  accessibility:
+    label: Accessibility
+    keywords: [reading aid, dyslexia, contrast, screen reader, voice, tts, accessibility]
+    subcategories:
+      - { id: reading-aids, label: Reading aids }
+      - { id: colour-contrast, label: Colour and contrast }
+      - { id: voice-tools, label: Voice tools }
+  experiments:
+    label: Experiments
+    keywords: [toy, visualiser, visualizer, particle, shader, canvas, generative, interactive art]
+    subcategories:
+      - { id: toys-visualisers, label: Toys and visualisers }
+      - { id: art-pieces, label: Art pieces }
+  games:
+    label: Games
+    keywords: [game, puzzle, wordle, arcade, chess, sudoku, snake, tetris, roguelike, trivia, rpg]
+    subcategories:
+      - { id: puzzle-word, label: Puzzle and word }
+      - { id: arcade, label: Arcade }
+      - { id: strategy, label: Strategy }
+      - { id: simulation, label: Simulation }
+      - { id: creative-sandbox, label: Creative sandbox }

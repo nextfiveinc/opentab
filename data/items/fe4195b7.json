@@ -1,0 +1,88 @@
+{
+  "id": "fe4195b7",
+  "url": "https://pdfwordtools.pages.dev/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "PdfWord - Free PDF Tools Online",
+  "summary": "Browser-based collection of 61 PDF tools (merge, split, compress, convert, sign) plus AI features like summariser, translator and OCR.",
+  "why": "Covers the everyday PDF jobs in one place, with AI extras such as chat-with-PDF, flashcard and exam generators alongside the basics.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "pdf",
+    "converter",
+    "editor",
+    "ai",
+    "ocr",
+    "tools"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/pdfword",
+      "item_url": "https://pdfwordtools.pages.dev/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8755,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.05,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "utilities",
+        "p": 0.88
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.97
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://pdfwordtools.pages.dev/assets/og-image-60.png",
+    "alt": "Preview of PdfWord - Free PDF Tools Online"
+  },
+  "fingerprint": {
+    "host": "pdfwordtools.pages.dev",
+    "title": "PdfWord — Free PDF Tools Online",
+    "site_name": "PdfWord",
+    "description": "PdfWord: 61 free PDF & AI tools — merge, split, compress, convert, eSign, plus AI detector, humanizer, translator & more. No signup, no watermark."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

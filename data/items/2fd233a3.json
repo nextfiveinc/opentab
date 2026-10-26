@@ -1,0 +1,89 @@
+{
+  "id": "2fd233a3",
+  "url": "https://svg.axk.sh",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "SVG Fitter",
+  "summary": "A fully local web tool that converts raster images into clean, scalable SVG paths using cubic Bezier curves.",
+  "why": "Useful for tracing complex shapes from photos into clean, editable vector graphics without uploading data.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "svg",
+    "vector",
+    "image-processing",
+    "local",
+    "converter",
+    "bezier"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48452494",
+      "item_url": "https://svg.axk.sh",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.47,
+      "category": {
+        "choice": "utilities",
+        "p": 0.64
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.97
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://svg.axk.sh/favicon-32x32.png",
+    "alt": "Preview of SVG Fitter"
+  },
+  "fingerprint": {
+    "host": "svg.axk.sh",
+    "title": "SVG Fitter",
+    "site_name": "",
+    "description": "Convert any image into clean, scalable SVG paths — fully local, no uploads, no servers."
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "88fc93dc",
+  "url": "https://tools.simonwillison.net/clipboard-backup",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Clipboard Backup",
+  "summary": "Saves clipboard contents (text, HTML, RTF and images) so they can be restored later; images are copied back as PNG.",
+  "why": "Handy when the clipboard keeps getting overwritten: keep a snapshot and put it back when needed.",
+  "category": "utilities",
+  "subcategory": "calculators",
+  "tags": [
+    "clipboard",
+    "backup",
+    "paste",
+    "restore",
+    "utility"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/clipboard-backup",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.28,
+      "category": {
+        "choice": "utilities",
+        "p": 0.89
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.97
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Clipboard Backup",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/clipboard-backup",
+    "alt": "Screenshot of Clipboard Backup",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

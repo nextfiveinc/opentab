@@ -1,0 +1,90 @@
+{
+  "id": "c854d751",
+  "url": "https://pwatruco.vercel.app",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Truco +3",
+  "summary": "Score counter for the card game Truco: two teams, truco point buttons (+1 to +12), editable team names, and a game reset.",
+  "why": "Matches Truco's hand values (+1, +3, +6, +9, +12), so scoring a truco raise is one tap.",
+  "category": "games",
+  "subcategory": "simulation",
+  "tags": [
+    "truco",
+    "score-counter",
+    "pwa",
+    "card-game",
+    "portuguese",
+    "scoreboard"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/truco-3",
+      "item_url": "https://pwatruco.vercel.app",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.45,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.18,
+      "category": {
+        "choice": "games",
+        "p": 0.8
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "pwatruco.vercel.app",
+    "title": "Truco +3",
+    "site_name": "",
+    "description": "PWA para contador de pontos no Truco"
+  },
+  "image": {
+    "src": "https://pwatruco.vercel.app",
+    "alt": "Screenshot of Truco +3",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

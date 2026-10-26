@@ -1,0 +1,88 @@
+{
+  "id": "afac231a",
+  "url": "https://bgremovefree.com/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Free Background Remover, Compressor & Passport Photo",
+  "summary": "A free, in-browser tool that uses local AI (WebGPU) to remove backgrounds, erase objects, compress, and create passport photos without uploading files.",
+  "why": "Offers powerful, private image editing and AI background removal that runs entirely offline on your device.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "background removal",
+    "image editor",
+    "offline",
+    "ai",
+    "photo tool",
+    "compressor"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48456657",
+      "item_url": "https://bgremovefree.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.16,
+      "category": {
+        "choice": "utilities",
+        "p": 0.89
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.89
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://bgremovefree.com/og-image.png",
+    "alt": "Preview of Free Background Remover, Compressor & Passport Photo"
+  },
+  "fingerprint": {
+    "host": "bgremovefree.com",
+    "title": "Free Background Remover, Compressor & Passport Photo",
+    "site_name": "",
+    "description": "Free in-browser AI tools: remove backgrounds, erase objects, compress & resize images, make passport photos. No upload, no signup, no watermark."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

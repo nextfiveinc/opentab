@@ -1,0 +1,91 @@
+{
+  "id": "c70903df",
+  "url": "https://amsterdamboats.co/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Rent a Boat in Amsterdam: Compare Every Provider on One Map | Amsterdam Boats",
+  "summary": "Map of 69 Amsterdam boat providers on 158 docks: self-drive sloops, skippered charters and canal cruises, with price-per-person and weather-aware sorting.",
+  "why": "Puts the rental market on one map, with per-person pricing and forecast-aware ordering tied to your trip dates.",
+  "category": "life-home",
+  "subcategory": "travel-maps",
+  "tags": [
+    "amsterdam",
+    "boats",
+    "map",
+    "comparison",
+    "rentals",
+    "travel"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/amsterdam-boats",
+      "item_url": "https://amsterdamboats.co/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "inferred",
+  "quality": {
+    "confidence": 0.9031,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "life-home",
+        "p": 0.83
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.95
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.84
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "downgraded": [
+      "ai_claim:self-declared->inferred"
+    ],
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://amsterdamboats.co/opengraph-image",
+    "alt": "Preview of Rent a Boat in Amsterdam: Compare Every Provider on One Map | Amsterdam Boats"
+  },
+  "fingerprint": {
+    "host": "amsterdamboats.co",
+    "title": "Rent a Boat in Amsterdam: Compare Every Provider on One Map | Amsterdam Boats",
+    "site_name": "Amsterdam Boats",
+    "description": "Compare every way to get on the water in Amsterdam on one live map. Self-drive electric sloops, skippered charters and canal cruises from dozens of local…"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

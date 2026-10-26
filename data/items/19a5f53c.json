@@ -1,0 +1,96 @@
+{
+  "id": "19a5f53c",
+  "url": "https://tools.simonwillison.net/justhtml",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "JustHTML Playground - HTML5 Parser",
+  "summary": "JustHTML Playground is a pure Python HTML5 parser that allows users to paste or fetch HTML and perform operations like CSS selector queries, pretty printing, or",
+  "why": "A useful tool for developers to test HTML parsing and manipulation logic directly in the browser using a pure Python implementation.",
+  "category": "dev-tools",
+  "subcategory": "formatters",
+  "tags": [
+    "html",
+    "parser",
+    "developer",
+    "python",
+    "css",
+    "playground"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": true
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/justhtml",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9126,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.97,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.89,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.98
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.88
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "JustHTML Playground - HTML5 Parser",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/justhtml",
+    "alt": "Screenshot of JustHTML Playground - HTML5 Parser",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "76243897",
+  "url": "https://tools.simonwillison.net/milliseconds",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Millisecond Converter",
+  "summary": "Converts a duration in milliseconds into seconds, minutes, hours, days and a readable breakdown; accepts commas or underscores in the input.",
+  "why": "A quick way to turn raw millisecond values from logs or API responses into human-readable durations.",
+  "category": "utilities",
+  "subcategory": "converters",
+  "tags": [
+    "time",
+    "milliseconds",
+    "converter",
+    "durations",
+    "utility"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/milliseconds",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9412,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.32,
+      "category": {
+        "choice": "utilities",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.92
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Millisecond Converter",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/milliseconds",
+    "alt": "Screenshot of Millisecond Converter",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

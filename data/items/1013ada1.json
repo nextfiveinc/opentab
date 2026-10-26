@@ -1,0 +1,91 @@
+{
+  "id": "1013ada1",
+  "url": "https://qrscanner.org",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "QR scanner - QR code scanner",
+  "summary": "An online tool that allows users to scan QR codes using their device's camera, uploaded images, or drag and drop functionality.",
+  "why": "A simple, free, and cross-platform way to decode QR codes without needing to install any dedicated application.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "qr-code",
+    "scanner",
+    "utility",
+    "online",
+    "barcode",
+    "image-processing"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/qr-scanner",
+      "item_url": "https://qrscanner.org",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9031,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.1,
+      "category": {
+        "choice": "utilities",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "qrscanner.org",
+    "title": "QR scanner - QR code scanner",
+    "site_name": "",
+    "description": "QRscanner.org is a free online QR code scanner. Easily scan QR codes from any device without downloading an app. Fast, secure, and works on all platforms."
+  },
+  "image": {
+    "src": "https://qrscanner.org",
+    "alt": "Screenshot of QR scanner - QR code scanner",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

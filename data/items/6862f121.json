@@ -1,0 +1,88 @@
+{
+  "id": "6862f121",
+  "url": "https://www.dyadfit.com/tools/protein-calculator",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "GLP-1 Protein Calculator for Ozempic, Zepbound & Mounjaro",
+  "summary": "A tool that calculates recommended daily protein intake and suggests meal splits based on user inputs, considering weight, activity, and GLP-1 medication use.",
+  "why": "Provides personalized protein targets and meal distribution based on current fitness and nutrition guidelines.",
+  "category": "health",
+  "subcategory": "food-nutrition",
+  "tags": [
+    "protein",
+    "nutrition",
+    "weight loss",
+    "fitness",
+    "calculator",
+    "glp-1"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/dyadfit-protein-calculator",
+      "item_url": "https://www.dyadfit.com/tools/protein-calculator",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.11,
+      "category": {
+        "choice": "health",
+        "p": 0.97
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.97
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://www.dyadfit.com/tools/protein-calculator/opengraph-image",
+    "alt": "Preview of GLP-1 Protein Calculator for Ozempic, Zepbound & Mounjaro"
+  },
+  "fingerprint": {
+    "host": "dyadfit.com",
+    "title": "GLP-1 Protein Calculator for Ozempic, Zepbound & Mounjaro",
+    "site_name": "Dyadfit",
+    "description": "Free protein calculator for weight loss, strength training and GLP-1 medication. Get a daily range and per-meal split based on current guidance. Nothing is stored."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

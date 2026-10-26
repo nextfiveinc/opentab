@@ -1,0 +1,88 @@
+{
+  "id": "33443130",
+  "url": "https://cleantempmail.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Clean Temp Mail - Free Temporary Email | CleanTempMail",
+  "summary": "Creates disposable email addresses from a pool of domains with a live inbox, auto-refresh, direct links, plus a password and name generator.",
+  "why": "Handy for one-off sign-ups and verification codes without exposing your real address; the inbox updates as mail arrives and no account is needed.",
+  "category": "utilities",
+  "subcategory": "text-tools",
+  "tags": [
+    "email",
+    "disposable",
+    "privacy",
+    "inbox",
+    "no-signup",
+    "verification"
+  ],
+  "attrs": {
+    "cost": "freemium",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/cleantempmail",
+      "item_url": "https://cleantempmail.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.922,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.11,
+      "category": {
+        "choice": "utilities",
+        "p": 0.87
+      },
+      "cost": {
+        "choice": "freemium",
+        "p": 0.57
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://cleantempmail.com/static/v50de6e27212d4fe65abd0eda7f9d1ec703ef99fe/img/og-image.png",
+    "alt": "Preview of Clean Temp Mail - Free Temporary Email | CleanTempMail"
+  },
+  "fingerprint": {
+    "host": "cleantempmail.com",
+    "title": "Clean Temp Mail - Free Temporary Email | CleanTempMail",
+    "site_name": "CleanTempMail",
+    "description": "Create a free temporary email instantly with hundreds of active domains. No sign-up required—keep your real inbox clean, reduce spam, and switch addresses anytime."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "7e2dfe4a",
+  "url": "https://tools.simonwillison.net/quick-study-painter",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Quick Study",
+  "summary": "This tool allows users to upload a photo and watch it being painted stroke by stroke in various styles like oil, watercolor, or pointillism.",
+  "why": "It provides a visual demonstration of how a photograph could be rendered in different artistic mediums.",
+  "category": "creative",
+  "subcategory": "image-design",
+  "tags": [
+    "painting",
+    "photo",
+    "art",
+    "visualization",
+    "creative",
+    "oil"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-25",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/quick-study-painter",
+      "seen": "2026-10-25"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.06,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.29,
+      "category": {
+        "choice": "creative",
+        "p": 0.63
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.9
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Quick Study",
+    "site_name": "",
+    "description": ""
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/quick-study-painter",
+    "alt": "Screenshot of Quick Study",
+    "kind": "screenshot",
+    "taken": "2026-10-25"
+  }
+}

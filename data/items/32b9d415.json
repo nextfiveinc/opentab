@@ -1,0 +1,88 @@
+{
+  "id": "32b9d415",
+  "url": "https://astronomicalclock.eu/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Astronomical Clock Online - Sun, Moon, Planets & Local Solar Time",
+  "summary": "An interactive astronomical clock that displays the real-time positions of the Sun, Moon, planets, and stars for any location on Earth.",
+  "why": "Provides a detailed, offline PWA visualization of celestial movements and true local solar time.",
+  "category": "education",
+  "subcategory": "maths-science",
+  "tags": [
+    "astronomy",
+    "time",
+    "solar-time",
+    "planets",
+    "education",
+    "pwa"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/astronomical-clock",
+      "item_url": "https://astronomicalclock.eu/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8936,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.97,
+      "is_game": 0.03,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.21,
+      "category": {
+        "choice": "education",
+        "p": 0.81
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://astronomicalclock.eu/design/icon.png",
+    "alt": "Preview of Astronomical Clock Online - Sun, Moon, Planets & Local Solar Time"
+  },
+  "fingerprint": {
+    "host": "astronomicalclock.eu",
+    "title": "Astronomical Clock Online – Sun, Moon, Planets & Local Solar Time",
+    "site_name": "Astronomical Clock",
+    "description": "Interactive astronomical clock online showing the real-time positions of the Sun, Moon, planets and stars anywhere on Earth. Offline PWA with true local solar time, sunrise, sunset and moon phases."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Install
+        run: uv sync --locked --extra dev
+      - name: Lint
+        run: uv run ruff check engine tests
+      - name: Tests
+        run: uv run pytest -q
+      - name: Validate pack and data
+        run: uv run python -m engine validate packs/webapps
+      - name: Build (smoke test)
+        run: uv run python -m engine build packs/webapps --out dist

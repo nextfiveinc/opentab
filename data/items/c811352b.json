@@ -1,0 +1,89 @@
+{
+  "id": "c811352b",
+  "url": "https://play2048.co",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "2048 by Gabriele Cirulli",
+  "summary": "A classic tile-matching puzzle game where players slide tiles to combine them and reach the target number 2048.",
+  "why": "A simple, addictive, and free implementation of the popular 2048 puzzle.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "puzzle",
+    "game",
+    "free",
+    "2048",
+    "arcade"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/2048-game",
+      "item_url": "https://play2048.co",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9412,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.99,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.52,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://play2048.co/ogImage.jpg",
+    "alt": "Preview of 2048 by Gabriele Cirulli"
+  },
+  "fingerprint": {
+    "host": "play2048.co",
+    "title": "2048 by Gabriele Cirulli",
+    "site_name": "2048",
+    "description": "Join the tiles and reach 2048! Experience this popular and addictive puzzle game in its original version, available to play completely free and loved by millions. Do you have what it takes to reach 2048?"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

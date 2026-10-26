@@ -1,0 +1,87 @@
+{
+  "id": "936bdccc",
+  "url": "https://www.azimonti.com/apps/sandbox/todotxt",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Html5 Application - Todo.txt Webapp",
+  "summary": "A web application designed to manage tasks using the todo.txt format. Users can add, edit, delete, and export task lists.",
+  "why": "A simple, lightweight tool for managing tasks directly in the standard todo.txt format.",
+  "category": "productivity",
+  "subcategory": "planners-trackers",
+  "tags": [
+    "todo",
+    "task-manager",
+    "productivity",
+    "txt",
+    "list",
+    "html5"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/ma-todotxt-webapp",
+      "item_url": "https://www.azimonti.com/apps/sandbox/todotxt",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8658,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.93,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.06,
+      "is_open_source": 0.22,
+      "category": {
+        "choice": "productivity",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://www.azimonti.com/img/base/logo_og.png?id=b62b85",
+    "alt": "Preview of Html5 Application - Todo.txt Webapp"
+  },
+  "fingerprint": {
+    "host": "azimonti.com",
+    "title": "Html5 Application - Todo.txt Webapp",
+    "site_name": "",
+    "description": "Html5 Application for managing todo.txt tasks lists. Tasks can be added, edited, deleted and exported."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

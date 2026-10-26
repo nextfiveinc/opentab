@@ -1,0 +1,17 @@
+# Hard include/exclude rules. They run before any AI is involved.
+# exclude entries: { match: <regex over url+title+text>, reason: <short label> }
+exclude:
+  - { match: "chatgpt wrapper|gpt wrapper|just a chat|chat.?bot (app|ui)", reason: chat-box wrapper }
+  - { match: "sign.?up to (see|use)|start(ing)? at \\$", reason: paywall-only }
+  - { match: "casino|betting|poker|slots", reason: gambling }
+  - { match: "porn|nsfw|escort|dating hookups", reason: adult content }
+  - { match: "free (v)?(bucks|robux|coins) generator|crypto (airdrop|doubling)", reason: scam }
+  - { match: "\\.pdf$|\\.zip$|\\.exe$|\\.apk$", reason: not a web app }
+  - { match: "localhost|127\\.0\\.0\\.1|\\.local$", reason: not publicly reachable }
+  # Pages that are never the app itself: code hosts, app/extension stores, discussion
+  # threads, videos and storefronts. Matched on the URL only (^https?://…), so a page
+  # that merely mentions one of these sites is unaffected.
+  - { match: "^https?://(www\\.)?(github\\.com|gitlab\\.com|bitbucket\\.org)/", reason: code repository }
+  - { match: "^https?://(apps\\.apple\\.com|play\\.google\\.com|chromewebstore\\.google\\.com|chrome\\.google\\.com/webstore|addons\\.mozilla\\.org|microsoftedge\\.microsoft\\.com/addons)", reason: app or extension store }
+  - { match: "^https?://marketplace\\.(visualstudio|atlassian)\\.com/", reason: plugin marketplace }
+  - { match: "^https?://(news\\.ycombinator\\.com/item|(www\\.)?youtube\\.com/watch|youtu\\.be/|[a-z0-9-]+\\.gumroad\\.com/)", reason: not the app itself }

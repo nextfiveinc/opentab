@@ -1,0 +1,96 @@
+{
+  "id": "045a1dbc",
+  "url": "https://scummweb.tsilva.eu/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Play classic adventure games in your browser | ScummWEB",
+  "summary": "Browser-based ScummVM build running freeware point-and-click adventures such as Beneath a Steel Sky, DreamWeb and Lure of the Temptress.",
+  "why": "These 90s point-and-click adventures are official freeware, and this makes them playable instantly in a tab, no install needed.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "point-and-click",
+    "adventure",
+    "retro",
+    "scummvm",
+    "freeware",
+    "classic"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48458652",
+      "item_url": "https://scummweb.tsilva.eu/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://news.ycombinator.com/item?id=48458652"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.8938,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.96,
+      "is_game": 0.51,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.37,
+      "category": {
+        "choice": "games",
+        "p": 0.98
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.89
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://scummweb.tsilva.eu/opengraph-image",
+    "alt": "Preview of Play classic adventure games in your browser | ScummWEB"
+  },
+  "fingerprint": {
+    "host": "scummweb.tsilva.eu",
+    "title": "Play classic adventure games in your browser | ScummWEB",
+    "site_name": "ScummWEB",
+    "description": "Play Beneath a Steel Sky and more classic point-and-click adventures in your browser with ScummWEB."
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

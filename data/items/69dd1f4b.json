@@ -1,0 +1,88 @@
+{
+  "id": "69dd1f4b",
+  "url": "https://vert.sh",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "VERT.sh - Free, fast, and awesome file converter",
+  "summary": "VERT.sh is a file conversion tool that allows users to quickly convert images, videos, audio, and documents. All processing is done locally on the user's device",
+  "why": "A fast, open-source file converter that prioritizes user privacy by performing all processing locally without ads or tracking.",
+  "category": "utilities",
+  "subcategory": "converters",
+  "tags": [
+    "file-converter",
+    "utility",
+    "open-source",
+    "privacy",
+    "client-side",
+    "free"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/vert-sh",
+      "item_url": "https://vert.sh",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.922,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.85,
+      "category": {
+        "choice": "utilities",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://vert.sh/VERT_Feature.webp",
+    "alt": "Preview of VERT.sh - Free, fast, and awesome file converter"
+  },
+  "fingerprint": {
+    "host": "vert.sh",
+    "title": "VERT.sh — Free, fast, and awesome file converter",
+    "site_name": "",
+    "description": "With VERT, you can quickly convert any image, video, audio, and document file. No ads, no tracking, open source, and all processing is done on your device."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,51 @@
+# Builds dist/ from the committed data and publishes it to GitHub Pages.
+# Runs on every push to master, by hand (Actions → Deploy to GitHub Pages → Run
+# workflow), and is called by Auto updates after it commits new data: commits
+# made with the workflow token never trigger other workflows, so it calls this one.
+# Repo setup: Settings → Pages → Source: GitHub Actions (see README_LOCAL.md → Deploying).
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        description: Branch or commit to build (Auto updates passes the branch it just pushed)
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - run: uv run python -m engine build packs/webapps --out dist
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

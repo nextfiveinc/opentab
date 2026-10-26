@@ -1,0 +1,98 @@
+{
+  "id": "5cbe3a56",
+  "url": "https://tools.simonwillison.net/usborne-mad-house",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Mad House - Usborne Creepy Computer Games",
+  "summary": "Browser remake of Mad House, a 1983 Usborne type-in game: align three shifting doorways to escape a haunted house before footsteps catch you.",
+  "why": "A faithful playable recreation of a classic book type-in game, with original author and illustrator credited.",
+  "category": "games",
+  "subcategory": "arcade",
+  "tags": [
+    "retro",
+    "1983",
+    "usborne",
+    "type-in",
+    "puzzle",
+    "browser-game"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/usborne-mad-house",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.97,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.02,
+      "is_open_source": 0.23,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.98
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [
+    "game"
+  ],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Mad House — Usborne Creepy Computer Games",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/usborne-mad-house",
+    "alt": "Screenshot of Mad House - Usborne Creepy Computer Games",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

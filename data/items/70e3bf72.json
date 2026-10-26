@@ -1,0 +1,88 @@
+{
+  "id": "70e3bf72",
+  "url": "https://workout.cool",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Build Your Perfect Workout | Workout Cool",
+  "summary": "Workout routine builder: choose equipment and target muscles, assemble exercises, then log sessions; includes programs, stats and a leaderboard.",
+  "why": "Three-step flow from equipment choice to exercise list, with ready-made programs, progress statistics and a leaderboard.",
+  "category": "health",
+  "subcategory": "fitness-habits",
+  "tags": [
+    "workout",
+    "fitness",
+    "exercise",
+    "tracking",
+    "gym",
+    "programs"
+  ],
+  "attrs": {
+    "cost": "freemium",
+    "access": "none",
+    "open_source": true,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/workout-cool",
+      "item_url": "https://workout.cool",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8938,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.96,
+      "is_game": 0.03,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.12,
+      "is_open_source": 0.54,
+      "category": {
+        "choice": "health",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "freemium",
+        "p": 0.91
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://workout.cool/images/default-og-image_en.jpg",
+    "alt": "Preview of Build Your Perfect Workout | Workout Cool"
+  },
+  "fingerprint": {
+    "host": "workout.cool",
+    "title": "Build Your Perfect Workout | Workout Cool",
+    "site_name": "",
+    "description": "Create free workout routines with our comprehensive exercise database. Track your progress and achieve your fitness goals. 🏋️"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

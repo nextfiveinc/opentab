@@ -1,0 +1,88 @@
+{
+  "id": "d0c20a62",
+  "url": "https://peanutsplit.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Peanut Split - good accounting makes good friends",
+  "summary": "A tool for sharing expenses with friends via a room link. Users can add shared costs, track payments, and automatically calculate balances across multiple world",
+  "why": "Simplifies group expense tracking without requiring sign-ups or downloads, making it easy to settle debts after trips.",
+  "category": "money",
+  "subcategory": "planning-calculators",
+  "tags": [
+    "expense",
+    "split",
+    "group",
+    "finance",
+    "travel",
+    "calculator"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/peanut-split",
+      "item_url": "https://peanutsplit.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.17,
+      "category": {
+        "choice": "money",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://peanutsplit.com/opengraph-image-47asgd.png?6b2ccf089251702a",
+    "alt": "Preview of Peanut Split - good accounting makes good friends"
+  },
+  "fingerprint": {
+    "host": "peanutsplit.com",
+    "title": "Peanut Split — good accounting makes good friends",
+    "site_name": "Peanut Split",
+    "description": "Share expenses with friends and see who owes what."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

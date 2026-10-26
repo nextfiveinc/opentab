@@ -1,0 +1,90 @@
+{
+  "id": "10eeb93d",
+  "url": "https://tidbittrivia.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Free Online Trivia Game, Higher or Lower and More | Tidbit Trivia",
+  "summary": "A browser-based trivia game featuring over 12,000 questions across 30 subjects. Players can engage in Freeplay, ranked 1v1 Arena matches, or Higher or Lower.",
+  "why": "Test your knowledge across diverse subjects in various competitive and casual trivia modes.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "trivia",
+    "game",
+    "knowledge",
+    "quiz",
+    "online",
+    "free"
+  ],
+  "attrs": {
+    "cost": "freemium",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/tidbit-trivia",
+      "item_url": "https://tidbittrivia.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8939,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.95,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.11,
+      "is_open_source": 0.12,
+      "category": {
+        "choice": "games",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "freemium",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://tidbittrivia.com/tidbit-trivia-share-1.0.2.7.png",
+    "alt": "Preview of Free Online Trivia Game, Higher or Lower and More | Tidbit Trivia"
+  },
+  "fingerprint": {
+    "host": "tidbittrivia.com",
+    "title": "Free Online Trivia Game, Higher or Lower and More | Tidbit Trivia",
+    "site_name": "Tidbit Trivia",
+    "description": "Free online trivia game with over 12,000 questions and an explanation after every answer. Play ranked 1v1 in Arena, Higher or Lower, or a party with friends."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "20d8c271",
+  "url": "https://lb2kk.no/qth/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "QTH Locator",
+  "summary": "A QTH locator tool that determines the Maidenhead based on device position and provides a live UTC/local clock.",
+  "why": "Useful for finding the Maidenhead and tracking time zones while on the move.",
+  "category": "utilities",
+  "subcategory": "date-time",
+  "tags": [
+    "locator",
+    "qth",
+    "time",
+    "utility",
+    "location",
+    "offline"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/qth-locator",
+      "item_url": "https://lb2kk.no/qth/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9028,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.37,
+      "category": {
+        "choice": "utilities",
+        "p": 0.98
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "lb2kk.no",
+    "title": "QTH Locator",
+    "site_name": "",
+    "description": "QTH Locator: Maidenhead locator from device position, live UTC/local clock, installable and offline-capable."
+  },
+  "image": {
+    "src": "https://lb2kk.no/qth/",
+    "alt": "Screenshot of QTH Locator",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

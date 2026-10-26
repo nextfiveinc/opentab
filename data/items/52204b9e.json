@@ -1,0 +1,88 @@
+{
+  "id": "52204b9e",
+  "url": "https://www.theinstant.cc/gel",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "DIY Energy Gel Calculator & Homemade Recipe Tool | Running, Marathon & Cycling - the instant",
+  "summary": "A tool to calculate and create homemade energy gels for endurance sports like running and cycling, including recipes and pacing guides.",
+  "why": "Helps athletes formulate custom, high-absorption energy gels using scientific principles.",
+  "category": "health",
+  "subcategory": "food-nutrition",
+  "tags": [
+    "running",
+    "cycling",
+    "marathon",
+    "nutrition",
+    "energy",
+    "recipe"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48455854",
+      "item_url": "https://www.theinstant.cc/gel",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8754,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.95,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "health",
+        "p": 0.67
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.89
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://theinstant.cc/logo.png",
+    "alt": "Preview of DIY Energy Gel Calculator & Homemade Recipe Tool | Running, Marathon & Cycling - the instant"
+  },
+  "fingerprint": {
+    "host": "theinstant.cc",
+    "title": "DIY Energy Gel Calculator & Homemade Recipe Tool | Running, Marathon & Cycling — the instant",
+    "site_name": "the instant",
+    "description": "Make high-absorption homemade DIY energy gels for running, marathon fueling, and cycling. Free calculator for inverted sugar (1:1 glucose & fructose), sodium citrate electrolytes, and flask pacing."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

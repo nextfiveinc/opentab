@@ -1,0 +1,65 @@
+{
+  "id": "083e4085",
+  "url": "https://screen.now",
+  "title": "Screen Now",
+  "summary": "Create beautiful screen recordings in your browser: free, no installation or account needed.",
+  "why": "Records and exports screencasts entirely in the browser, so there is nothing to install and nothing to sign up for.",
+  "category": "creative",
+  "subcategory": "video",
+  "tags": [
+    "screen-recording",
+    "video",
+    "screencast",
+    "browser"
+  ],
+  "attrs": {
+    "built_with": [],
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-22",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-show",
+      "url": "https://news.ycombinator.com/item?id=43251576",
+      "item_url": "https://screen.now",
+      "seen": "2026-10-22"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://news.ycombinator.com/item?id=43251576"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.62,
+    "classify_mode": "rules",
+    "enriched": "manual"
+  },
+  "flags": [],
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  },
+  "image": {
+    "src": "https://screen.now/og.png",
+    "alt": "Preview of Screen Now"
+  },
+  "fingerprint": {
+    "host": "screen.now",
+    "title": "Screen Now",
+    "site_name": "Screen Now",
+    "description": "Create beautiful screen recordings without leaving your browser. 100% free, no installation or account needed."
+  }
+}

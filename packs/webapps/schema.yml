@@ -1,0 +1,8 @@
+# Fields beyond the core item schema, with types.
+fields:
+  - { id: built_with,  type: multi, values: [claude, chatgpt, gemini, cursor, lovable, bolt, v0, replit, other], required: false }
+  - { id: cost,        type: enum,  values: [free, freemium], required: true }
+  - { id: access,      type: enum,  values: [none, required], required: true }
+  - { id: device,      type: multi, values: [desktop, mobile], required: true }
+  - { id: offline,     type: bool,  required: true }
+  - { id: open_source, type: bool,  required: true }

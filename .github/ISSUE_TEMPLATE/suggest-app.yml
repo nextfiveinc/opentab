@@ -1,0 +1,31 @@
+name: Suggest an app
+description: A free web app or game we should list.
+labels: [suggestion]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: App address
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+  - type: textarea
+    id: why
+    attributes:
+      label: What does it do, and why is it worth a look?
+  - type: input
+    id: evidence
+    attributes:
+      label: Was it built with AI? A link that says so (optional)
+      description: A post, repo or build log by its maker.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you send
+      options:
+        - label: It opens in a browser, is free to use and needs no sign-up to try.
+          required: true

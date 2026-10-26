@@ -1,0 +1,96 @@
+{
+  "id": "96b7aaf8",
+  "url": "https://tools.simonwillison.net/octave-explainer",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "The Octave - A Sound Relationship",
+  "summary": "Explores the 2:1 frequency relationship that defines an octave. Users can interact with sound examples to hear how doubling a frequency maintains the same pitch",
+  "why": "Audibly and interactively demonstrates the fundamental scientific principle of how octaves work in music.",
+  "category": "education",
+  "subcategory": "interactive-explainers",
+  "tags": [
+    "sound",
+    "music",
+    "science",
+    "frequency",
+    "octave",
+    "physics"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/octave-explainer",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.07,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.02,
+      "is_open_source": 0.25,
+      "category": {
+        "choice": "education",
+        "p": 0.92
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.68
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "The Octave — A Sound Relationship",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/octave-explainer",
+    "alt": "Screenshot of The Octave - A Sound Relationship",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

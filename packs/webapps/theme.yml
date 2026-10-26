@@ -1,0 +1,4 @@
+# Non-CSS theme settings.
+card_layout: tile
+default_color_mode: system   # system | light | dark
+logo: null

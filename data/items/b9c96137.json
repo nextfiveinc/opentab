@@ -1,0 +1,90 @@
+{
+  "id": "b9c96137",
+  "url": "https://iqmaxxing.org/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "IQMAXXING | Free Brain Training: N-Back, Memory Span, Reasoning",
+  "summary": "IQMAXXING is a free browser-based platform offering cognitive exercises such as N-Back, memory span tests, attention drills, and reasoning puzzles.",
+  "why": "Provides a comprehensive suite of free, ad-free cognitive tests and drills designed to improve working memory and focus.",
+  "category": "education",
+  "subcategory": "study-aids",
+  "tags": [
+    "brain-training",
+    "cognitive",
+    "memory",
+    "puzzles",
+    "education",
+    "free"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/iqmaxxing",
+      "item_url": "https://iqmaxxing.org/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.75,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.11,
+      "is_open_source": 0.15,
+      "category": {
+        "choice": "education",
+        "p": 0.84
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://iqmaxxing.org/og.png",
+    "alt": "Preview of IQMAXXING | Free Brain Training: N-Back, Memory Span, Reasoning"
+  },
+  "fingerprint": {
+    "host": "iqmaxxing.org",
+    "title": "IQMAXXING | Free Brain Training: N-Back, Memory Span, Reasoning",
+    "site_name": "IQMAXXING",
+    "description": "Free in the browser: single, dual, quad and 3D cube n-back, span tasks, speed and attention drills, reasoning and mental arithmetic. Every run is saved. No ads."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

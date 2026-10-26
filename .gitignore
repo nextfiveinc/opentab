@@ -1,0 +1,51 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build output
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# uv.lock IS committed: CI installs exactly the tested versions (uv sync --locked).
+
+# Editable-install build artifacts
+*.egg-info/
+catalogue_engine.egg-info/
+
+# Local review page (embeds page text; never published)
+/review/
+
+# The full operator README stays on the maintainer's machine; the public README is README.md
+README_LOCAL.md
+
+# Working data lives in the private data repo, cloned at private/ (README_LOCAL.md →
+# Private working data). These lines stop any of it landing in this public repo.
+/private/
+data/review/
+data/eval/
+data/manual/
+data/manual_sources.yml
+data/rejected.jsonl
+data/last_report.json
+data/disagreements.jsonl
+data/run_state.json
+data/*cache.json
+packs/*/sources.yml
+
+# Notes, plans and specs for the maintainer: local only
+/docs/
+/implementation_log.md
+/*Implementation Plan.md
+/AGENTS.md

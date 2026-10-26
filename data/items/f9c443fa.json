@@ -1,0 +1,88 @@
+{
+  "id": "f9c443fa",
+  "url": "https://octotune.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Octotune - Learn piano and read music, for kids and adults",
+  "summary": "Learn Spanish, German, French and Italian with graded readers: tap words for instant translations, with human audio and adjustable speed.",
+  "why": "Tap-to-translate graded readers with native audio offer a calmer, story-driven alternative to gamified language apps.",
+  "category": "education",
+  "subcategory": "language-learning",
+  "tags": [
+    "language-learning",
+    "spanish",
+    "german",
+    "french",
+    "italian",
+    "graded-readers"
+  ],
+  "attrs": {
+    "cost": "freemium",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/octotune",
+      "item_url": "https://octotune.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8659,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.94,
+      "is_game": 0.14,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.06,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "education",
+        "p": 0.95
+      },
+      "cost": {
+        "choice": "freemium",
+        "p": 0.74
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 3
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://octotune.com/og-image.png",
+    "alt": "Preview of Octotune - Learn piano and read music, for kids and adults"
+  },
+  "fingerprint": {
+    "host": "octotune.com",
+    "title": "Octotune — Learn piano and read music, for kids and adults",
+    "site_name": "Octotune",
+    "description": "Learn piano and read music on iPhone, iPad and the web: a picture-book Kids mode, a reading path for adults, and 124 pieces. Free to start."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

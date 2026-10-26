@@ -1,0 +1,88 @@
+{
+  "id": "6daf98e8",
+  "url": "https://www.sakfinder.com/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Swiss Army Knife Finder & Selector | SAK Finder",
+  "summary": "Searchable index of hundreds of Victorinox Swiss Army knives, filterable by tools, size, weight and price, with a guided model selector.",
+  "why": "Filters by tools, size, weight and price plus a guided selector cut the guesswork out of picking one Victorinox model.",
+  "category": "utilities",
+  "subcategory": "calculators",
+  "tags": [
+    "victorinox",
+    "comparison",
+    "guided-selector",
+    "filters",
+    "shopping",
+    "reference"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48459933",
+      "item_url": "https://www.sakfinder.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8555,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.9,
+      "is_free_to_use": 0.97,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.2,
+      "category": {
+        "choice": "utilities",
+        "p": 0.46
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.95
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://www.sakfinder.com/images/1_3603.webp",
+    "alt": "Preview of Swiss Army Knife Finder & Selector | SAK Finder"
+  },
+  "fingerprint": {
+    "host": "sakfinder.com",
+    "title": "Swiss Army Knife Finder & Selector | SAK Finder",
+    "site_name": "SAK Finder",
+    "description": "Compare hundreds of Victorinox Swiss Army knives by tools, size, weight, and price, or use the guided selector to find the right model."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

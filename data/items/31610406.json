@@ -1,0 +1,88 @@
+{
+  "id": "31610406",
+  "url": "https://cssgradient.io",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "CSS Gradient - Generator, Maker, and Background",
+  "summary": "A free online tool that allows users to generate and customize CSS gradient backgrounds for web projects. It includes a generator, color swatches, and design sw",
+  "why": "Useful for web developers and designers needing quick, customizable CSS gradient code for their projects.",
+  "category": "creative",
+  "subcategory": "image-design",
+  "tags": [
+    "css",
+    "gradient",
+    "design",
+    "web-dev",
+    "generator",
+    "background"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/css-gradient",
+      "item_url": "https://cssgradient.io",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.26,
+      "category": {
+        "choice": "creative",
+        "p": 0.61
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://cssgradient.imgix.net/2bJFIYjQAMqSz44evG5Pel/f973f26f3b70726a8e1aed05da781625/css-gradient.png",
+    "alt": "Preview of CSS Gradient - Generator, Maker, and Background"
+  },
+  "fingerprint": {
+    "host": "cssgradient.io",
+    "title": "CSS Gradient – Generator, Maker, and Background",
+    "site_name": "CSS Gradient",
+    "description": "As a free CSS gradient generator tool, this website lets you create a colorful gradient background for your website, blog, or social media profile."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

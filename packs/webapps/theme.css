@@ -1,0 +1,35 @@
+/* Open Tab: an editorial "curated shelf" — warm paper, ink, a vermilion accent and a
+   bookish serif for names. Overrides tokens from site/default-theme/tokens.css only;
+   unlayered, so it always wins over the default theme. */
+:root {
+  --bg: #f6f3ec;
+  --surface: #fffdf8;
+  --surface-2: #efeadf;
+  --text: #1c1a16;
+  --muted: #6b655a;
+  --border: #e4ddcf;
+  --border-strong: #cfc5b2;
+  --accent: #d2461f;
+  --accent-contrast: #fffaf3;
+  --ok: #2f7a4b;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", P052,
+    "URW Palladio L", Georgia, serif;
+  --display-weight: 600;
+  --display-tracking: -0.01em;
+  --radius: 14px;
+  --shadow: 0 1px 0 rgb(60 45 20 / 0.06);
+  --shadow-hover: 0 14px 30px -16px rgb(60 40 15 / 0.35);
+}
+
+:root[data-theme="dark"] {
+  --bg: #15130f;
+  --surface: #1d1a15;
+  --surface-2: #26221b;
+  --text: #f1ebdf;
+  --muted: #a89f8e;
+  --border: #322d24;
+  --border-strong: #4a4336;
+  --accent: #ff7b54;
+  --accent-contrast: #24100a;
+  --ok: #7fd49b;
+}

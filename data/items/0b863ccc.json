@@ -1,0 +1,87 @@
+{
+  "id": "0b863ccc",
+  "url": "https://www.lucknowmetro.in",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Lucknow Metro Live Tracking, Fares & Route Planner | LkoMetro",
+  "summary": "A free PWA providing live train tracking, fare calculation, and route planning for the Lucknow Metro system. It works offline.",
+  "why": "Useful for commuters needing real-time metro status and journey planning within the Lucknow area.",
+  "category": "life-home",
+  "subcategory": "travel-maps",
+  "tags": [
+    "metro",
+    "transport",
+    "utility",
+    "india",
+    "travel"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/lkometro",
+      "item_url": "https://www.lucknowmetro.in",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8936,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.16,
+      "category": {
+        "choice": "life-home",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://www.lucknowmetro.in/og-image.png",
+    "alt": "Preview of Lucknow Metro Live Tracking, Fares & Route Planner | LkoMetro"
+  },
+  "fingerprint": {
+    "host": "lucknowmetro.in",
+    "title": "Lucknow Metro Live Tracking, Fares & Route Planner | LkoMetro",
+    "site_name": "LkoMetro — Lucknow Metro Guide",
+    "description": "Lucknow Metro live train tracking, fare calculator, route planner and station info for the Red Line. Check metro timings, fares (₹10–₹60), and plan your journey. Free PWA, works offline."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "dc4b7f57",
+  "url": "https://archives.fifthrevision.com/color-generator/index.html",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Color Scale Generator",
+  "summary": "A color scale generator that allows users to create custom palettes, adjust color properties (HSL, OKLCH), and check WCAG contrast ratios.",
+  "why": "Useful for designers and developers needing precise, accessible color palettes with advanced interpolation and contrast checks.",
+  "category": "utilities",
+  "subcategory": "generators",
+  "tags": [
+    "color",
+    "palette",
+    "design",
+    "accessibility",
+    "utility",
+    "color-scale"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48453399",
+      "item_url": "https://archives.fifthrevision.com/color-generator/index.html",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9126,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.96,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "utilities",
+        "p": 0.74
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.98
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "archives.fifthrevision.com",
+    "title": "Color Scale Generator",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://archives.fifthrevision.com/color-generator/index.html",
+    "alt": "Screenshot of Color Scale Generator",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

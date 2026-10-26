@@ -1,0 +1,66 @@
+{
+  "id": "2c694236",
+  "url": "https://naomiaro.github.io/waveform-playlist/",
+  "title": "Waveform Playlist",
+  "summary": "A multi-track audio editor and player for the web: canvas-based waveforms and drag-and-drop clip editing, as React components or Web Components.",
+  "why": "Open-source multi-track audio editing in the browser, embeddable as components rather than a locked-in hosted app.",
+  "category": "creative",
+  "subcategory": "music-audio",
+  "tags": [
+    "audio",
+    "editor",
+    "waveform",
+    "open-source",
+    "react"
+  ],
+  "attrs": {
+    "built_with": [],
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop"
+    ],
+    "offline": false,
+    "open_source": true
+  },
+  "dates": {
+    "first_seen": "2026-10-22",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-show",
+      "url": "https://news.ycombinator.com/item?id=46077197",
+      "item_url": "https://naomiaro.github.io/waveform-playlist/",
+      "seen": "2026-10-22"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://news.ycombinator.com/item?id=46077197"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.62,
+    "classify_mode": "rules",
+    "enriched": "manual"
+  },
+  "flags": [],
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  },
+  "image": {
+    "src": "https://naomiaro.github.io/waveform-playlist/img/social/waveform-playlist-social.png",
+    "alt": "Preview of Waveform Playlist"
+  },
+  "fingerprint": {
+    "host": "naomiaro.com",
+    "title": "Multi-track Web Audio Editor | Waveform Playlist",
+    "site_name": "",
+    "description": "A multi-track audio editor and player for the web — React components or framework-agnostic Web Components (Tone.js optional). Features canvas-based waveform visualization, drag-and-drop clip editing, and professional audio effects."
+  }
+}

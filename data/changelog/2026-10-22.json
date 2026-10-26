@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-22",
+  "added": [
+    {
+      "id": "083e4085",
+      "title": "Show HN: I vibe coded a free screen studio alternative that runs in the browser"
+    },
+    {
+      "id": "2614b96d",
+      "title": "Show HN: Antimatter – Match the opposites (Mahjong solitaire mechanic)"
+    },
+    {
+      "id": "93dcc073",
+      "title": "Show HN: Web app for DNA sequence manipulation and PCR Primer design"
+    },
+    {
+      "id": "2bc74cf7",
+      "title": "Show HN: A vibe-coded database GUI"
+    },
+    {
+      "id": "2c694236",
+      "title": "Show HN: I vibe-coded a complete React rewrite of my audio waveform editor"
+    }
+  ],
+  "removed": [],
+  "counts": {
+    "added": 5,
+    "removed": 0,
+    "active": 5
+  },
+  "active_ids": [
+    "083e4085",
+    "2614b96d",
+    "93dcc073",
+    "2bc74cf7",
+    "2c694236"
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "date": "2026-10-23",
+  "added": [
+    {
+      "id": "02be0974",
+      "title": "Bluesky Timeline Viewer"
+    },
+    {
+      "id": "02dc7a34",
+      "title": "Tree Appreciator"
+    },
+    {
+      "id": "03826122",
+      "title": "Rich text to markdown"
+    },
+    {
+      "id": "04e16992",
+      "title": "Markdown and Math Live Renderer"
+    },
+    {
+      "id": "0f116175",
+      "title": "Multi-Tab Sync Chat"
+    },
+    {
+      "id": "10531794",
+      "title": "Mask Visualizer"
+    },
+    {
+      "id": "106365cd",
+      "title": "Rich Text HTML Extractor"
+    },
+    {
+      "id": "155d2b2b",
+      "title": "Language Model Elo Ratings"
+    },
+    {
+      "id": "1560ccda",
+      "title": "Audio Spectrum Visualizer"
+    },
+    {
+      "id": "19a5f53c",
+      "title": "JustHTML Playground - HTML5 Parser"
+    },
+    {
+      "id": "1a58d768",
+      "title": "Transfer time calculator"
+    },
+    {
+      "id": "1e8b9946",
+      "title": "Text Diff Tool"
+    },
+    {
+      "id": "1eee7f54",
+      "title": "Pomodoro Timer"
+    },
+    {
+      "id": "1f74b505",
+      "title": "Pipfile.lock Dependency Parser"
+    },
+    {
+      "id": "20aa3ee2",
+      "title": "Gradient image generator"
+    },
+    {
+      "id": "214abbb2",
+      "title": "Swagger Subset"
+    },
+    {
+      "id": "22cf3e3c",
+      "title": "Image Token Calculator"
+    },
+    {
+      "id": "2339f520",
+      "title": "Seamless Sandboxed Iframe Prototype"
+    },
+    {
+      "id": "252ef108",
+      "title": "QR Code Decoder"
+    },
+    {
+      "id": "259ff120",
+      "title": "Badge Drawer — Device-Scale Canvas"
+    },
+    {
+      "id": "2b56cb0d",
+      "title": "ARES Phonetic Alphabet Converter"
+    },
+    {
+      "id": "2d5d2415",
+      "title": "Buoyant Pigment — Pelican on a Bicycle"
+    },
+    {
+      "id": "2f3ea623",
+      "title": "DOT File Renderer"
+    },
+    {
+      "id": "328404fc",
+      "title": "Render Claude Citations"
+    },
+    {
+      "id": "360cad75",
+      "title": "Pasted File Editor"
+    },
+    {
+      "id": "367db875",
+      "title": "Passkey Demo | tools.simonwillison.net"
+    },
+    {
+      "id": "37672778",
+      "title": ".blend URL Viewer"
+    },
+    {
+      "id": "397ee30b",
+      "title": "Timestamp Converter"
+    },
+    {
+      "id": "3a66022d",
+      "title": "JSON Schema Builder"
+    },
+    {
+      "id": "3cfe888a",
+      "title": "RTF to HTML Converter"
+    },
+    {
+      "id": "3eadef88",
+      "title": "LaTeX renderer"
+    },
+    {
+      "id": "4019e969",
+      "title": "JSON to YAML Converter"
+    },
+    {
+      "id": "4035dae9",
+      "title": "Package File Browser"
+    },
+    {
+      "id": "45226dd6",
+      "title": "Mermaid to Unicode box art (grok-mermaid)"
+    },
+    {
+      "id": "46704061",
+      "title": "Drag and Drop Image Optimizer"
+    },
+    {
+      "id": "4838484e",
+      "title": "Alt Text Extractor"
+    },
+    {
+      "id": "491b3a81",
+      "title": "Dual Recipe Cooking Timer"
+    },
+    {
+      "id": "4965747d",
+      "title": "MicroPython Code Executor"
+    },
+    {
+      "id": "4b85ace5",
+      "title": "Mermaid to ASCII art (mermaid-ascii)"
+    },
+    {
+      "id": "4d4e0799",
+      "title": "Gist Audio Player"
+    },
+    {
+      "id": "4dfe207c",
+      "title": "Unicode Explorer — Binary Search Over HTTP"
+    },
+    {
+      "id": "52399ef1",
+      "title": "XML Well-Formedness Validator"
+    },
+    {
+      "id": "54b5003f",
+      "title": "FFmpeg video crop"
+    },
+    {
+      "id": "5501f839",
+      "title": "Syntaqlite Playground"
+    },
+    {
+      "id": "5695b78e",
+      "title": "Site Analytics"
+    },
+    {
+      "id": "5b296af7",
+      "title": "JSON to Markdown Converter"
+    },
+    {
+      "id": "5cbe3a56",
+      "title": "Mad House — Usborne Creepy Computer Games"
+    },
+    {
+      "id": "5d576b5b",
+      "title": "Social Media Card Cropper"
+    },
+    {
+      "id": "5d755bd8",
+      "title": "MicroQuickJS Code Executor"
+    },
+    {
+      "id": "63610b30",
+      "title": "PHP deserializer"
+    },
+    {
+      "id": "64295ae1",
+      "title": "NICAR 2026 Schedule"
+    },
+    {
+      "id": "68688e45",
+      "title": "Merge State Visualizer"
+    },
+    {
+      "id": "690dbcc5",
+      "title": "Pretext — Under the Hood"
+    },
+    {
+      "id": "6a0a46f7",
+      "title": "The New Yorker Style Converter"
+    },
+    {
+      "id": "6ae75e2e",
+      "title": "SLOCCount - Count Lines of Code"
+    },
+    {
+      "id": "6cb4f633",
+      "title": "Clipboard Format Viewer"
+    },
+    {
+      "id": "6ce1b2c6",
+      "title": "Hyperviz"
+    },
+    {
+      "id": "74967ac8",
+      "title": "Badge Interactive REPL"
+    },
+    {
+      "id": "76243897",
+      "title": "Millisecond Converter"
+    },
+    {
+      "id": "7646360b",
+      "title": "BBox Tool - CropperJS Version"
+    },
+    {
+      "id": "77d0605b",
+      "title": "Lightning Timer"
+    },
+    {
+      "id": "77e8ffe7",
+      "title": "Datasette extras explorer"
+    },
+    {
+      "id": "809fd2e6",
+      "title": "EXIF Data Viewer"
+    },
+    {
+      "id": "816cac5c",
+      "title": "CSV marker map - use ?csv=URL to CSV to populate"
+    },
+    {
+      "id": "820e0316",
+      "title": "Compare PDFs"
+    },
+    {
+      "id": "822a68b0",
+      "title": "Directory Explorer Demo"
+    },
+    {
+      "id": "8241529b",
+      "title": "GitHub account lookup"
+    },
+    {
+      "id": "8246faef",
+      "title": "24×24 Icon Editor"
+    },
+    {
+      "id": "845da6df",
+      "title": "LLM cliché highlighter"
+    },
+    {
+      "id": "852ce2c2",
+      "title": "Blog to Newsletter"
+    },
+    {
+      "id": "86d6c825",
+      "title": "TIFF Orientation Reader"
+    },
+    {
+      "id": "872ddccb",
+      "title": "Speech Synthesis Tester"
+    },
+    {
+      "id": "8813d9d2",
+      "title": "Image to SVG"
+    },
+    {
+      "id": "88fc93dc",
+      "title": "Clipboard Backup"
+    },
+    {
+      "id": "8aac08f6",
+      "title": "Scrimshaw Jukebox"
+    },
+    {
+      "id": "8ca60d2e",
+      "title": "Hacker News thread export"
+    },
+    {
+      "id": "900530d4",
+      "title": "Make Colors Transparent in PNG"
+    },
+    {
+      "id": "94679061",
+      "title": "Base64 Gzip Decoder"
+    },
+    {
+      "id": "96b7aaf8",
+      "title": "The Octave — A Sound Relationship"
+    },
+    {
+      "id": "9922a2b7",
+      "title": "Render Markdown"
+    },
+    {
+      "id": "99e26f1c",
+      "title": "Live region notification demo"
+    },
+    {
+      "id": "9a9f9824",
+      "title": "Box shadow CSS generator"
+    },
+    {
+      "id": "9c222e11",
+      "title": "Mercator ↔ Equal Earth"
+    },
+    {
+      "id": "9ca7cf3b",
+      "title": "Cleanup Claude Code Paste"
+    },
+    {
+      "id": "9e46c92b",
+      "title": "Claude Code Timeline Viewer"
+    },
+    {
+      "id": "9e530042",
+      "title": "YouTube Thumbnail Viewer"
+    },
+    {
+      "id": "a052f8dd",
+      "title": "Progressively render SVG"
+    },
+    {
+      "id": "a0954520",
+      "title": "PG&E Outage Map - Half Moon Bay Area"
+    },
+    {
+      "id": "a0d7a659",
+      "title": "Codex Timeline Viewer"
+    },
+    {
+      "id": "a1cfabe9",
+      "title": "Annotated Presentation Creator"
+    },
+    {
+      "id": "a1f9edd0",
+      "title": "SQLite AST"
+    },
+    {
+      "id": "a245a5ee",
+      "title": "Abhyasa - Kannada Verb Drill"
+    }
+  ],
+  "removed": [],
+  "changed": [],
+  "counts": {
+    "added": 92,
+    "removed": 0,
+    "changed": 0,
+    "active": 97
+  },
+  "active_ids": [
+    "02be0974",
+    "02dc7a34",
+    "03826122",
+    "04e16992",
+    "083e4085",
+    "0f116175",
+    "10531794",
+    "106365cd",
+    "155d2b2b",
+    "1560ccda",
+    "19a5f53c",
+    "1a58d768",
+    "1e8b9946",
+    "1eee7f54",
+    "1f74b505",
+    "20aa3ee2",
+    "214abbb2",
+    "22cf3e3c",
+    "2339f520",
+    "252ef108",
+    "259ff120",
+    "2614b96d",
+    "2b56cb0d",
+    "2bc74cf7",
+    "2c694236",
+    "2d5d2415",
+    "2f3ea623",
+    "328404fc",
+    "360cad75",
+    "367db875",
+    "37672778",
+    "397ee30b",
+    "3a66022d",
+    "3cfe888a",
+    "3eadef88",
+    "4019e969",
+    "4035dae9",
+    "45226dd6",
+    "46704061",
+    "4838484e",
+    "491b3a81",
+    "4965747d",
+    "4b85ace5",
+    "4d4e0799",
+    "4dfe207c",
+    "52399ef1",
+    "54b5003f",
+    "5501f839",
+    "5695b78e",
+    "5b296af7",
+    "5cbe3a56",
+    "5d576b5b",
+    "5d755bd8",
+    "63610b30",
+    "64295ae1",
+    "68688e45",
+    "690dbcc5",
+    "6a0a46f7",
+    "6ae75e2e",
+    "6cb4f633",
+    "6ce1b2c6",
+    "74967ac8",
+    "76243897",
+    "7646360b",
+    "77d0605b",
+    "77e8ffe7",
+    "809fd2e6",
+    "816cac5c",
+    "820e0316",
+    "822a68b0",
+    "8241529b",
+    "8246faef",
+    "845da6df",
+    "852ce2c2",
+    "86d6c825",
+    "872ddccb",
+    "8813d9d2",
+    "88fc93dc",
+    "8aac08f6",
+    "8ca60d2e",
+    "900530d4",
+    "93dcc073",
+    "94679061",
+    "96b7aaf8",
+    "9922a2b7",
+    "99e26f1c",
+    "9a9f9824",
+    "9c222e11",
+    "9ca7cf3b",
+    "9e46c92b",
+    "9e530042",
+    "a052f8dd",
+    "a0954520",
+    "a0d7a659",
+    "a1cfabe9",
+    "a1f9edd0",
+    "a245a5ee"
+  ],
+  "hashes": {
+    "02be0974": "615a8aeba9e5",
+    "02dc7a34": "f6fd009bf7b3",
+    "03826122": "bbc5a6991791",
+    "04e16992": "3c6cf263bb1f",
+    "083e4085": "13b759e8b6cd",
+    "0f116175": "afe8edb2ee2e",
+    "10531794": "4048124f7b49",
+    "106365cd": "0adfcde453f2",
+    "155d2b2b": "038f6ce216c7",
+    "1560ccda": "adc37afcf9bc",
+    "19a5f53c": "04bcf2b108f0",
+    "1a58d768": "c954902f087d",
+    "1e8b9946": "bd2d3bf64351",
+    "1eee7f54": "a87462808aa0",
+    "1f74b505": "bb8f3ff6f679",
+    "20aa3ee2": "09e189490464",
+    "214abbb2": "fdb366438986",
+    "22cf3e3c": "6f98b0e9141d",
+    "2339f520": "9d1137699d5d",
+    "252ef108": "81e082350695",
+    "259ff120": "d3f5f8143a5e",
+    "2614b96d": "d0db8a090043",
+    "2b56cb0d": "05b6816cccbb",
+    "2bc74cf7": "f813b2e16990",
+    "2c694236": "032cd1157267",
+    "2d5d2415": "f1134d29282e",
+    "2f3ea623": "565fb8107f6c",
+    "328404fc": "0e0c8d588409",
+    "360cad75": "03f2edfbaedb",
+    "367db875": "a8f0a0aaf2db",
+    "37672778": "7d6ec9f0724b",
+    "397ee30b": "eb12bbbc0b8b",
+    "3a66022d": "47b5155fa2ee",
+    "3cfe888a": "9d176c420637",
+    "3eadef88": "fa33c4cfb4d6",
+    "4019e969": "ab7df992927d",
+    "4035dae9": "99b51ab79ddc",
+    "45226dd6": "c02d621d8b11",
+    "46704061": "0a648fa18e05",
+    "4838484e": "051bd0eb395e",
+    "491b3a81": "0c951681900a",
+    "4965747d": "d7f561dff565",
+    "4b85ace5": "a525723d882e",
+    "4d4e0799": "1e87119fc188",
+    "4dfe207c": "c6f1896dd96d",
+    "52399ef1": "d3ebebe39d6c",
+    "54b5003f": "8ca8271acf32",
+    "5501f839": "6353903a88a0",
+    "5695b78e": "16cb75896a50",
+    "5b296af7": "4a2e1780a302",
+    "5cbe3a56": "f4a00474323b",
+    "5d576b5b": "63147ed529ab",
+    "5d755bd8": "f1308c26c251",
+    "63610b30": "eddd27e2c955",
+    "64295ae1": "eba2901335fd",
+    "68688e45": "137bf27191dd",
+    "690dbcc5": "f035591f8ae2",
+    "6a0a46f7": "b1bc6c650e23",
+    "6ae75e2e": "f10b03fbd399",
+    "6cb4f633": "1d8ec9221f73",
+    "6ce1b2c6": "b7828830ae6c",
+    "74967ac8": "0453e8174ce9",
+    "76243897": "636d70c20886",
+    "7646360b": "2ae173a5f0f1",
+    "77d0605b": "1d78aa8a706b",
+    "77e8ffe7": "679f12b5abad",
+    "809fd2e6": "e320b5a50061",
+    "816cac5c": "bf034c868a77",
+    "820e0316": "57b5e0ccb0d6",
+    "822a68b0": "6e583b44230f",
+    "8241529b": "f0bf7a8ed1b5",
+    "8246faef": "516be702473b",
+    "845da6df": "e370521a9b34",
+    "852ce2c2": "ed984b886535",
+    "86d6c825": "cf6534d33fff",
+    "872ddccb": "51231cffb051",
+    "8813d9d2": "ca66d496bf9a",
+    "88fc93dc": "82dd8d18aef4",
+    "8aac08f6": "6d89afb0fe84",
+    "8ca60d2e": "b606bccdbb33",
+    "900530d4": "6e0d9189e1d8",
+    "93dcc073": "85e12fba77db",
+    "94679061": "0d5f04ba20d0",
+    "96b7aaf8": "81e6c40c1aed",
+    "9922a2b7": "1dcb215e7908",
+    "99e26f1c": "7b31c1cb2d2e",
+    "9a9f9824": "c46b62fd2e81",
+    "9c222e11": "c0ce60db0743",
+    "9ca7cf3b": "c6b8500d28ed",
+    "9e46c92b": "a4567c7001a7",
+    "9e530042": "d91527a5ea71",
+    "a052f8dd": "7b7501f8960a",
+    "a0954520": "a7e566ee56c3",
+    "a0d7a659": "9adac8369caa",
+    "a1cfabe9": "77ff8763f7e9",
+    "a1f9edd0": "563e0456f324",
+    "a245a5ee": "7211b5ee97f0"
+  }
+}

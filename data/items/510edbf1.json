@@ -1,0 +1,90 @@
+{
+  "id": "510edbf1",
+  "url": "https://app.diagrams.net",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Flowchart Maker & Online Diagram Software",
+  "summary": "An online application for creating professional flowcharts, UML diagrams, and other visual representations using various shapes and connectors.",
+  "why": "Useful for visualizing processes, workflows, and complex systems without needing specialized desktop software.",
+  "category": "utilities",
+  "subcategory": "generators",
+  "tags": [
+    "diagram",
+    "flowchart",
+    "drawing",
+    "utility",
+    "workflow",
+    "online"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/app-diagramas",
+      "item_url": "https://app.diagrams.net",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.09,
+      "is_open_source": 0.72,
+      "category": {
+        "choice": "utilities",
+        "p": 0.55
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.91
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "app.diagrams.net",
+    "title": "Flowchart Maker & Online Diagram Software",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://app.diagrams.net",
+    "alt": "Screenshot of Flowchart Maker & Online Diagram Software",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

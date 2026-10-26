@@ -1,0 +1,88 @@
+{
+  "id": "6e298025",
+  "url": "https://calculiva.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Home Improvement Calculators and Estimators - Calculiva",
+  "summary": "51 home improvement calculators covering tile, flooring, wallpaper, insulation and landscaping, estimating materials and costs from your measurements.",
+  "why": "Visualises tile and floor layouts from your measurements and cites a source for each trade constant used.",
+  "category": "utilities",
+  "subcategory": "calculators",
+  "tags": [
+    "calculators",
+    "home improvement",
+    "diy",
+    "flooring",
+    "tile",
+    "estimation"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/calculiva",
+      "item_url": "https://calculiva.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8749,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.93,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "utilities",
+        "p": 0.96
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.97
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 3
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://calculiva.com/og/home.png",
+    "alt": "Preview of Home Improvement Calculators and Estimators - Calculiva"
+  },
+  "fingerprint": {
+    "host": "calculiva.com",
+    "title": "Home Improvement Calculators and Estimators — Calculiva",
+    "site_name": "",
+    "description": "Home improvement calculators for flooring, tile, walls, wallpaper and windows. Each draws your measurements, counts every cut and shows its sources."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

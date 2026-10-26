@@ -1,0 +1,86 @@
+{
+  "id": "c7913a30",
+  "url": "https://jakearchibald.github.io/svgomg/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "SVGOMG - SVGO's Missing GUI for minifying SVGs",
+  "summary": "SVGOMG is a visual GUI for SVGO, allowing users to minify and optimize SVG code with a wide range of configurable settings.",
+  "why": "Provides a user-friendly interface for complex SVG optimization and compression tasks.",
+  "category": "dev-tools",
+  "subcategory": "formatters",
+  "tags": [
+    "svg",
+    "minifier",
+    "developer",
+    "optimization",
+    "ui"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/svgomg",
+      "item_url": "https://jakearchibald.github.io/svgomg/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.71,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.72
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://jakearchibald.github.io/svgomg/imgs/icon.png",
+    "alt": "Preview of SVGOMG - SVGO's Missing GUI for minifying SVGs"
+  },
+  "fingerprint": {
+    "host": "jakearchibald.github.io",
+    "title": "SVGOMG - SVGO's Missing GUI for minifying SVGs",
+    "site_name": "",
+    "description": "Easy & visual compression of SVG images."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

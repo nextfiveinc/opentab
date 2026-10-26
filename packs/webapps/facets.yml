@@ -1,0 +1,12 @@
+facets:
+  - { id: category,    type: tree,    field: [category, subcategory], label: Category }
+  - { id: built_with,  type: multi,   field: attrs.built_with,        label: Built with }
+  - { id: cost,        type: enum,    field: attrs.cost,              label: Cost, values: [free, freemium] }
+  - { id: access,      type: enum,    field: attrs.access,            label: Sign-in, values: [none, required] }
+  - { id: device,      type: multi,   field: attrs.device,            label: Works on }
+  - { id: added,       type: recency, field: dates.first_seen,        label: Added, presets: [7d, 30d, 90d] }
+  - { id: offline,     type: bool,    field: attrs.offline,           label: Works offline }
+  - { id: open_source, type: bool,    field: attrs.open_source,       label: Open source }
+
+quick_filters: [offline, open_source, { access: none }]
+sorts: [newest, updated, picks, mentions, az, random]

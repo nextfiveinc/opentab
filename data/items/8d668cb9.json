@@ -1,0 +1,88 @@
+{
+  "id": "8d668cb9",
+  "url": "https://live-clipboard.netlify.app",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Online Clipboard - Share Text & Files Instantly | Realtime Clipboard",
+  "summary": "Web-based shared clipboard: create a room and sync text, images, and files between phone and computer in real time, with no signup or install.",
+  "why": "A quick way to move snippets, links, or images between your own devices without accounts, cables, or messaging apps.",
+  "category": "productivity",
+  "subcategory": "notes-and-writing",
+  "tags": [
+    "clipboard",
+    "file-sharing",
+    "real-time",
+    "cross-device",
+    "no-signup",
+    "sync"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/realtime-clipboard",
+      "item_url": "https://live-clipboard.netlify.app",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9126,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.18,
+      "category": {
+        "choice": "productivity",
+        "p": 0.89
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://live-clipboard.netlify.app/assets/clipboard.webp",
+    "alt": "Preview of Online Clipboard - Share Text & Files Instantly | Realtime Clipboard"
+  },
+  "fingerprint": {
+    "host": "live-clipboard.netlify.app",
+    "title": "Online Clipboard — Share Text & Files Instantly | Realtime Clipboard",
+    "site_name": "",
+    "description": "Free online clipboard to share text and files between phone, laptop, and PC in real time. No install, no signup — create a room and paste instantly."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

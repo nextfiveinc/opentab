@@ -1,0 +1,91 @@
+{
+  "id": "8466e0f9",
+  "url": "https://explainshell.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "explainshell.com - match command-line arguments to their help text",
+  "summary": "Enter a shell command and see the man-page excerpt matching each argument and flag, with manpages selectable per distro.",
+  "why": "Turns opaque one-liners readable by annotating every token and flag with its documented meaning.",
+  "category": "dev-tools",
+  "subcategory": "regex-snippets",
+  "tags": [
+    "shell",
+    "command-line",
+    "man-pages",
+    "linux",
+    "reference",
+    "learning"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/explainshell",
+      "item_url": "https://explainshell.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9127,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.37,
+      "category": {
+        "choice": "dev-tools",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.98
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "explainshell.com",
+    "title": "explainshell.com - match command-line arguments to their help text",
+    "site_name": "",
+    "description": "match command-line arguments to their help text"
+  },
+  "image": {
+    "src": "https://explainshell.com",
+    "alt": "Screenshot of explainshell.com - match command-line arguments to their help text",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

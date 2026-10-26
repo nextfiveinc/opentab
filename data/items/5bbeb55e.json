@@ -1,0 +1,88 @@
+{
+  "id": "5bbeb55e",
+  "url": "https://typometer.lotva.ru",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Typometer",
+  "summary": "Generates fluid modular typographic scales as CSS custom properties, with adjustable base size, ratio, steps, viewport range and design presets.",
+  "why": "Previews heading-to-label sizes at mobile, current and desktop widths and outputs copy-ready CSS token code for fluid type.",
+  "category": "creative",
+  "subcategory": "generative-art",
+  "tags": [
+    "typography",
+    "css",
+    "design-tokens",
+    "fluid-type",
+    "generator",
+    "web-dev"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/typometer",
+      "item_url": "https://typometer.lotva.ru",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8844,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.95,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.79,
+      "category": {
+        "choice": "creative",
+        "p": 0.48
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://typometer.lotva.ru/open-graph.png",
+    "alt": "Preview of Typometer"
+  },
+  "fingerprint": {
+    "host": "typometer.lotva.ru",
+    "title": "Typometer",
+    "site_name": "",
+    "description": "Compose typographic scale as CSS tokens"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

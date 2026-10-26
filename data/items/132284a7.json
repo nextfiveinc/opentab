@@ -1,0 +1,90 @@
+{
+  "id": "132284a7",
+  "url": "https://videotrim.app",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Video Trim App - Free & Online & Offline",
+  "summary": "A browser-based video trimmer that cuts clips locally without uploading them, with live preview and offline support via PWA install.",
+  "why": "Processes video on-device, so large or private clips can be trimmed without uploads or sign-up.",
+  "category": "creative",
+  "subcategory": "video",
+  "tags": [
+    "video",
+    "trimmer",
+    "offline",
+    "pwa",
+    "privacy",
+    "browser"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/videotrim",
+      "item_url": "https://videotrim.app",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.16,
+      "category": {
+        "choice": "creative",
+        "p": 0.79
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "videotrim.app",
+    "title": "Video Trim App - Free & Online & Offline",
+    "site_name": "",
+    "description": "Fast, unlimited and free video trim app that works online and offline.\n                   Trim your video right inside the browser without uploading it anywhere,\n                   and you can also install it on your device as a web app"
+  },
+  "image": {
+    "src": "https://videotrim.app",
+    "alt": "Screenshot of Video Trim App - Free & Online & Offline",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "55bd89ef",
+  "url": "https://sort-visualizer.ramizrahman.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Sort Visualizer | Ramiz Rahman",
+  "summary": "A web application that visually demonstrates how various classic sorting algorithms, such as quick sort and merge sort, operate on data.",
+  "why": "Helps students and developers understand the mechanics and efficiency of different sorting methods through visual representation.",
+  "category": "education",
+  "subcategory": "interactive-explainers",
+  "tags": [
+    "algorithms",
+    "sorting",
+    "visualization",
+    "computer-science",
+    "education"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/sort-visualizer-by-ramiz-rahman",
+      "item_url": "https://sort-visualizer.ramizrahman.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8938,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.96,
+      "is_game": 0.04,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.31,
+      "category": {
+        "choice": "education",
+        "p": 0.95
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "sort-visualizer.ramizrahman.com",
+    "title": "Sort Visualizer | Ramiz Rahman",
+    "site_name": "",
+    "description": "Web app built by Ramiz Rahman to visualize classic sorting algorithms such as insertion sort, merge sort, quick sort and heap sort"
+  },
+  "image": {
+    "src": "https://sort-visualizer.ramizrahman.com",
+    "alt": "Screenshot of Sort Visualizer | Ramiz Rahman",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

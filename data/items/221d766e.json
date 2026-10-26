@@ -1,0 +1,93 @@
+{
+  "id": "221d766e",
+  "url": "https://arkai.win/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Arkai - daily logic puzzles and free browser games",
+  "summary": "Arkai is a collection of free browser games and daily logic puzzles, featuring titles like Ink Side Down and Sudoku Sixes. New boards are updated daily.",
+  "why": "Offers a curated selection of free, ad-free logic puzzles and arcade games that update daily.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "logic",
+    "puzzles",
+    "browser",
+    "free",
+    "daily",
+    "ai-built"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/arkai",
+      "item_url": "https://arkai.win/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "inferred",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.93,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.12,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.96
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "downgraded": [
+      "ai_claim:self-declared->inferred"
+    ],
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://arkai.win/og/arkai.jpg",
+    "alt": "Preview of Arkai - daily logic puzzles and free browser games"
+  },
+  "fingerprint": {
+    "host": "arkai.win",
+    "title": "Arkai — daily logic puzzles and free browser games",
+    "site_name": "Arkai",
+    "description": "Six logic puzzle games of our own with new boards at midnight, and free browser games made in-house. No downloads, no accounts, no ads."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

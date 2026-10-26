@@ -1,0 +1,90 @@
+{
+  "id": "e07fbf2f",
+  "url": "https://spectrum.nuclearphoenix.net",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Gamma MCA - Gamma-ray spectroscopy",
+  "summary": "A free progressive web app for gamma-ray spectroscopy, allowing users to import, record, and analyze spectrum data.",
+  "why": "A comprehensive tool for scientists to perform gamma-ray spectroscopy, including serial data recording and polynomial calibration.",
+  "category": "utilities",
+  "subcategory": "calculators",
+  "tags": [
+    "spectroscopy",
+    "science",
+    "data-analysis",
+    "pwa",
+    "gamma-ray",
+    "utility"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/gamma-mca",
+      "item_url": "https://spectrum.nuclearphoenix.net",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8841,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.93,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.32,
+      "category": {
+        "choice": "utilities",
+        "p": 0.74
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "spectrum.nuclearphoenix.net",
+    "title": "Gamma MCA - Gamma-ray spectroscopy",
+    "site_name": "",
+    "description": "Gamma MCA is a free and complete progressive web app for gamma spectroscopy. You can import spectrum files and record new ones using the serial interface."
+  },
+  "image": {
+    "src": "https://spectrum.nuclearphoenix.net",
+    "alt": "Screenshot of Gamma MCA - Gamma-ray spectroscopy",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

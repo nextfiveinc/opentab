@@ -1,0 +1,90 @@
+{
+  "id": "4b11050e",
+  "url": "https://geopolitix.live/en/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Geopolitix: the daily country-ranking game",
+  "summary": "Geopolitix is a free daily game where users rank five countries based on over 20 real-world statistics like GDP, population, and alcohol consumption.",
+  "why": "Test your knowledge of global statistics by ranking countries in daily themed puzzles.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "geography",
+    "ranking",
+    "daily",
+    "puzzle",
+    "world",
+    "trivia"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/geopolitix",
+      "item_url": "https://geopolitix.live/en/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://geopolitix.live/assets/og.png?v=2",
+    "alt": "Preview of Geopolitix: the daily country-ranking game"
+  },
+  "fingerprint": {
+    "host": "geopolitix.live",
+    "title": "Geopolitix: the daily country-ranking game",
+    "site_name": "Geopolitix",
+    "description": "Free daily geography game: rank five countries by GDP, population, alcohol, tea, working hours, Olympic medals and 20+ more real stats. Five rounds a day, one puzzle for everyone, new challenge at midnight."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

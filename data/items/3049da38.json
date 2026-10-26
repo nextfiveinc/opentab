@@ -1,0 +1,89 @@
+{
+  "id": "3049da38",
+  "url": "https://bitmidi.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Popular MIDIs - BitMidi",
+  "summary": "In-browser MIDI player and download library; its catalogue listing shows over 113,000 files.",
+  "why": "Quick way to hear and grab MIDI renditions of film, game and pop songs, with a random-MIDI button for browsing.",
+  "category": "creative",
+  "subcategory": "music-audio",
+  "tags": [
+    "midi",
+    "music",
+    "audio",
+    "player",
+    "songs",
+    "download"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/bitmidi",
+      "item_url": "https://bitmidi.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9028,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.98,
+      "is_game": 0.03,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.32,
+      "category": {
+        "choice": "creative",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://bitmidi.com/img/hero.jpg",
+    "alt": "Preview of Popular MIDIs - BitMidi"
+  },
+  "fingerprint": {
+    "host": "bitmidi.com",
+    "title": "Popular MIDIs — BitMidi",
+    "site_name": "BitMidi",
+    "description": "Listen to free MIDI songs, download the best MIDI files, and share the best MIDIs on the web."
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "9ca7cf3b",
+  "url": "https://tools.simonwillison.net/cleanup-claude-code-paste",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Cleanup Claude Code Paste",
+  "summary": "Paste terminal output to strip the ❯ prompt, fix wrapped-line whitespace, and join lines into clean text.",
+  "why": "A small single-purpose utility that turns pasted terminal output into clean, copyable text.",
+  "category": "utilities",
+  "subcategory": "text-tools",
+  "tags": [
+    "text",
+    "clipboard",
+    "terminal",
+    "cleanup",
+    "single-purpose"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/cleanup-claude-code-paste",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.32,
+      "category": {
+        "choice": "utilities",
+        "p": 0.75
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.94
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Cleanup Claude Code Paste",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/cleanup-claude-code-paste",
+    "alt": "Screenshot of Cleanup Claude Code Paste",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

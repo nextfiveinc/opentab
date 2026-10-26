@@ -1,0 +1,88 @@
+{
+  "id": "c1395e88",
+  "url": "https://morsecode.world/international/translator.html",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Morse Code Translator",
+  "summary": "A tool that translates text into Morse code and vice versa across multiple alphabets (Latin, Hebrew, Arabic, Cyrillic). It supports audio, visual, and vibration",
+  "why": "Useful for learning, practicing, or sending messages using Morse code across various international alphabets.",
+  "category": "utilities",
+  "subcategory": "converters",
+  "tags": [
+    "morse-code",
+    "translator",
+    "utility",
+    "language",
+    "international",
+    "training"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/morse-code",
+      "item_url": "https://morsecode.world/international/translator.html",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9412,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.06,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.2,
+      "category": {
+        "choice": "utilities",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.88
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://morsecode.world/img/logo315px.png",
+    "alt": "Preview of Morse Code Translator"
+  },
+  "fingerprint": {
+    "host": "morsecode.world",
+    "title": "Morse Code Translator",
+    "site_name": "Morse Code World",
+    "description": "The translator can translate between Morse code and Latin, Hebrew, Arabic and Cyrillic alphabets. It can play, flash or vibrate the Morse code. You can also save the sound and share a link to use it to send messages to your friends. The speed, Farnsworth speed and frequency of the sound are all full"
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

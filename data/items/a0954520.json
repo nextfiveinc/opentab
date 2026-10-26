@@ -1,0 +1,96 @@
+{
+  "id": "a0954520",
+  "url": "https://tools.simonwillison.net/pge-outages-hmb",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "PG&E Outage Map - Half Moon Bay Area",
+  "summary": "Interactive map showing PG&E power outages within a 15-mile radius of Half Moon Bay, with affected customer counts and refreshable data.",
+  "why": "Focused local utility outage view with polygon areas and live refresh, useful for Half Moon Bay residents tracking power cuts.",
+  "category": "data-viz",
+  "subcategory": "maps",
+  "tags": [
+    "outages",
+    "map",
+    "utilities",
+    "pg&e",
+    "california",
+    "data"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/pge-outages-hmb",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.8749,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.93,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.33,
+      "category": {
+        "choice": "data-viz",
+        "p": 0.98
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.93
+      },
+      "listing_quality": {
+        "level": 0
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "PG&E Outage Map - Half Moon Bay Area",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/pge-outages-hmb",
+    "alt": "Screenshot of PG&E Outage Map - Half Moon Bay Area",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

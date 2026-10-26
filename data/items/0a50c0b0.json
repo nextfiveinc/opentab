@@ -1,0 +1,87 @@
+{
+  "id": "0a50c0b0",
+  "url": "https://webhook.site",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Webhook.site",
+  "summary": "Generates temporary URLs and email addresses to capture, inspect, replay and transform incoming HTTP requests and emails, with a workflow editor.",
+  "why": "See raw webhook payloads and email deliveries instantly without standing up a server: useful for integration and API debugging.",
+  "category": "dev-tools",
+  "subcategory": "api-json-tools",
+  "tags": [
+    "webhooks",
+    "http",
+    "api",
+    "testing",
+    "debugging",
+    "email"
+  ],
+  "attrs": {
+    "cost": "freemium",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/webhook-site",
+      "item_url": "https://webhook.site",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9032,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.08,
+      "is_open_source": 0.18,
+      "category": {
+        "choice": "dev-tools",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "freemium",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://webhook.site/assets/images/og.png",
+    "alt": "Preview of Webhook.site"
+  },
+  "fingerprint": {
+    "host": "webhook.site",
+    "title": "Webhook.site",
+    "site_name": "webhook.site",
+    "description": "Instantly generate a free, unique URL and email address to test, inspect, and automate (with a visual workflow editor and scripts) incoming HTTP requests and emails"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

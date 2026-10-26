@@ -1,0 +1,90 @@
+{
+  "id": "a15ad085",
+  "url": "https://wirespan.app/?r=pwadir",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Wirespan · the daily power-line puzzle",
+  "summary": "A daily power-line puzzle where players route power from a plant to houses on a shared global grid using the minimum amount of wire.",
+  "why": "A challenging grid-based puzzle that requires efficient resource routing and planning to solve daily.",
+  "category": "games",
+  "subcategory": "strategy",
+  "tags": [
+    "puzzle",
+    "strategy",
+    "grid",
+    "power",
+    "daily",
+    "puzzle-game"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/wirespan",
+      "item_url": "https://wirespan.app/?r=pwadir",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9126,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.96,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://wirespan.app/social/og.png",
+    "alt": "Preview of Wirespan · the daily power-line puzzle"
+  },
+  "fingerprint": {
+    "host": "wirespan.app",
+    "title": "Wirespan · the daily power-line puzzle",
+    "site_name": "Wirespan",
+    "description": "Route power from the plant to every house using the least wire possible. One shared grid worldwide, new at midnight."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

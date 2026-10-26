@@ -1,0 +1,88 @@
+{
+  "id": "97f105e3",
+  "url": "https://www.keyboardanalyzer.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Online Keyboard Tester - Test Every Key | KeyboardAnalyzer",
+  "summary": "An online tool to test keyboard and mouse functionality on Windows and Mac. It checks key registration, typing speed, ghosting, and various mouse click metrics.",
+  "why": "Useful for diagnosing hardware issues, testing regional layouts, or practicing specific clicking techniques.",
+  "category": "utilities",
+  "subcategory": "",
+  "tags": [
+    "keyboard",
+    "tester",
+    "utility",
+    "hardware",
+    "input",
+    "diagnostics"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/keyboardanalyzer",
+      "item_url": "https://www.keyboardanalyzer.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9412,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.03,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.15,
+      "category": {
+        "choice": "utilities",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://www.keyboardanalyzer.com/og-image.png",
+    "alt": "Preview of Online Keyboard Tester - Test Every Key | KeyboardAnalyzer"
+  },
+  "fingerprint": {
+    "host": "keyboardanalyzer.com",
+    "title": "Online Keyboard Tester - Test Every Key | KeyboardAnalyzer",
+    "site_name": "KeyboardAnalyzer",
+    "description": "Free keyboard tester: view browser key events, codes and mouse buttons on Windows or Mac. Choose regional layouts and mark Fn checks manually. No download."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

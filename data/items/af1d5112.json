@@ -1,0 +1,88 @@
+{
+  "id": "af1d5112",
+  "url": "https://push.foo",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Push.Foo - Web Push API Playground",
+  "summary": "Browser sandbox for testing the Web Push API: subscribe a device, send notifications, and tweak Notification properties like icon, badge and tag.",
+  "why": "Walks through the whole push flow (permission, subscribe, send, unsubscribe) with multi-device testing and console logging of every event.",
+  "category": "dev-tools",
+  "subcategory": "api-json-tools",
+  "tags": [
+    "web push",
+    "notifications",
+    "api",
+    "sandbox",
+    "testing",
+    "pwa"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/pushfoo---web-push-api-playground",
+      "item_url": "https://push.foo",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9126,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.97,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.8,
+      "category": {
+        "choice": "dev-tools",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://push.foo/images/social.png",
+    "alt": "Preview of Push.Foo - Web Push API Playground"
+  },
+  "fingerprint": {
+    "host": "push.foo",
+    "title": "Push.Foo - Web Push API Playground",
+    "site_name": "",
+    "description": "Test your Web Push API experience in this sandbox that simulates the entire flow from requesting permission to sending the notification"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

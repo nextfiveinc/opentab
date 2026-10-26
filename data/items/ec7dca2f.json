@@ -1,0 +1,88 @@
+{
+  "id": "ec7dca2f",
+  "url": "https://menumoor.cybermaxtools.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Menumoor: free menu maker and salon price list templates",
+  "summary": "A free web tool for creating printable menus and salon price lists. Users can input items, select a design, and download the result as a PDF, PNG, or QR code.",
+  "why": "Useful for businesses needing professional, customizable, and printable menus without needing dedicated design software.",
+  "category": "creative",
+  "subcategory": "image-design",
+  "tags": [
+    "menu",
+    "design",
+    "restaurant",
+    "salon",
+    "printable",
+    "qr-code"
+  ],
+  "attrs": {
+    "cost": "freemium",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/menumoor",
+      "item_url": "https://menumoor.cybermaxtools.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9124,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.95,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.09,
+      "category": {
+        "choice": "creative",
+        "p": 0.56
+      },
+      "cost": {
+        "choice": "freemium",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://cybermax-tools-cybermax.static.hf.space/menumoor/og.png",
+    "alt": "Preview of Menumoor: free menu maker and salon price list templates"
+  },
+  "fingerprint": {
+    "host": "menumoor.cybermaxtools.com",
+    "title": "Menumoor: free menu maker and salon price list templates",
+    "site_name": "CyberMax",
+    "description": "Free menu maker for restaurants, cafes, food trucks, bars, salons and spas. Type or paste items, pick a design, download a 300 dpi PDF, PNG or QR code."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

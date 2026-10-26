@@ -1,0 +1,65 @@
+{
+  "id": "2bc74cf7",
+  "url": "https://seaquel.app",
+  "title": "Seaquel - Fast, Offline SQL Client",
+  "summary": "An offline-first SQL client for Postgres, MySQL, MariaDB, SQLite, SQL Server and DuckDB, with visual EXPLAIN plans and drag-and-drop joins.",
+  "why": "A full SQL workbench that runs from the browser and is free for personal use, with AI assistance kept entirely opt-in.",
+  "category": "dev-tools",
+  "subcategory": "",
+  "tags": [
+    "sql",
+    "database",
+    "postgres",
+    "developer-tools"
+  ],
+  "attrs": {
+    "built_with": [],
+    "cost": "freemium",
+    "access": "none",
+    "device": [
+      "desktop"
+    ],
+    "offline": false,
+    "open_source": true
+  },
+  "dates": {
+    "first_seen": "2026-10-22",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-show",
+      "url": "https://news.ycombinator.com/item?id=46362900",
+      "item_url": "https://seaquel.app",
+      "seen": "2026-10-22"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://news.ycombinator.com/item?id=46362900"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.62,
+    "classify_mode": "rules",
+    "enriched": "manual"
+  },
+  "flags": [],
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  },
+  "image": {
+    "src": "https://seaquel.app/product-screenshot.jpg",
+    "alt": "Preview of Seaquel - Fast, Offline SQL Client"
+  },
+  "fingerprint": {
+    "host": "seaquel.app",
+    "title": "Seaquel — Fast, Offline SQL Client for Postgres & More",
+    "site_name": "",
+    "description": "A fast, offline-first SQL client for Postgres, MySQL, MariaDB, SQLite, SQL Server and DuckDB. Browse schemas, visualize queries, and add AI assistance only when you want it."
+  }
+}

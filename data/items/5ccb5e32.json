@@ -1,0 +1,90 @@
+{
+  "id": "5ccb5e32",
+  "url": "https://os-clock.web.app",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Clock Web App",
+  "summary": "Open-source clock web app offering timer, stopwatch and alarms, with customisable themes, fonts, alarm sounds and time zones.",
+  "why": "One page covers clock, timer and alarms, with unusually deep theme, font and sound options.",
+  "category": "utilities",
+  "subcategory": "calculators",
+  "tags": [
+    "clock",
+    "timer",
+    "stopwatch",
+    "alarms",
+    "customisation",
+    "open-source"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/clock-web-app",
+      "item_url": "https://os-clock.web.app",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.87,
+      "category": {
+        "choice": "utilities",
+        "p": 0.8
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.98
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "os-clock.web.app",
+    "title": "Clock Web App",
+    "site_name": "",
+    "description": "An Open Source Clock app that allows you to use a timer, stopwatch, alarms and customise the app to be your own!"
+  },
+  "image": {
+    "src": "https://os-clock.web.app",
+    "alt": "Screenshot of Clock Web App",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

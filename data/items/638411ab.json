@@ -1,0 +1,87 @@
+{
+  "id": "638411ab",
+  "url": "https://iamvdo.github.io/speedometer-pwa",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Speedometer PWA",
+  "summary": "A web application designed to function as a digital speedometer, displaying speed measurements.",
+  "why": "A simple, functional PWA tool for visualizing or tracking speed.",
+  "category": "utilities",
+  "subcategory": "calculators",
+  "tags": [
+    "speed",
+    "utility",
+    "pwa",
+    "measurement"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/speedometer",
+      "item_url": "https://iamvdo.github.io/speedometer-pwa",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8655,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.92,
+      "is_free_to_use": 0.96,
+      "is_game": 0.03,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.52,
+      "category": {
+        "choice": "utilities",
+        "p": 0.91
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "iamvdo.github.io",
+    "title": "Speedometer PWA",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://iamvdo.github.io/speedometer-pwa",
+    "alt": "Screenshot of Speedometer PWA",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

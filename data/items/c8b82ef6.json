@@ -1,0 +1,90 @@
+{
+  "id": "c8b82ef6",
+  "url": "https://thescam.shop/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "thescam.shop - Shop Without Spending Money",
+  "summary": "A shopping simulator that allows users to browse, add to cart, and check out on a fake online store without spending real money.",
+  "why": "Satisfies the urge to shop by simulating a full e-commerce experience with no financial risk.",
+  "category": "games",
+  "subcategory": "simulation",
+  "tags": [
+    "shopping",
+    "simulator",
+    "fake",
+    "store",
+    "game",
+    "e-commerce"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/the-scam-shop",
+      "item_url": "https://thescam.shop/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.922,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.98,
+      "is_game": 0.82,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.06,
+      "is_open_source": 0.12,
+      "category": {
+        "choice": "games",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.88
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://thescam.shop/og.png",
+    "alt": "Preview of thescam.shop - Shop Without Spending Money"
+  },
+  "fingerprint": {
+    "host": "thescam.shop",
+    "title": "thescam.shop — Shop Without Spending Money",
+    "site_name": "thescam.shop",
+    "description": "A fake online store: browse, fill your cart, check out and track deliveries with no real money and no waste. Satisfy the urge to shop, skip the remorse."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

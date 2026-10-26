@@ -1,0 +1,93 @@
+{
+  "id": "cffeacab",
+  "url": "https://wordbulb.com/puzzle-games/word-search/create",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Create Word Search Puzzle and Send a Secret Message | WordBulb",
+  "summary": "A web tool for creating custom word search puzzles. Users can input word lists, define grid size, and embed a secret message.",
+  "why": "Great for creating shareable, themed puzzles for games, education, or social sharing.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "word search",
+    "puzzle",
+    "creator",
+    "secret message",
+    "shareable",
+    "word list"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48461158",
+      "item_url": "https://wordbulb.com/puzzle-games/word-search/create",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9124,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.95,
+      "is_game": 0.83,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.1,
+      "category": {
+        "choice": "games",
+        "p": 0.96
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.98
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.98
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "fingerprint": {
+    "host": "wordbulb.com",
+    "title": "Create Word Search Puzzle and Send a Secret Message | WordBulb",
+    "site_name": "",
+    "description": "Create a custom WordBulb word search puzzle, hide a secret message, generate a shareable link, and send it with a QR code."
+  },
+  "image": {
+    "src": "https://wordbulb.com/puzzle-games/word-search/create",
+    "alt": "Screenshot of Create Word Search Puzzle and Send a Secret Message | WordBulb",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

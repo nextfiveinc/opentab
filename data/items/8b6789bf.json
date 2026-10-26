@@ -1,0 +1,96 @@
+{
+  "id": "8b6789bf",
+  "url": "https://minariviz.tsilva.eu/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Minari Explorer | Offline RL Dataset Visualizer",
+  "summary": "Browse and visualise Minari offline reinforcement learning datasets: metadata, episode statistics, reward distributions and an episode observation viewer.",
+  "why": "Lets RL researchers compare dataset sizes, spaces and stats before downloading episodes.",
+  "category": "data-viz",
+  "subcategory": "data-explorers",
+  "tags": [
+    "reinforcement-learning",
+    "datasets",
+    "visualisation",
+    "machine-learning",
+    "research",
+    "statistics"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48458652",
+      "item_url": "https://minariviz.tsilva.eu/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://news.ycombinator.com/item?id=48458652"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.8936,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.97,
+      "is_game": 0.04,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.41,
+      "category": {
+        "choice": "data-viz",
+        "p": 0.97
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.59
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "minariviz.tsilva.eu",
+    "title": "Minari Explorer | Offline RL Dataset Visualizer",
+    "site_name": "Minari Explorer",
+    "description": "Browse and visualize Minari offline reinforcement learning datasets from the Farama Foundation. Explore metadata, episode statistics, reward distributions, and observations. Free tool for RL researchers and practitioners."
+  },
+  "image": {
+    "src": "https://minariviz.tsilva.eu/",
+    "alt": "Screenshot of Minari Explorer | Offline RL Dataset Visualizer",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

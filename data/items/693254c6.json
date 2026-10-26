@@ -1,0 +1,90 @@
+{
+  "id": "693254c6",
+  "url": "https://algosearch.netlify.app",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Algo Search",
+  "summary": "An interactive tool for visualizing and testing various graph search algorithms, including BFS, DFS, A*, and Greedy Search, on a grid.",
+  "why": "Allows users to interactively compare the performance and mechanics of different pathfinding and search strategies.",
+  "category": "education",
+  "subcategory": "interactive-explainers",
+  "tags": [
+    "algorithms",
+    "search",
+    "graph",
+    "ai",
+    "visualization",
+    "education"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/algo-search",
+      "item_url": "https://algosearch.netlify.app",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.16,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.23,
+      "category": {
+        "choice": "education",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "algosearch.netlify.app",
+    "title": "Algo Search",
+    "site_name": "",
+    "description": "Your app description"
+  },
+  "image": {
+    "src": "https://algosearch.netlify.app",
+    "alt": "Screenshot of Algo Search",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

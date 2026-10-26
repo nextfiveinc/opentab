@@ -1,0 +1,90 @@
+{
+  "id": "42efce9c",
+  "url": "https://jsonpath101.com/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "jsonpath101 - json query playground",
+  "summary": "Browser playground for testing JSON queries across six engines: JSONPath, jq, JSONata, JMESPath, GJSON and JSON Pointer, with match details and explanations.",
+  "why": "Lets you run the same query through six JSON query languages side by side, with per-match explanations and a quick reference.",
+  "category": "dev-tools",
+  "subcategory": "prototyping",
+  "tags": [
+    "json",
+    "jsonpath",
+    "jq",
+    "jsonata",
+    "query",
+    "playground"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48454006",
+      "item_url": "https://jsonpath101.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.03,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.29,
+      "category": {
+        "choice": "dev-tools",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.92
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "jsonpath101.com",
+    "title": "jsonpath101 - json query playground",
+    "site_name": "",
+    "description": "Interactive multi-engine JSON query playground for JSONPath, jq, JSONata, JMESPath, GJSON, and JSON Pointer."
+  },
+  "image": {
+    "src": "https://jsonpath101.com/",
+    "alt": "Screenshot of jsonpath101 - json query playground",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

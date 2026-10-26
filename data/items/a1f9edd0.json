@@ -1,0 +1,96 @@
+{
+  "id": "a1f9edd0",
+  "url": "https://tools.simonwillison.net/sqlite-ast",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "SQLite AST",
+  "summary": "Browser tool that parses a SQL query with sqlite-ast (via Pyodide) and displays the resulting parse tree as JSON.",
+  "why": "Lets you inspect SQLite's parse tree for any query, including CTEs and window functions, entirely client-side.",
+  "category": "dev-tools",
+  "subcategory": "prototyping",
+  "tags": [
+    "sqlite",
+    "sql",
+    "ast",
+    "pyodide",
+    "parser",
+    "json"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": true
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/sqlite-ast",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9033,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.94,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.86
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "SQLite AST",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/sqlite-ast",
+    "alt": "Screenshot of SQLite AST",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

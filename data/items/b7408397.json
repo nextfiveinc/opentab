@@ -1,0 +1,89 @@
+{
+  "id": "b7408397",
+  "url": "https://defrag98.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Windows 98 Disk Defrag Simulator",
+  "summary": "A browser-based simulator recreating the Windows 98 Disk Defragmenter. Users can watch virtual cluster blocks rearrange across four drives with original HDD-mim",
+  "why": "A nostalgic and interactive recreation of a classic Windows utility, running entirely in the browser.",
+  "category": "games",
+  "subcategory": "simulation",
+  "tags": [
+    "nostalgia",
+    "windows 98",
+    "retro",
+    "simulation",
+    "disk defrag"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/defrag98",
+      "item_url": "https://defrag98.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9605,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.99,
+      "is_game": 0.59,
+      "is_chat_wrapper": 0.01,
+      "needs_sign_in": 0.02,
+      "is_open_source": 0.2,
+      "category": {
+        "choice": "games",
+        "p": 0.64
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 3
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://defrag98.com/og/app.69e90a40.png",
+    "alt": "Preview of Windows 98 Disk Defrag Simulator"
+  },
+  "fingerprint": {
+    "host": "defrag98.com",
+    "title": "Windows 98 Disk Defrag Simulator",
+    "site_name": "Defrag98",
+    "description": "Free online Windows 98 disk defrag simulator. Watch the cluster blocks move, with real HDD sounds, four drives, and no install."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

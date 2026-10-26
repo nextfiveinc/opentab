@@ -1,0 +1,96 @@
+{
+  "id": "3eadef88",
+  "url": "https://tools.simonwillison.net/latex",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "LaTeX renderer",
+  "summary": "Renders LaTeX in the browser (bare formulas via MathJax, full documents via WebAssembly) with export to PNG, SVG or PDF and shareable links.",
+  "why": "Quick way to typeset a formula or document without installing anything, with PNG, SVG and PDF export and links that carry the source.",
+  "category": "utilities",
+  "subcategory": "converters",
+  "tags": [
+    "latex",
+    "math",
+    "typesetting",
+    "export",
+    "svg",
+    "pdf"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/latex",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9508,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.99,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.02,
+      "is_open_source": 0.33,
+      "category": {
+        "choice": "utilities",
+        "p": 0.9
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.84
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "LaTeX renderer",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/latex",
+    "alt": "Screenshot of LaTeX renderer",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

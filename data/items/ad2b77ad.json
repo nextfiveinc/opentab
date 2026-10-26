@@ -1,0 +1,88 @@
+{
+  "id": "ad2b77ad",
+  "url": "https://app.yumeboard.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Yumeboard",
+  "summary": "Yumeboard is a customizable dashboard that turns spare screens or tablets into a display for widgets like clocks, weather, timers, and notes.",
+  "why": "Useful for repurposing old devices or second monitors into a functional, always-on information display.",
+  "category": "productivity",
+  "subcategory": "planners-trackers",
+  "tags": [
+    "dashboard",
+    "widget",
+    "second-screen",
+    "clock",
+    "timer",
+    "notes"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/yumeboard",
+      "item_url": "https://app.yumeboard.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.922,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "productivity",
+        "p": 0.87
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.95
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://app.yumeboard.com/og.png",
+    "alt": "Preview of Yumeboard"
+  },
+  "fingerprint": {
+    "host": "app.yumeboard.com",
+    "title": "Yumeboard",
+    "site_name": "",
+    "description": "Turn a spare screen into a board you arrange yourself — clock, weather, timers and notes, staying open in a tab, on an old tablet, or on the second monitor."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

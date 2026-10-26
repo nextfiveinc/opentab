@@ -1,0 +1,95 @@
+{
+  "id": "845da6df",
+  "url": "https://tools.simonwillison.net/llm-cliche-highlighter",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "LLM cliché highlighter",
+  "summary": "Highlights sentences in pasted text or a URL that match known LLM writing clichés, with pattern badges and per-match explanations.",
+  "why": "Practical editor for spotting AI-writing tells, with self-tests and a headless Node mode.",
+  "category": "utilities",
+  "subcategory": "text-tools",
+  "tags": [
+    "text-analysis",
+    "ai-writing",
+    "highlighter",
+    "regex",
+    "client-side"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/llm-cliche-highlighter",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.46,
+      "category": {
+        "choice": "utilities",
+        "p": 0.81
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.98
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "LLM cliché highlighter",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/llm-cliche-highlighter",
+    "alt": "Screenshot of LLM cliché highlighter",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "52104e43",
+  "url": "https://demo.nextfive.in/guide/",
+  "source": "manual",
+  "tier": "A",
+  "title": "Guide. (By NextFive)",
+  "summary": "Guide is a productivity tool that helps users set goals, manage tasks, and overcome blocks using interactive playbooks and AI guidance.",
+  "why": "It goes beyond simple to-do lists by offering AI-powered guidance and structured playbooks to help users overcome common productivity blocks.",
+  "category": "productivity",
+  "subcategory": "planners-trackers",
+  "tags": [
+    "productivity",
+    "goals",
+    "ai",
+    "task-management",
+    "planning",
+    "focus"
+  ],
+  "attrs": {
+    "cost": "freemium",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "manual",
+      "url": "https://guide.nextfive.in/",
+      "item_url": "https://demo.nextfive.in/guide/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.84,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.93,
+      "is_free_to_use": 0.96,
+      "is_game": 0.05,
+      "is_chat_wrapper": 0.05,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.12,
+      "category": {
+        "choice": "productivity",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "freemium",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "disagreements": [
+      "access:none-but-login-detected"
+    ],
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "demo.nextfive.in",
+    "title": "Guide. (By NextFive)",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://demo.nextfive.in/guide/",
+    "alt": "Screenshot of Guide. (By NextFive)",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

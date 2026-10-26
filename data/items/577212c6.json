@@ -1,0 +1,87 @@
+{
+  "id": "577212c6",
+  "url": "https://n3ws.dev",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "n3ws.dev",
+  "summary": "Regex testing tool with live match highlighting, a quick reference of common patterns, and sample snippets for typical tasks.",
+  "why": "Combines a live regex tester with a copy-ready pattern library, so you can validate and grab an expression in one place.",
+  "category": "dev-tools",
+  "subcategory": "regex-snippets",
+  "tags": [
+    "regex",
+    "testing",
+    "cheatsheet",
+    "developer-tools",
+    "reference"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48460767",
+      "item_url": "https://n3ws.dev",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8938,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.95,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.22,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.44
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.92
+      },
+      "listing_quality": {
+        "level": 1
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://n3ws.dev/static/og-image.png",
+    "alt": "Preview of n3ws.dev"
+  },
+  "fingerprint": {
+    "host": "n3ws.dev",
+    "title": "n3ws.dev",
+    "site_name": "n3ws.dev",
+    "description": "Minimal developer news aggregator — HN, Lobste.rs, GitHub."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "5b296af7",
+  "url": "https://tools.simonwillison.net/json-to-markdown-transcript",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "JSON to Markdown Converter",
+  "summary": "A utility that converts structured JSON data, commonly used for audio transcripts, into a readable Markdown format.",
+  "why": "Useful for quickly transforming complex, machine-readable transcript data into human-friendly documentation.",
+  "category": "utilities",
+  "subcategory": "converters",
+  "tags": [
+    "json",
+    "markdown",
+    "converter",
+    "text-tool",
+    "utility",
+    "transcript"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/json-to-markdown-transcript",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.8846,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.05,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.25,
+      "category": {
+        "choice": "utilities",
+        "p": 0.83
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.95
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "JSON to Markdown Converter",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/json-to-markdown-transcript",
+    "alt": "Screenshot of JSON to Markdown Converter",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "25e82292",
+  "url": "https://compare-text.org/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Text Compare - Compare Two Texts Online, Free & Private",
+  "summary": "Compares two texts or files (Word, PDF, code) and highlights differences at the line, word, or character level. It runs entirely in the browser.",
+  "why": "A private, local diff checker that allows users to compare documents and code without uploading sensitive data.",
+  "category": "utilities",
+  "subcategory": "text-tools",
+  "tags": [
+    "text-compare",
+    "diff",
+    "private",
+    "local",
+    "utility",
+    "code"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/textcompare",
+      "item_url": "https://compare-text.org/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9412,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.18,
+      "category": {
+        "choice": "utilities",
+        "p": 0.75
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://compare-text.org/og.png",
+    "alt": "Preview of Text Compare - Compare Two Texts Online, Free & Private"
+  },
+  "fingerprint": {
+    "host": "compare-text.org",
+    "title": "Text Compare – Compare Two Texts Online, Free & Private",
+    "site_name": "TextCompare",
+    "description": "Compare two texts and see every difference highlighted instantly — by line, word or character. Free, no sign-up, nothing uploaded. Also Word, PDF & Excel."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "6615c061",
+  "url": "https://showplotter.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "ShowPlotter - Drone Light Show & Fireworks Site Plan Software",
+  "summary": "ShowPlotter is site plan software for drone light shows and fireworks displays. It allows users to draw flight areas, safety zones, and production details on a",
+  "why": "Helps professionals plan complex aerial shows while ensuring compliance with safety regulations and generating permit-ready documents.",
+  "category": "productivity",
+  "subcategory": "planners-trackers",
+  "tags": [
+    "drone",
+    "fireworks",
+    "site-plan",
+    "planning",
+    "compliance",
+    "geofence"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/showplotter",
+      "item_url": "https://showplotter.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8655,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.92,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.08,
+      "category": {
+        "choice": "productivity",
+        "p": 0.66
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.58
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 3
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://showplotter.com/og-default.jpg",
+    "alt": "Preview of ShowPlotter - Drone Light Show & Fireworks Site Plan Software"
+  },
+  "fingerprint": {
+    "host": "showplotter.com",
+    "title": "ShowPlotter — Drone Light Show & Fireworks Site Plan Software",
+    "site_name": "ShowPlotter",
+    "description": "Site plan software for drone light shows and fireworks displays — auto-drawn geofences, NFPA 1123 fallout zones, separation distances, crew share links, and permit-ready PDFs."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

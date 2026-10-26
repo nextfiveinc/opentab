@@ -1,0 +1,88 @@
+{
+  "id": "ae7249ef",
+  "url": "https://seeforfree.in/",
+  "source": "manual",
+  "tier": "A",
+  "title": "seeforfree | Free places to see in your city",
+  "summary": "A directory listing free and low-cost cultural spots, museums, gardens, and university open days in Indian cities.",
+  "why": "Helps users discover local hidden gems and cultural experiences without requiring a budget.",
+  "category": "life-home",
+  "subcategory": "local-community",
+  "tags": [
+    "local",
+    "city",
+    "free",
+    "culture",
+    "travel",
+    "discovery"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "manual",
+      "url": "https://seeforfree.in/",
+      "item_url": "https://seeforfree.in/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.461,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.48,
+      "is_free_to_use": 0.98,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "life-home",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://seeforfree.in/og-image.png",
+    "alt": "Preview of seeforfree | Free places to see in your city"
+  },
+  "fingerprint": {
+    "host": "seeforfree.in",
+    "title": "seeforfree | Free places to see in your city",
+    "site_name": "seeforfree",
+    "description": "Visit museums, universities, cultural and art spaces in your city. For free or up to ₹50. Read in your local language."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "8ca60d2e",
+  "url": "https://tools.simonwillison.net/hacker-news-thread-export",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Hacker News thread export",
+  "summary": "Fetches a Hacker News thread by post ID or URL and formats the comments for copying to the clipboard.",
+  "why": "Quick way to pull a HN discussion into readable, copyable text.",
+  "category": "utilities",
+  "subcategory": "text-tools",
+  "tags": [
+    "hacker-news",
+    "export",
+    "comments",
+    "formatting",
+    "copy-paste"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/hacker-news-thread-export",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.894,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.37,
+      "category": {
+        "choice": "utilities",
+        "p": 0.66
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.92
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Hacker News thread export",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/hacker-news-thread-export",
+    "alt": "Screenshot of Hacker News thread export",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

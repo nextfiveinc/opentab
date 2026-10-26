@@ -1,0 +1,92 @@
+{
+  "id": "fe1558f7",
+  "url": "https://careermap.nextfive.in/",
+  "source": "manual",
+  "tier": "A",
+  "title": "CareerMap",
+  "summary": "CareerMap visualizes real job transition paths based on observed data. Users can search for roles and trace potential career routes.",
+  "why": "Explore a map of real career transitions, seeing how different roles connect and where AI can suggest paths.",
+  "category": "data-viz",
+  "subcategory": "maps",
+  "tags": [
+    "career",
+    "visualization",
+    "career-path",
+    "data",
+    "ai"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "manual",
+      "url": "https://nextfive.xyz/blog/2026/04/11/careermap.html",
+      "item_url": "https://careermap.nextfive.in/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.84,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.05,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.06,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "data-viz",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.72
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.88
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "disagreements": [
+      "access:none-but-login-detected"
+    ],
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "careermap.nextfive.in",
+    "title": "CareerMap",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://careermap.nextfive.in/",
+    "alt": "Screenshot of CareerMap",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "1a8db4b2",
+  "url": "https://vt231dmyu.github.io/lights-out",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Lights Out",
+  "summary": "A classic grid-based puzzle game where the player must turn off all the lights by pressing adjacent tiles.",
+  "why": "A simple, addictive logic puzzle that challenges players to solve the grid using minimal moves.",
+  "category": "games",
+  "subcategory": "arcade",
+  "tags": [
+    "puzzle",
+    "logic",
+    "arcade",
+    "lights-out",
+    "free",
+    "game"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/lights-out-game",
+      "item_url": "https://vt231dmyu.github.io/lights-out",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8936,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.97,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.51,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "fingerprint": {
+    "host": "vt231dmyu.github.io",
+    "title": "Lights Out",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://vt231dmyu.github.io/lights-out",
+    "alt": "Screenshot of Lights Out",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

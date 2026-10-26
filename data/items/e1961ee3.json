@@ -1,0 +1,83 @@
+{
+  "id": "e1961ee3",
+  "url": "https://spectrum.reinisch.io",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Audio Spectrum Analyzer",
+  "summary": "A simple tool that visualizes audio frequencies from microphone input or uploaded audio files.",
+  "why": "Useful for visualizing sound frequencies in real-time or analyzing audio files.",
+  "category": "creative",
+  "subcategory": "music-audio",
+  "tags": [
+    "audio",
+    "analyzer",
+    "spectrum",
+    "visualization",
+    "sound"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/audio-spectrum-analyzer",
+      "item_url": "https://spectrum.reinisch.io",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8938,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.95,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.25,
+      "category": {
+        "choice": "creative",
+        "p": 0.96
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "spectrum.reinisch.io",
+    "title": "Audio Spectrum Analyzer",
+    "site_name": "Audio Spectrum Analyzer",
+    "description": "Simple audio spectrum analyzer, can analyze audio input from the microphone as well as audio files."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

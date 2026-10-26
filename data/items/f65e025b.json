@@ -1,0 +1,88 @@
+{
+  "id": "f65e025b",
+  "url": "https://iamramgarhia.github.io/free-ai-watermark-remover",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Free AI Watermark Remover - Runs in Your Browser",
+  "summary": "A browser-based tool that uses AI to detect and remove watermarks from AI-generated images and short videos without uploading files.",
+  "why": "It runs entirely in your browser using WebAssembly, ensuring your sensitive files are never uploaded to a server.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "watermark",
+    "ai",
+    "image-editor",
+    "privacy",
+    "browser-based",
+    "free"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/watermarkout-free-ai-watermark-remover",
+      "item_url": "https://iamramgarhia.github.io/free-ai-watermark-remover",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.95,
+      "category": {
+        "choice": "utilities",
+        "p": 0.51
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://iamramgarhia.github.io/free-ai-watermark-remover/assets/social-preview.png",
+    "alt": "Preview of Free AI Watermark Remover - Runs in Your Browser"
+  },
+  "fingerprint": {
+    "host": "iamramgarhia.github.io",
+    "title": "Free AI Watermark Remover — Runs in Your Browser",
+    "site_name": "WatermarkOut",
+    "description": "Remove watermarks from AI images and short videos free. The AI runs in your browser — files are never uploaded. No account, no sign-up, open source."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

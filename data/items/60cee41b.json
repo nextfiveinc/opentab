@@ -1,0 +1,90 @@
+{
+  "id": "60cee41b",
+  "url": "https://alergia.ai/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Alergia España - Polen, calidad del aire y UV personalizado",
+  "summary": "Shows today's pollen and air-quality levels for Spanish cities by allergen, plus an allergen guide, using official aerobiological networks and CAMS data.",
+  "why": "City-by-city pollen counts and air-quality readings with visible sources help allergy sufferers judge the day before heading out.",
+  "category": "health",
+  "subcategory": "food-nutrition",
+  "tags": [
+    "pollen",
+    "air quality",
+    "allergies",
+    "spain",
+    "environment",
+    "forecast"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/alergia-espana-alergia-ai",
+      "item_url": "https://alergia.ai/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "health",
+        "p": 0.99
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "alergia.ai",
+    "title": "Alergia España — Polen, calidad del aire y UV personalizado",
+    "site_name": "Alergia España",
+    "description": "Consulta el polen y la calidad del aire de hoy en España, por ciudad, con la fuente de cada dato y actualizado cada 30 minutos. Gratis, sin registro y sin rastreo."
+  },
+  "image": {
+    "src": "https://alergia.ai/",
+    "alt": "Screenshot of Alergia España - Polen, calidad del aire y UV personalizado",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

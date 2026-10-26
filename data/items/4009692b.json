@@ -1,0 +1,88 @@
+{
+  "id": "4009692b",
+  "url": "https://beatspiel.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Beatspiel - Free Online Drum Machine",
+  "summary": "Beatspiel is a free online drum machine and step sequencer that allows users to create drum beats in the browser. It supports up to 8 bars and works offline.",
+  "why": "A simple, free, and offline-capable tool for musicians and beat makers to compose drum patterns.",
+  "category": "creative",
+  "subcategory": "music-audio",
+  "tags": [
+    "drum machine",
+    "sequencer",
+    "music",
+    "audio",
+    "beats",
+    "creative"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/beatspiel",
+      "item_url": "https://beatspiel.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9508,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.1,
+      "is_chat_wrapper": 0.01,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "creative",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://beatspiel.com/assets/icons/icon-512.png",
+    "alt": "Preview of Beatspiel - Free Online Drum Machine"
+  },
+  "fingerprint": {
+    "host": "beatspiel.com",
+    "title": "Beatspiel - Free Online Drum Machine",
+    "site_name": "Beatspiel",
+    "description": "Create drum beats in your browser with Beatspiel, a free online step sequencer with odd time signatures, up to 8 bars, offline support and no signup."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

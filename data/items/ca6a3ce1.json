@@ -1,0 +1,88 @@
+{
+  "id": "ca6a3ce1",
+  "url": "https://www.openstreetmap.org",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "OpenStreetMap",
+  "summary": "OpenStreetMap is a collaborative, open-source mapping service that allows users to view, explore, and contribute to a detailed map of the world.",
+  "why": "It provides a free, community-driven alternative to commercial mapping services, allowing users to edit and contribute map data.",
+  "category": "life-home",
+  "subcategory": "travel-maps",
+  "tags": [
+    "map",
+    "navigation",
+    "open-source",
+    "travel",
+    "data",
+    "visualization"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/openstreetmap",
+      "item_url": "https://www.openstreetmap.org",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9028,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.07,
+      "is_open_source": 0.51,
+      "category": {
+        "choice": "life-home",
+        "p": 0.57
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://www.openstreetmap.org/assets/osm_logo_256-ed028f90468224a272961c380ecee0cfb73b8048b34f4b4b204b7f0d1097875d.png",
+    "alt": "Preview of OpenStreetMap"
+  },
+  "fingerprint": {
+    "host": "openstreetmap.org",
+    "title": "OpenStreetMap",
+    "site_name": "OpenStreetMap",
+    "description": "OpenStreetMap is a map of the world, created by people like you and free to use under an open license."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

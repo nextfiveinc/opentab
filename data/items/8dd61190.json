@@ -1,0 +1,90 @@
+{
+  "id": "8dd61190",
+  "url": "http://michaelsboost.com/CamDesk",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "CamDesk - Free Online Webcam Recorder, Camera App & PWA",
+  "summary": "CamDesk is a free, privacy-focused webcam application that allows users to take photos and record videos directly from their device.",
+  "why": "A simple, free tool for capturing media directly from your webcam while keeping all files local for enhanced privacy.",
+  "category": "creative",
+  "subcategory": "video",
+  "tags": [
+    "webcam",
+    "camera",
+    "recording",
+    "pwa",
+    "privacy",
+    "video"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/camdesk",
+      "item_url": "http://michaelsboost.com/CamDesk",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.18,
+      "category": {
+        "choice": "creative",
+        "p": 0.91
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.9
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "michaelsboost.com",
+    "title": "CamDesk - Free Online Webcam Recorder, Camera App & PWA",
+    "site_name": "",
+    "description": "CamDesk is a free privacy-first webcam app for taking photos, recording videos, using Picture-in-Picture, sharing captures, and installing as a PWA."
+  },
+  "image": {
+    "src": "http://michaelsboost.com/CamDesk",
+    "alt": "Screenshot of CamDesk - Free Online Webcam Recorder, Camera App & PWA",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

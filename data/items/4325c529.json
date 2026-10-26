@@ -1,0 +1,89 @@
+{
+  "id": "4325c529",
+  "url": "https://www.photopea.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Photopea | Online Photo Editor",
+  "summary": "Photopea is a free, browser-based photo editor that allows users to edit, crop, and apply effects to images. It supports PSD and many other formats.",
+  "why": "It offers professional-grade editing tools, including AI features like background removal, directly in your web browser for free.",
+  "category": "creative",
+  "subcategory": "image-design",
+  "tags": [
+    "photo-editor",
+    "online",
+    "psd-support",
+    "ai",
+    "graphic-design"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/photopea",
+      "item_url": "https://www.photopea.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.25,
+      "category": {
+        "choice": "creative",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.79
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 3
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "photopea.com",
+    "title": "Photopea | Online Photo Editor",
+    "site_name": "",
+    "description": "Photopea Online Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures. Do Online Photo Editing in your browser for free!"
+  },
+  "image": {
+    "src": "https://www.photopea.com",
+    "alt": "Screenshot of Photopea | Online Photo Editor",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

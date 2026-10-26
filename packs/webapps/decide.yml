@@ -1,0 +1,105 @@
+# Pass 1 of classification: a decision model answers narrow questions with
+# probabilities. Pass 2 (classifier.models.enrich in pack.yml) only writes text.
+#
+# Swapping models: put ANY decision model id in `model`. To list them, run
+#   uv run python -m engine models
+# Then rerun `uv run python -m engine eval packs/webapps` and retune `gate` below:
+# a threshold belongs to the model build it was tuned on and does not carry over.
+# To compare candidates side by side without editing this file:
+#   uv run python -m engine eval packs/webapps --model <id> --model <other-id>
+# Pin a versioned id (…-v1.2), never a "~…-latest" alias.
+# Chosen by `engine eval` on 2026-10-23 (208 labelled cases, labels still a draft):
+# at review floor 0.30, jev-1.14 kept 92% of real apps (precision 0.83) vs 78% (0.88)
+# for perplexity/pplx-decider-flash-v1.2; neither published anything wrongly.
+# Cost: about $0.00009 per candidate (decide pass).
+model: typesafe/jev-1.14
+
+# The state sent per candidate (code assembles it; long page text lowers accuracy).
+max_page_chars: 2500
+
+# One judgment per question, asked literally as a property of the candidate.
+# Types: noul (P(true)), choice (one of the criteria keys), score (an ordered level).
+questions:
+  is_web_app:
+    type: noul
+    instructions: "Is the thing at this URL an app or game that a visitor can use right now in a web browser, without installing anything?"
+    criteria:
+      true: "The page itself is a usable tool, utility, editor, visualisation, lesson or game that runs in the browser."
+      false: "It is an article, blog post, documentation, a code repository, a portfolio, a waitlist or landing page, or it promotes a download, mobile app or browser extension."
+  is_free_to_use:
+    type: noul
+    instructions: "Can a visitor use the core of this app for free?"
+    criteria:
+      true: "It is free, or has a free tier or free use that is genuinely useful."
+      false: "Using it requires payment, a paid plan or a trial that ends in payment."
+  is_game:
+    type: noul
+    instructions: "Is this app a game?"
+  is_chat_wrapper:
+    type: noul
+    instructions: "Is this app mainly a chat box that forwards prompts to an AI model, with little else of its own?"
+    criteria:
+      true: "The main interface is a prompt box or chat with a general AI model, possibly with a preset system prompt."
+      false: "The app has its own functionality; any AI is one feature of it."
+  needs_sign_in:
+    type: noul
+    instructions: "Does a visitor have to create an account or sign in before they can use the app?"
+  is_open_source:
+    type: noul
+    instructions: "Is the app's source code publicly available, for example in a linked public repository?"
+  category:
+    type: choice
+    instructions: "Which category fits this app best?"
+    from: taxonomy          # criteria generated from taxonomy.yml labels and keywords
+  cost:
+    type: choice
+    instructions: "How is this app priced for a visitor?"
+    criteria:
+      free: "Everything is free to use."
+      freemium: "Free to use, with optional paid extras or a paid plan."
+      paid: "No meaningful free use."
+  ai_claim:
+    type: choice
+    instructions: "Who says this app was built with the help of AI tools?"
+    criteria:
+      self-declared: "The creator states that they built it with AI tools (for example Claude, ChatGPT, Cursor, or 'vibe coded')."
+      platform-listed: "It is listed on an AI app builder's own showcase."
+      none: "Nobody states that AI tools were used to build it."
+  listing_quality:
+    type: score
+    instructions: "How useful or delightful would a curious visitor find this app?"
+    criteria:
+      - "Broken, empty, a placeholder or a trivial demo"
+      - "Works, but thin or generic"
+      - "Solid and useful or fun"
+      - "Remarkable: polished, original or unusually useful"
+
+# How answers become record fields. Code applies these generically.
+maps:
+  category: { field: category }
+  ai_claim: { field: ai_claim }
+  cost: { attr: cost, values: { free: free, freemium: freemium, paid: freemium } }
+  needs_sign_in: { attr: access, true: required, false: none }
+  is_open_source: { attr: open_source }
+  is_game: { flag: game }
+  is_chat_wrapper: { flag: chat-wrapper }
+
+# Hard rejects: any hit rejects, logged with the question id as the reason.
+reject:
+  is_web_app: { below: 0.25 }
+  is_free_to_use: { below: 0.25 }
+  is_chat_wrapper: { above: 0.80 }
+  # No listing_quality reject: JavaScript apps whose HTML has almost no text read as
+  # "empty" and were rejected for good (eval 2026-10-23: 5 real games lost with both
+  # models). The level is still stored for reviewers.
+
+# Listing confidence = product of these probabilities (code does the arithmetic).
+confidence:
+  true: [is_web_app, is_free_to_use]
+  false: [is_chat_wrapper]
+
+# Gate thresholds on that confidence, tuned for `model` above (pack.yml's gate applies
+# to the other modes). Retune with `engine eval` after any model change.
+gate:
+  auto_publish: 0.85   # eval: every item at >= 0.8 was a real app (15/15)
+  review: 0.30         # eval: recall 0.92 / precision 0.83; a rejection is permanent, review is cheap

@@ -1,0 +1,88 @@
+{
+  "id": "62f42034",
+  "url": "https://transform.tools",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Transform",
+  "summary": "A polyglot web converter that transforms data and code between numerous formats, including SVG, JSON, GraphQL, and various programming languages.",
+  "why": "A powerful utility for developers needing to quickly convert complex data structures or code snippets between many different formats.",
+  "category": "dev-tools",
+  "subcategory": "formatters",
+  "tags": [
+    "converter",
+    "developer",
+    "code",
+    "data",
+    "format",
+    "polyglot"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/transform-tools",
+      "item_url": "https://transform.tools",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8841,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.93,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.73,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.75
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.95
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://transform.tools/cover.png",
+    "alt": "Preview of Transform"
+  },
+  "fingerprint": {
+    "host": "transform.tools",
+    "title": "Transform",
+    "site_name": "",
+    "description": "A polyglot web converter that's going to save you a lot of time."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

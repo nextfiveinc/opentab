@@ -1,0 +1,90 @@
+{
+  "id": "b0755ea6",
+  "url": "https://arrowgame.app/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Play Arrow Game Online Free | Arrow Puzzle & Arrow Escape",
+  "summary": "Tap arrows that have a clear path off the board to clear dense layouts; long level campaign with daily challenges, coins and upgrades.",
+  "why": "Order-of-removal planning: each escape opens lanes for the rest, so crowded boards reward thinking ahead.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "puzzle",
+    "arrows",
+    "casual",
+    "daily-challenge",
+    "leaderboard",
+    "browser"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/arrowgame",
+      "item_url": "https://arrowgame.app/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8932,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.93,
+      "is_free_to_use": 0.98,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.09,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.86
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://arrowgame.app/assets/og-image.36b5c4acb3.png",
+    "alt": "Preview of Play Arrow Game Online Free | Arrow Puzzle & Arrow Escape"
+  },
+  "fingerprint": {
+    "host": "arrowgame.app",
+    "title": "Play Arrow Game Online Free | Arrow Puzzle & Arrow Escape",
+    "site_name": "Arrow Game",
+    "description": "Play Arrow Game online for free on PC or mobile—no download or sign-up. Complete 1,000 arrow puzzle levels and take on daily challenges in this arrow escape game."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

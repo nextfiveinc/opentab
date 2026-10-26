@@ -1,0 +1,88 @@
+{
+  "id": "76ab9958",
+  "url": "https://mdpreview.jignesh.dev/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Markdown Preview: Free Online Markdown Editor with Mermaid & Math",
+  "summary": "A free online editor providing a live preview of Markdown, supporting KaTeX for math and Mermaid for diagrams.",
+  "why": "Useful for quickly drafting and viewing Markdown content with integrated math and diagram support.",
+  "category": "dev-tools",
+  "subcategory": "formatters",
+  "tags": [
+    "markdown",
+    "editor",
+    "preview",
+    "latex",
+    "mermaid",
+    "developer"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/markdown-preview",
+      "item_url": "https://mdpreview.jignesh.dev/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9412,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.27,
+      "category": {
+        "choice": "dev-tools",
+        "p": 0.53
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://mdpreview.jignesh.dev/opengraph-image?cd62e4571660a8bb",
+    "alt": "Preview of Markdown Preview: Free Online Markdown Editor with Mermaid & Math"
+  },
+  "fingerprint": {
+    "host": "mdpreview.jignesh.dev",
+    "title": "Markdown Preview: Free Online Markdown Editor with Mermaid & Math",
+    "site_name": "Markdown Preview",
+    "description": "Free online markdown editor with live preview, KaTeX math, Mermaid diagrams and code highlighting. No sign-up, and your markdown stays on your device."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

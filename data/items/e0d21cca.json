@@ -1,0 +1,88 @@
+{
+  "id": "e0d21cca",
+  "url": "https://icyzip.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "IcyZip - QR Code Text and File Transfer",
+  "summary": "IcyZip allows users to pair two browsers using a QR code to securely transfer live text and files between devices like phones and desktops without installation.",
+  "why": "A simple, open-source, end-to-end encrypted bridge for quickly moving notes and files between your different devices.",
+  "category": "utilities",
+  "subcategory": "text-tools",
+  "tags": [
+    "qr-code",
+    "cross-device",
+    "encryption",
+    "file-transfer",
+    "utility",
+    "browser-based"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/icyzip",
+      "item_url": "https://icyzip.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.89,
+      "category": {
+        "choice": "utilities",
+        "p": 0.52
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://icyzip.com/browser-file-transfer-demo.png",
+    "alt": "Preview of IcyZip - QR Code Text and File Transfer"
+  },
+  "fingerprint": {
+    "host": "icyzip.com",
+    "title": "IcyZip - QR Code Text and File Transfer",
+    "site_name": "",
+    "description": "Pair two browsers with a QR code to move encrypted live text and one selected file between phone, laptop, tablet, or desktop. No login, no app install."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

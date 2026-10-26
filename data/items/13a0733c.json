@@ -1,0 +1,88 @@
+{
+  "id": "13a0733c",
+  "url": "https://regex101.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "regex101: Online Regex Tester, Builder, Converter & Debugger",
+  "summary": "Online platform to build, test, debug, and convert regular expressions across various programming language flavors.",
+  "why": "A comprehensive resource for understanding and manipulating complex regular expressions with detailed token explanations.",
+  "category": "dev-tools",
+  "subcategory": "formatters",
+  "tags": [
+    "regex",
+    "developer",
+    "testing",
+    "tool",
+    "utility",
+    "code"
+  ],
+  "attrs": {
+    "cost": "freemium",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/regex101",
+      "item_url": "https://regex101.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.922,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.07,
+      "is_open_source": 0.25,
+      "category": {
+        "choice": "dev-tools",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "freemium",
+        "p": 0.97
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 3
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://regex101.com/preview/",
+    "alt": "Preview of regex101: Online Regex Tester, Builder, Converter & Debugger"
+  },
+  "fingerprint": {
+    "host": "regex101.com",
+    "title": "regex101: Online Regex Tester, Builder, Converter & Debugger",
+    "site_name": "regex101",
+    "description": "Build, test, debug and convert regex across flavors with real-time matches and clear explanations. Supports PCRE2, JavaScript, Python and more. Save and share examples."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

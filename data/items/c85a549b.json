@@ -1,0 +1,90 @@
+{
+  "id": "c85a549b",
+  "url": "https://balliq.app/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Ball IQ - Football Quiz, Footle and Daily Puzzles",
+  "summary": "A free browser-based football quiz platform featuring daily puzzles like Footle (Wordle style), Transfer Trail, and Mystery Player, along with league and club-f",
+  "why": "Test your football knowledge with daily puzzles and comprehensive quizzes covering major leagues and clubs, all for free.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "football",
+    "quiz",
+    "puzzle",
+    "sports",
+    "trivia",
+    "free"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/ball-iq",
+      "item_url": "https://balliq.app/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9412,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.97,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.15,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://balliq.app/og-image-q.png",
+    "alt": "Preview of Ball IQ - Football Quiz, Footle and Daily Puzzles"
+  },
+  "fingerprint": {
+    "host": "balliq.app",
+    "title": "Ball IQ — Football Quiz, Footle and Daily Puzzles",
+    "site_name": "Ball IQ",
+    "description": "Your club's quiz, today's Footle, Daily 7, Transfer Trail and Mystery Player, plus every league quiz and record list. Free football quiz in your browser."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

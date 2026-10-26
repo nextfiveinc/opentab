@@ -1,0 +1,94 @@
+{
+  "id": "1e460833",
+  "url": "https://tools.simonwillison.net/image-resize-quality",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Image resize, crop, and quality comparison",
+  "summary": "A web tool that allows users to upload an image and perform resizing, cropping, and quality comparisons.",
+  "why": "This utility lets users quickly modify image dimensions and assess quality directly in the browser.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "image",
+    "resize",
+    "crop",
+    "quality",
+    "utility"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-25",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/image-resize-quality",
+      "seen": "2026-10-25"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.37,
+      "category": {
+        "choice": "utilities",
+        "p": 0.98
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.95
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Image resize, crop, and quality comparison",
+    "site_name": "",
+    "description": ""
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/image-resize-quality",
+    "alt": "Screenshot of Image resize, crop, and quality comparison",
+    "kind": "screenshot",
+    "taken": "2026-10-25"
+  }
+}

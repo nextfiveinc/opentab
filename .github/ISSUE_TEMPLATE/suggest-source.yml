@@ -1,0 +1,16 @@
+name: Suggest a place to look
+description: A site, list, newsletter or community where people share free web apps.
+labels: [source]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Address
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What gets shared there?
+      description: Roughly how often, and what kind of apps.

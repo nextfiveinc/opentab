@@ -1,0 +1,87 @@
+{
+  "id": "99e4b5f7",
+  "url": "https://sothikbanglacalendar.live/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "৫ কার্তিক ১৪৩৩ বঙ্গাব্দ - আজকের বাংলা তারিখ | সঠিক বাংলা ক্যালেন্ডার",
+  "summary": "A digital calendar providing daily updates for the Bengali calendar, including tithi, nakshatra, and auspicious timings.",
+  "why": "A comprehensive resource for tracking the Bengali calendar and associated astrological details.",
+  "category": "utilities",
+  "subcategory": "date-time",
+  "tags": [
+    "bengali",
+    "calendar",
+    "date",
+    "panjika",
+    "utility"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/bangla-calendar",
+      "item_url": "https://sothikbanglacalendar.live/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8841,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.93,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.12,
+      "category": {
+        "choice": "utilities",
+        "p": 0.98
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://www.sothikbanglacalendar.live/og-image.png",
+    "alt": "Preview of ৫ কার্তিক ১৪৩৩ বঙ্গাব্দ - আজকের বাংলা তারিখ | সঠিক বাংলা ক্যালেন্ডার"
+  },
+  "fingerprint": {
+    "host": "sothikbanglacalendar.live",
+    "title": "৫ কার্তিক ১৪৩৩ বঙ্গাব্দ — আজকের বাংলা তারিখ | সঠিক বাংলা ক্যালেন্ডার",
+    "site_name": "সঠিক বাংলা ক্যালেন্ডার",
+    "description": "আজ ৫ কার্তিক ১৪৩৩ বঙ্গাব্দ। তিথি দ্বাদশী (শুক্লপক্ষ), নক্ষত্র পূর্বভাদ্রপদ। বিশুদ্ধ সিদ্ধান্ত মতে প্রতিদিন আপডেট হওয়া সঠিক বাংলা তারিখ, পঞ্জিকা ও ক্যালেন্ডার দেখুন।"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

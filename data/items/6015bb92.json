@@ -1,0 +1,90 @@
+{
+  "id": "6015bb92",
+  "url": "https://game.onblow.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "OnBlow: The Balloon Dog - 3D Space Physics Arcade Game",
+  "summary": "Browser arcade game: guide balloon dog Laika through starfields, Saturn orbit and spiral galaxies, bouncing on balloons to collect crystals and dodge hazards.",
+  "why": "Air-jet, bouncy, checkpoint and bomb balloon variants give the core bouncing physics real variety across looping cosmic zones.",
+  "category": "games",
+  "subcategory": "arcade",
+  "tags": [
+    "arcade",
+    "physics",
+    "platformer",
+    "space",
+    "casual",
+    "pwa"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/onblow-the-space-dog",
+      "item_url": "https://game.onblow.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.922,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.98,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.11,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://onblow.com/onblow_cover_exact.png",
+    "alt": "Preview of OnBlow: The Balloon Dog - 3D Space Physics Arcade Game"
+  },
+  "fingerprint": {
+    "host": "game.onblow.com",
+    "title": "OnBlow: The Balloon Dog — 3D Space Physics Arcade Game",
+    "site_name": "OnBlow: The Balloon Dog",
+    "description": "Play OnBlow: The Balloon Dog free 3D space physics arcade game in your web browser! Control Laika the balloon dog, navigate Saturn orbit & spiral galaxies, collect crystals, and dodge obstacles with zero downloads required. Developed by Architect Arthur Bigler (inlabic.com)."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

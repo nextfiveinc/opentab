@@ -1,0 +1,94 @@
+{
+  "id": "7646360b",
+  "url": "https://tools.simonwillison.net/bbox-cropper",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "BBox Tool - CropperJS Version",
+  "summary": "Draws bounding boxes on pasted or uploaded images, with draggable resize/move and coordinates output as percentages of image dimensions.",
+  "why": "Simple, focused tool for getting normalised bounding-box coordinates from any image quickly.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "image",
+    "bounding-box",
+    "cropperjs",
+    "annotation",
+    "utility"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/bbox-cropper",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.35,
+      "category": {
+        "choice": "utilities",
+        "p": 0.91
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.96
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "BBox Tool - CropperJS Version",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/bbox-cropper",
+    "alt": "Screenshot of BBox Tool - CropperJS Version",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

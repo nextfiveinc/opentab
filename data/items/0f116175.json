@@ -1,0 +1,95 @@
+{
+  "id": "0f116175",
+  "url": "https://tools.simonwillison.net/broadcast-channel-chat",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Multi-Tab Sync Chat",
+  "summary": "A chat tool that synchronizes messages instantly across multiple open tabs using the browser's Broadcast Channel API.",
+  "why": "Demonstrates real-time, local synchronization between browser tabs without needing a backend server.",
+  "category": "experiments",
+  "subcategory": "toys-visualisers",
+  "tags": [
+    "browser-api",
+    "sync",
+    "chat",
+    "local",
+    "multi-tab"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/broadcast-channel-chat",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.03,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.33,
+      "category": {
+        "choice": "experiments",
+        "p": 0.66
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.94
+      },
+      "listing_quality": {
+        "level": 1
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Multi-Tab Sync Chat",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/broadcast-channel-chat",
+    "alt": "Screenshot of Multi-Tab Sync Chat",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

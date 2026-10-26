@@ -1,0 +1,96 @@
+{
+  "id": "259ff120",
+  "url": "https://tools.simonwillison.net/badge-drawer",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Badge Drawer - Device-Scale Canvas",
+  "summary": "Draw on a 296×128 black-and-white canvas with brush, eraser, undo and image import, then download a PNG or send it to a Badger 2040 via Web Serial.",
+  "why": "Draws at an e-ink badge's exact resolution and pushes the image to real hardware from the browser over Web Serial.",
+  "category": "utilities",
+  "subcategory": "generators",
+  "tags": [
+    "drawing",
+    "canvas",
+    "pixel-art",
+    "e-ink",
+    "web-serial",
+    "hardware"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/badge-drawer",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.8655,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.92,
+      "is_free_to_use": 0.96,
+      "is_game": 0.04,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.3,
+      "category": {
+        "choice": "utilities",
+        "p": 0.38
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.97
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Badge Drawer — Device-Scale Canvas",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/badge-drawer",
+    "alt": "Screenshot of Badge Drawer - Device-Scale Canvas",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

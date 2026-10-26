@@ -1,0 +1,88 @@
+{
+  "id": "736b7f8b",
+  "url": "https://audiomass.co",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "AudioMass",
+  "summary": "Browser-based audio and waveform editor: load or record a track, then cut, trim, fade and apply effects without installing anything.",
+  "why": "Waveform editing in the browser without an install: handy for quick trims, fades and audio cleanup.",
+  "category": "creative",
+  "subcategory": "music-audio",
+  "tags": [
+    "audio",
+    "editor",
+    "waveform",
+    "sound",
+    "recording",
+    "music"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/audiomass",
+      "item_url": "https://audiomass.co",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9126,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.32,
+      "category": {
+        "choice": "creative",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://audiomass.co/icon.jpg",
+    "alt": "Preview of AudioMass"
+  },
+  "fingerprint": {
+    "host": "audiomass.co",
+    "title": "AudioMass",
+    "site_name": "",
+    "description": "AudioMass is a free full-featured web-based audio & waveform editing tool"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

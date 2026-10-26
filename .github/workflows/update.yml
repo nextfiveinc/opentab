@@ -1,0 +1,137 @@
+# The automated regular run: once a week it discovers new apps, classifies them,
+# re-checks published ones, refreshes thumbnails, commits the data and redeploys.
+# Nothing below the publish bar goes live: it waits in the review queue for you.
+# Setup and day-to-day use: README_LOCAL.md (kept locally) → Deploying.
+# GitHub lists a schedule-only workflow under Actions only after a push that changes
+# this file; a repository's first push may not register it.
+#
+# This repository is public, and so are its Actions logs, job summaries and commit
+# messages. Everything that names candidates, sources or rejection reasons goes to the
+# private data repository instead: the working data itself, the engine's logs
+# (logs/*.log) and the run summary (last-summary.md and its commit message).
+name: Auto updates
+
+on:
+  schedule:
+    - cron: "17 5 * * 1"   # Mondays 05:17 UTC (GitHub may start scheduled runs a little late)
+  workflow_dispatch:       # Actions → Auto updates → Run workflow
+
+concurrency:
+  group: data-update
+  cancel-in-progress: false
+
+env:
+  DATA_REPO: nextfiveinc/opentab-data   # private; cloned at private/ (pack.yml private_data)
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # to commit the published data back to this branch
+    outputs:
+      changed: ${{ steps.publish.outputs.changed }}
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # higher rate limit for the GitHub source
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check out the private working data
+        id: private
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.DATA_REPO }}
+          path: private
+          ssh-key: ${{ secrets.DATA_REPO_KEY }}   # deploy key with write access to DATA_REPO
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked --extra screenshots
+      - name: Install Chromium for screenshot thumbnails
+        run: uv run playwright install --with-deps --only-shell chromium > /dev/null
+
+      - name: Check the AI key
+        run: |
+          mkdir -p private/logs
+          if [ -z "$OPENROUTER_API_KEY" ]; then
+            echo "::warning::OPENROUTER_API_KEY secret is not set: classifying with rules only, nothing will auto-publish."
+          fi
+
+      # Each step logs to the private repo, never to this public log. A failure is
+      # recorded and the remaining steps are skipped; the logs are still saved below.
+      - name: Discover, qualify, classify, gate
+        run: uv run python -m engine run packs/webapps > run-report.json 2> private/logs/run.log || echo "FAILED=run" >> "$GITHUB_ENV"
+      - name: Re-check published apps (liveness, drift)
+        if: env.FAILED == ''
+        run: uv run python -m engine lifecycle packs/webapps > lifecycle-report.json 2> private/logs/lifecycle.log || echo "FAILED=lifecycle" >> "$GITHUB_ENV"
+      - name: Thumbnails (preview image, else a screenshot of the app)
+        if: env.FAILED == ''
+        run: uv run python -m engine thumbs packs/webapps > thumbs-report.json 2> private/logs/thumbs.log || echo "FAILED=thumbs" >> "$GITHUB_ENV"
+      - name: Validate data
+        if: env.FAILED == ''
+        run: uv run python -m engine validate packs/webapps > private/logs/validate.json 2>&1 || echo "FAILED=validate" >> "$GITHUB_ENV"
+      - name: Build (writes today's changelog; checks the site builds)
+        if: env.FAILED == ''
+        run: uv run python -m engine build packs/webapps --out dist > /dev/null 2> private/logs/build.log || echo "FAILED=build" >> "$GITHUB_ENV"
+
+      - name: Summary (private) and counts (public)
+        if: env.FAILED == ''
+        run: |
+          uv run python -m engine summary packs/webapps --run run-report.json \
+            --lifecycle lifecycle-report.json --thumbs thumbs-report.json > private/last-summary.md
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          r = json.load(open("run-report.json"))
+          print(f"Auto update: {r.get('publish', 0)} published, {r.get('review', 0)} to review. "
+                "The full summary is in the private data repository (last-summary.md).")
+          PY
+
+      - name: Save working data and logs (private repo)
+        if: always() && steps.private.outcome == 'success'
+        run: |
+          cd private
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "No working-data changes."; exit 0; fi
+          if [ -n "$FAILED" ]; then
+            printf 'auto update %s: FAILED at %s\n\nSee logs/.\n' "$(date -u +%F)" "$FAILED" > ../private-msg.txt
+          else
+            { echo "auto update $(date -u +%F)"; echo; cat last-summary.md; } > ../private-msg.txt
+          fi
+          git commit -q -F ../private-msg.txt
+          branch=$(git rev-parse --abbrev-ref HEAD)
+          git pull --rebase --autostash -q origin "$branch"
+          git push -q origin "HEAD:$branch"
+
+      - name: Publish data (this repo)
+        id: publish
+        if: env.FAILED == ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No published-data changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -q -m "data: auto update $(date -u +%F)"
+          # someone may have pushed review decisions meanwhile: rebase onto them
+          git pull --rebase --autostash -q origin "${GITHUB_REF_NAME}"
+          git push -q origin "HEAD:${GITHUB_REF_NAME}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Report a failed step
+        if: env.FAILED != ''
+        run: |
+          echo "::error::Auto update failed at '$FAILED'. Details: logs/ in the private data repository."
+          exit 1
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: ${{ github.ref_name }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

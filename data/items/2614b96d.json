@@ -1,0 +1,64 @@
+{
+  "id": "2614b96d",
+  "url": "https://www.linguabase.org/antimatter/",
+  "title": "Antimatter - Match the Opposites",
+  "summary": "A word puzzle where mahjong solitaire meets antonym matching: 20 puzzles built on 23,791 antonym pairs.",
+  "why": "Turns vocabulary building into a relaxing tile-matching game instead of flashcards.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "word-game",
+    "puzzle",
+    "vocabulary",
+    "antonyms"
+  ],
+  "attrs": {
+    "built_with": [],
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-22",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-show",
+      "url": "https://news.ycombinator.com/item?id=47507856",
+      "item_url": "https://www.linguabase.org/antimatter/",
+      "seen": "2026-10-22"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.62,
+    "classify_mode": "rules",
+    "enriched": "manual"
+  },
+  "flags": [
+    "game"
+  ],
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  },
+  "fingerprint": {
+    "host": "linguabase.org",
+    "title": "Antimatter — Match the Opposites",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://www.linguabase.org/antimatter/",
+    "alt": "Screenshot of Antimatter - Match the Opposites",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  }
+}

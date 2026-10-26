@@ -1,0 +1,90 @@
+{
+  "id": "e524ed5a",
+  "url": "https://lichess.org",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "The best free, adless Chess server",
+  "summary": "Browser chess against friends, random opponents or the computer, plus puzzles, tournaments, analysis boards and study tools.",
+  "why": "Full chess platform in the browser: live and correspondence play, daily puzzles, arenas and a built-in analysis board.",
+  "category": "games",
+  "subcategory": "strategy",
+  "tags": [
+    "chess",
+    "multiplayer",
+    "puzzles",
+    "tournaments",
+    "analysis",
+    "board-game"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/lichess",
+      "item_url": "https://lichess.org",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9314,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.99,
+      "is_game": 0.94,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.06,
+      "is_open_source": 0.83,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.79
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://lichess1.org/assets/logo/lichess-tile-wide.png",
+    "alt": "Preview of The best free, adless Chess server"
+  },
+  "fingerprint": {
+    "host": "lichess.org",
+    "title": "The best free, adless Chess server",
+    "site_name": "lichess.org",
+    "description": "Free online chess server. Play chess in a clean interface. No registration, no ads, no plugin required. Play chess with the computer, friends or random opponents."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

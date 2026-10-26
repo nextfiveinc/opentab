@@ -1,0 +1,90 @@
+{
+  "id": "010eca6e",
+  "url": "https://countrydraw.games/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Draw Countries From Memory Online | Country Draw",
+  "summary": "A geography game where players draw the outline of a hidden country on a real map using surrounding borders and capital markers as clues. Practice identifying 1",
+  "why": "Test your geography and memory skills by reconstructing country borders from memory against a real map.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "geography",
+    "drawing",
+    "memory",
+    "puzzle",
+    "world",
+    "map"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/country-draw",
+      "item_url": "https://countrydraw.games/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.16,
+      "category": {
+        "choice": "games",
+        "p": 0.93
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://countrydraw.games/assets/og-country-draw.png",
+    "alt": "Preview of Draw Countries From Memory Online | Country Draw"
+  },
+  "fingerprint": {
+    "host": "countrydraw.games",
+    "title": "Draw Countries From Memory Online | Country Draw",
+    "site_name": "Country Draw",
+    "description": "Draw countries from memory with Country Draw. Sketch borders on a real map, compare matched, missed, and extra areas, and practice 197 countries online."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

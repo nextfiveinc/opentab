@@ -1,0 +1,90 @@
+{
+  "id": "f0dc1d8c",
+  "url": "https://kcaltrainer.de/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Kcaltrainer - Kalorien schätzen statt zählen",
+  "summary": "Kcaltrainer is a game designed to help users train their intuition for estimating the calories and nutrients in various foods without traditional counting.",
+  "why": "A fun, gamified way to improve food intuition and estimate nutritional values instead of relying on strict calorie counting.",
+  "category": "health",
+  "subcategory": "food-nutrition",
+  "tags": [
+    "food",
+    "nutrition",
+    "game",
+    "estimation",
+    "health",
+    "intuition"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/kcaltrainer",
+      "item_url": "https://kcaltrainer.de/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9033,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.97,
+      "is_game": 0.96,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.09,
+      "is_open_source": 0.12,
+      "category": {
+        "choice": "health",
+        "p": 0.9
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.75
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://kcaltrainer.de/og-image.png?v=1",
+    "alt": "Preview of Kcaltrainer - Kalorien schätzen statt zählen"
+  },
+  "fingerprint": {
+    "host": "kcaltrainer.de",
+    "title": "Kcaltrainer – Kalorien schätzen statt zählen",
+    "site_name": "Kcaltrainer",
+    "description": "Trainiere spielerisch deine Intuition für Kalorien und Nährwerte von Lebensmitteln. Jeden Tag ein neues Tagesmenü, dazu Swipe, Detektiv und Punktlandung. Kostenlos, ohne Kalorienzählen."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

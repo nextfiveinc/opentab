@@ -1,0 +1,89 @@
+{
+  "id": "dbf5f8bc",
+  "url": "https://quickimgconvert.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Free Image Converter - Convert JPG, PNG, WebP Online",
+  "summary": "Online image converter for JPG, PNG, WebP, HEIC, GIF and more, with batch conversion, quality/compression settings and ZIP download.",
+  "why": "Covers many formats including HEIC, with batch processing and target-size compression, and no signup for standard use.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "image-converter",
+    "jpg",
+    "png",
+    "webp",
+    "heic",
+    "batch"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/quick-image-converter",
+      "item_url": "https://quickimgconvert.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9032,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.07,
+      "is_open_source": 0.12,
+      "category": {
+        "choice": "utilities",
+        "p": 0.96
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.72
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://quickimgconvert.com/images/image-converter-interface.webp",
+    "alt": "Preview of Free Image Converter - Convert JPG, PNG, WebP Online"
+  },
+  "fingerprint": {
+    "host": "quickimgconvert.com",
+    "title": "Free Image Converter – Convert JPG, PNG, WebP Online",
+    "site_name": "Quick Image Converter",
+    "description": "Convert JPG, PNG, WebP, HEIC, GIF & 15+ formats free online. Fast, private in-browser image converter with batch processing and compression. No signup required."
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

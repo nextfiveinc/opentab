@@ -1,0 +1,92 @@
+{
+  "id": "7b0f9922",
+  "url": "https://neon-helix-drop-1.vercel.app/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Neon Helix Drop",
+  "summary": "A futuristic, mobile-first endless runner where the player guides a ball through rotating helix gaps while avoiding hazards.",
+  "why": "A visually striking cyber-glassmorphism game with dynamic difficulty and high-score chasing.",
+  "category": "games",
+  "subcategory": "arcade",
+  "tags": [
+    "futuristic",
+    "cyberpunk",
+    "mobile",
+    "endless",
+    "drop",
+    "helix"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/neon-helix-drop",
+      "item_url": "https://neon-helix-drop-1.vercel.app/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9126,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.96,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.1,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.92
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 1
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "fingerprint": {
+    "host": "neon-helix-drop-1.vercel.app",
+    "title": "Neon Helix Drop",
+    "site_name": "",
+    "description": "Futuristic 2026 cyber-glassmorphism endless mobile-first helix drop game with dynamic platforms, revive ads, achievements, and bilingual support."
+  },
+  "image": {
+    "src": "https://neon-helix-drop-1.vercel.app/",
+    "alt": "Screenshot of Neon Helix Drop",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

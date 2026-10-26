@@ -1,0 +1,88 @@
+{
+  "id": "daf9b67f",
+  "url": "https://storywriter.authormasoncarter.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "StoryWriter - Free Offline Novel Writing App",
+  "summary": "StoryWriter is a free, offline novel writing studio for indie authors. It allows users to draft chapters, build complex worlds (characters, locations, timelines",
+  "why": "A comprehensive, free, and private tool for authors to draft, organize worldbuilding elements, and export manuscripts without needing an account.",
+  "category": "productivity",
+  "subcategory": "notes-and-writing",
+  "tags": [
+    "writing",
+    "novel",
+    "author",
+    "offline",
+    "worldbuilding",
+    "productivity"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/storywriter-free-novel-writing-app",
+      "item_url": "https://storywriter.authormasoncarter.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.19,
+      "category": {
+        "choice": "productivity",
+        "p": 0.8
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.94
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV9D2HW9oqVHk_aaHaaiEIKPFOyjX1xmzqEyEOLmcric5JLEJzg5uo-Xuu4d4vH2hZSCXCaR6t1YefMpOgT7fsMb-w3WHs7oZwm5zs3j9E9a4GVDJJtJULoBQYfCUVnutGGX1AG4AwI-RISZyC309kXwR9za_dthVHpv49j3c1eDR_4Ym-j4xsDX1_So7m/s1600-rw/bTlle%20-%20Removed.jpg",
+    "alt": "Preview of StoryWriter - Free Offline Novel Writing App"
+  },
+  "fingerprint": {
+    "host": "storywriter.authormasoncarter.com",
+    "title": "StoryWriter – Free Offline Novel Writing App",
+    "site_name": "StoryWriter",
+    "description": "Free offline writing app for indie authors. Draft chapters and scenes, build characters and locations, export DOCX, and work privately in your browser. Built by Mason Carter."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "55e3944c",
+  "url": "https://onra.live",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "ONRA - Free online radio and FM player",
+  "summary": "Web player streaming thousands of radio stations worldwide, with genre and country filters, local favourites, Shazam track recognition and installable PWA.",
+  "why": "No registration needed; filter stations by country or genre, keep favourites on-device, and identify tracks from the stream via built-in Shazam.",
+  "category": "creative",
+  "subcategory": "music-audio",
+  "tags": [
+    "radio",
+    "music",
+    "streaming",
+    "audio",
+    "pwa",
+    "shazam"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/onra",
+      "item_url": "https://onra.live",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.15,
+      "category": {
+        "choice": "creative",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://onra.live/icons/icon-512x512.png",
+    "alt": "Preview of ONRA - Free online radio and FM player"
+  },
+  "fingerprint": {
+    "host": "onra.live",
+    "title": "ONRA — Free online radio and FM player",
+    "site_name": "ONRA — Online Radio",
+    "description": "Listen to thousands of FM radio stations from around the world for free in the ONRA player. Fast filters by genre and country, Shazam integration and PWA support."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

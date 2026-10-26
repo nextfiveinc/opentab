@@ -1,0 +1,88 @@
+{
+  "id": "7959d457",
+  "url": "https://woodenfish.bibidu.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "正念木鱼 - 在线电子木鱼｜冥想正念修行 PWA",
+  "summary": "An online PWA that functions as an electronic wooden fish for meditation and mindfulness practice. It features auto-clicking and ambient Buddhist chants like '心",
+  "why": "A free, easy-to-use tool for daily mindfulness and meditation, supporting offline use and desktop installation.",
+  "category": "health",
+  "subcategory": "sleep-mindfulness",
+  "tags": [
+    "meditation",
+    "mindfulness",
+    "pwa",
+    "chant",
+    "calm",
+    "practice"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/woodenfishbibiducom",
+      "item_url": "https://woodenfish.bibidu.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9411,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.99,
+      "is_game": 0.1,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "health",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://woodenfish.bibidu.com/logo.png",
+    "alt": "Preview of 正念木鱼 - 在线电子木鱼｜冥想正念修行 PWA"
+  },
+  "fingerprint": {
+    "host": "woodenfish.bibidu.com",
+    "title": "正念木鱼 - 在线电子木鱼｜冥想正念修行 PWA",
+    "site_name": "正念木鱼",
+    "description": "正念木鱼是免费在线电子木鱼 PWA，可一键敲击或自动敲击，配以心经、绿度母心咒等正念梵音，记录每日修行积累灵子。支持桌面安装与离线使用，无需注册。"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

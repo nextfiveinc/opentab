@@ -1,0 +1,88 @@
+{
+  "id": "e34b9b05",
+  "url": "https://www.pdfcheetah.com/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Free PDF Tools Online - No Upload, No Limits | PDFCheetah",
+  "summary": "A suite of 62 browser-based tools for managing PDFs, including merging, splitting, compressing, and converting various file types.",
+  "why": "Offers a comprehensive set of free PDF utilities that run entirely in the browser without requiring file uploads or accounts.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "pdf",
+    "utility",
+    "file-tools",
+    "merge",
+    "split",
+    "convert"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/pdfcheetah",
+      "item_url": "https://www.pdfcheetah.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "utilities",
+        "p": 0.91
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.86
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://www.pdfcheetah.com/share-card.png?v=7174d143",
+    "alt": "Preview of Free PDF Tools Online - No Upload, No Limits | PDFCheetah"
+  },
+  "fingerprint": {
+    "host": "pdfcheetah.com",
+    "title": "Free PDF Tools Online — No Upload, No Limits | PDFCheetah",
+    "site_name": "PDFCheetah",
+    "description": "62 free PDF tools that run in your browser: merge, split, compress, convert, edit, sign and more. No daily limit, no account, and nothing is uploaded."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

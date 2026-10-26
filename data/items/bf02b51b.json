@@ -1,0 +1,88 @@
+{
+  "id": "bf02b51b",
+  "url": "https://www.ironvolume.com/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Iron Volume | Free Workout, HYROX & WOD Generator",
+  "summary": "Free suite of fitness tools that generates randomised WODs, HYROX race-prep sessions, kettlebell complexes and pacing plans based on kit, time and focus.",
+  "why": "Twelve focused generators and calculators cover WODs, HYROX prep and kettlebell work with no signup, tuned to your equipment and time.",
+  "category": "health",
+  "subcategory": "fitness-habits",
+  "tags": [
+    "fitness",
+    "workout",
+    "wod",
+    "hyrox",
+    "kettlebell",
+    "generator"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48459088",
+      "item_url": "https://www.ironvolume.com/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9127,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.09,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.38,
+      "category": {
+        "choice": "health",
+        "p": 0.97
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.97
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://www.ironvolume.com/opengraph-image.png",
+    "alt": "Preview of Iron Volume | Free Workout, HYROX & WOD Generator"
+  },
+  "fingerprint": {
+    "host": "ironvolume.com",
+    "title": "Iron Volume | Free Workout, HYROX & WOD Generator",
+    "site_name": "Iron Volume",
+    "description": "Free training tools for functional fitness, WODs, and HYROX. Generate randomized WODs, race-prep workouts, and deck-of-cards challenges in seconds."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "081ef27e",
+  "url": "https://streamingcalendar.tv/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "TV Streaming Calendar: when your shows actually drop",
+  "summary": "A TV release calendar that tracks when new episodes of shows drop across various streaming platforms, showing full drops and weekly schedules.",
+  "why": "Helps users stay organized and informed about the exact release dates and times of their favorite TV series.",
+  "category": "productivity",
+  "subcategory": "planners-trackers",
+  "tags": [
+    "tv",
+    "streaming",
+    "calendar",
+    "schedule",
+    "release",
+    "shows"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/streaming-calendar",
+      "item_url": "https://streamingcalendar.tv/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8749,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.93,
+      "is_free_to_use": 0.96,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.2,
+      "category": {
+        "choice": "productivity",
+        "p": 0.48
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://streamingcalendar.tv/og.png",
+    "alt": "Preview of TV Streaming Calendar: when your shows actually drop"
+  },
+  "fingerprint": {
+    "host": "streamingcalendar.tv",
+    "title": "TV Streaming Calendar: when your shows actually drop",
+    "site_name": "TV Streaming Calendar",
+    "description": "A TV release calendar for the streaming era: when new episodes drop, in your local time, with the correct release shape. Full drops, batches and weeklies shown honestly; no account needed."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "7b70fd4e",
+  "url": "https://calcahead.com/?utm_source=pwa.directory&utm_medium=referral&utm_campaign=backlink_outreach&utm_content=directory_listing",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "CalcAhead - Free Online Calculators",
+  "summary": "A suite of web calculators for finance, math, health, dates, cycling gearing and home projects, with site-wide currency and unit settings.",
+  "why": "Includes less common calculators such as mortgage recast, bike gearing choice, aspect-ratio cropping, and Army/Air Force waist-to-height.",
+  "category": "utilities",
+  "subcategory": "calculators",
+  "tags": [
+    "calculators",
+    "finance",
+    "math",
+    "health",
+    "cycling",
+    "dates"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/calcahead",
+      "item_url": "https://calcahead.com/?utm_source=pwa.directory&utm_medium=referral&utm_campaign=backlink_outreach&utm_content=directory_listing",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.13,
+      "category": {
+        "choice": "utilities",
+        "p": 0.93
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://calcahead.com/assets/brand/social-card.png",
+    "alt": "Preview of CalcAhead - Free Online Calculators"
+  },
+  "fingerprint": {
+    "host": "calcahead.com",
+    "title": "CalcAhead — Free Online Calculators",
+    "site_name": "CalcAhead",
+    "description": "Free online calculators for money, health, math, dates, grades, and home projects. Work out your next step with clear results, formulas, and examples."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

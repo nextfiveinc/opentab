@@ -1,0 +1,92 @@
+{
+  "id": "0767dac5",
+  "url": "https://disnumber.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Disnumber ☠️ Game",
+  "summary": "Bulls and Cows number puzzle: deduce a hidden number of unique digits in under 9 guesses from dead/injured hints (right digit, right or wrong place).",
+  "why": "Tight nine-guess deduction with adjustable digit count, optional hints and easy mode, plus solve-rate stats and shareable results.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "puzzle",
+    "logic",
+    "numbers",
+    "deduction",
+    "bulls-and-cows",
+    "guessing"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/disnumber",
+      "item_url": "https://disnumber.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "fingerprint": {
+    "host": "disnumber.com",
+    "title": "Disnumber ☠️ Game",
+    "site_name": "",
+    "description": "Puzzle game, solve for the hidden number! Dead and Injured/Wounded. Bulls and Cows, Wordle precursor"
+  },
+  "image": {
+    "src": "https://disnumber.com",
+    "alt": "Screenshot of Disnumber ☠️ Game",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

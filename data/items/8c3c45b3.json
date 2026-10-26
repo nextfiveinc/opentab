@@ -1,0 +1,96 @@
+{
+  "id": "8c3c45b3",
+  "url": "https://nesvibes.tsilva.eu/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Play NES Games Online in Your Browser | NESVibes",
+  "summary": "A web-based platform allowing users to play classic Nintendo Entertainment System (NES) games directly in a browser using ROM files.",
+  "why": "Provides a simple, functional way to enjoy classic 8-bit gaming without needing dedicated console hardware.",
+  "category": "games",
+  "subcategory": "arcade",
+  "tags": [
+    "nes",
+    "retro",
+    "emulator",
+    "gaming",
+    "browser",
+    "8bit"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48458652",
+      "item_url": "https://nesvibes.tsilva.eu/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://news.ycombinator.com/item?id=48458652"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.97,
+      "is_game": 0.72,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.25,
+      "category": {
+        "choice": "games",
+        "p": 0.98
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "image": {
+    "src": "https://nesvibes.tsilva.eu/og-image.png",
+    "alt": "Preview of Play NES Games Online in Your Browser | NESVibes"
+  },
+  "fingerprint": {
+    "host": "nesvibes.tsilva.eu",
+    "title": "Play NES Games Online in Your Browser | NESVibes",
+    "site_name": "NESVibes",
+    "description": "Play NES games online instantly in your browser with bundled homebrew and public-domain titles, drag-and-drop ROM support, touch controls, and fullscreen retro play."
+  },
+  "liveness": {
+    "last_check": "2026-10-25",
+    "unsure": 1,
+    "failures": 0,
+    "reason": "unknown (checked before reasons were recorded)"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "6c7f3eca",
+  "url": "https://midipiano.app/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "midipiano.app - Online Piano Practice with MIDI",
+  "summary": "Browser piano practice tool: connect a MIDI keyboard, import MusicXML or MEI scores, and drill hands separately with per-note feedback and daily challenges.",
+  "why": "No install or account needed; works with any MIDI keyboard and lets you import your own scores to practice hand by hand.",
+  "category": "education",
+  "subcategory": "maths-science",
+  "tags": [
+    "piano",
+    "midi",
+    "music",
+    "practice",
+    "sheet-music",
+    "web-midi"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/midipiano-app",
+      "item_url": "https://midipiano.app/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8749,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.93,
+      "is_game": 0.22,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.17,
+      "category": {
+        "choice": "education",
+        "p": 0.79
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.97
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://midipiano.app/img/hero-real-piano.jpg",
+    "alt": "Preview of midipiano.app - Online Piano Practice with MIDI"
+  },
+  "fingerprint": {
+    "host": "midipiano.app",
+    "title": "midipiano.app - Online Piano Practice with MIDI",
+    "site_name": "midipiano.app",
+    "description": "Practice piano online in your browser. Connect your MIDI keyboard, import MusicXML or MEI scores, and train each hand with real-time feedback."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

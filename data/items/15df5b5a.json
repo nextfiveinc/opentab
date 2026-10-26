@@ -1,0 +1,88 @@
+{
+  "id": "15df5b5a",
+  "url": "https://nopa.space",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Free Online PDF, Image & Document Tools | nopa",
+  "summary": "A suite of free, browser-based tools for PDF manipulation, image editing, and document conversion. Features include merging, compressing, and background removal",
+  "why": "Offers powerful document and image processing tools that run locally in the browser without uploading files.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "pdf",
+    "image",
+    "document",
+    "local",
+    "free",
+    "utility"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/nopa",
+      "item_url": "https://nopa.space",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.1,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.16,
+      "category": {
+        "choice": "utilities",
+        "p": 0.88
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 3
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://nopa.space/og/brand/en.png",
+    "alt": "Preview of Free Online PDF, Image & Document Tools | nopa"
+  },
+  "fingerprint": {
+    "host": "nopa.space",
+    "title": "Free Online PDF, Image & Document Tools | nopa",
+    "site_name": "nopa",
+    "description": "Merge and compress PDFs, turn a PDF into Word, remove backgrounds, shrink photos and transcribe audio — in your browser. Free, no signup, nothing uploaded."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

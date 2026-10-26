@@ -1,0 +1,88 @@
+{
+  "id": "41f8dca9",
+  "url": "https://kashifaziz.me/outreach-planner/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Outreach Planner",
+  "summary": "Single-file outreach CRM with a contact pipeline, reusable email templates, activity logging, and JSON export; data stays in the browser.",
+  "why": "Covers contacts, follow-ups, templates and activity tracking in one page, with JSON export and no account needed.",
+  "category": "productivity",
+  "subcategory": "planners-trackers",
+  "tags": [
+    "crm",
+    "outreach",
+    "contacts",
+    "email-templates",
+    "activity-log",
+    "local-storage"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48458976",
+      "item_url": "https://kashifaziz.me/outreach-planner/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9221,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.16,
+      "category": {
+        "choice": "productivity",
+        "p": 0.73
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.94
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://kashifaziz.me/images/blog/outreach-planner/home.png",
+    "alt": "Preview of Outreach Planner"
+  },
+  "fingerprint": {
+    "host": "kashifaziz.me",
+    "title": "Outreach Planner",
+    "site_name": "",
+    "description": "Outreach Planner is a single-file outreach CRM demo with contacts, templates, activity logs, and browser-only local storage."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

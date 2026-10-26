@@ -1,0 +1,87 @@
+{
+  "id": "17ed8684",
+  "url": "https://alarmdj.com",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Alarm DJ",
+  "summary": "A browser-based alarm clock utility that allows users to set alarms using custom audio files or YouTube videos.",
+  "why": "Allows users to set personalized alarms using their own media instead of standard sounds.",
+  "category": "utilities",
+  "subcategory": "date-time",
+  "tags": [
+    "alarm",
+    "utility",
+    "media",
+    "audio",
+    "browser"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/alarmdj",
+      "item_url": "https://alarmdj.com",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8938,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.95,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.18,
+      "category": {
+        "choice": "utilities",
+        "p": 0.97
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://alarmDJ.com/assets/images/favicons/favicon-230x230.png",
+    "alt": "Preview of Alarm DJ"
+  },
+  "fingerprint": {
+    "host": "alarmdj.com",
+    "title": "Alarm DJ",
+    "site_name": "Alarm DJ",
+    "description": "Alarm DJ is an online alarm clock that plays your MP3 files and YouTube videos of your choice.Works offline, right from the browser - no installation needed."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "5d2d864a",
+  "url": "https://current-financial-tracker.vercel.app",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Current - Daily Finance Tracker",
+  "summary": "A deep-sea themed personal finance tracker for logging income and expenses, monitoring budgets, and viewing savings rate.",
+  "why": "A simple, focused tool for daily money tracking with a clean interface and clear financial insights.",
+  "category": "money",
+  "subcategory": "budgeting",
+  "tags": [
+    "finance",
+    "budgeting",
+    "expense-tracking",
+    "income-tracking",
+    "savings-rate",
+    "mobile-friendly"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/current-daily-finance-tracker",
+      "item_url": "https://current-financial-tracker.vercel.app",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8561,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.91,
+      "is_game": 0.03,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.11,
+      "is_open_source": 0.17,
+      "category": {
+        "choice": "money",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 1
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "current-financial-tracker.vercel.app",
+    "title": "Current — Daily Finance Tracker",
+    "site_name": "",
+    "description": "A deep-sea themed personal finance tracker. Log income and expenses, track budgets, and see where your money flows."
+  },
+  "image": {
+    "src": "https://current-financial-tracker.vercel.app",
+    "alt": "Screenshot of Current - Daily Finance Tracker",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

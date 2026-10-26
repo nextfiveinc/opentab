@@ -1,0 +1,96 @@
+{
+  "id": "45226dd6",
+  "url": "https://tools.simonwillison.net/grok-mermaid",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Mermaid to Unicode box art (grok-mermaid)",
+  "summary": "Converts Mermaid diagram source into terminal-style Unicode box-drawing art in the browser, using a Rust renderer compiled to WebAssembly.",
+  "why": "A focused, offline-capable tool that renders flowcharts, sequence, state, class and ER diagrams as plain-text art with no server round-trip.",
+  "category": "utilities",
+  "subcategory": "text-tools",
+  "tags": [
+    "mermaid",
+    "diagrams",
+    "unicode",
+    "wasm",
+    "rust",
+    "developer-tools"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": true
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/grok-mermaid",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.98,
+      "is_free_to_use": 0.98,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.76,
+      "category": {
+        "choice": "utilities",
+        "p": 0.61
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.97
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Mermaid to Unicode box art (grok-mermaid)",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/grok-mermaid",
+    "alt": "Screenshot of Mermaid to Unicode box art (grok-mermaid)",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

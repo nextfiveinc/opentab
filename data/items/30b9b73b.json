@@ -1,0 +1,90 @@
+{
+  "id": "30b9b73b",
+  "url": "https://stayawake.pages.dev",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Stay Awake - Keep Your Screen Awake",
+  "summary": "Prevents the device screen from sleeping while in a foreground tab, with draggable clock, Pomodoro, to-do and battery widgets; installable as a PWA.",
+  "why": "Useful for keeping a display on while following instructions; widget positions and data save locally and survive a refresh.",
+  "category": "productivity",
+  "subcategory": "timers-focus",
+  "tags": [
+    "wake-lock",
+    "screen",
+    "pomodoro",
+    "clock",
+    "to-do",
+    "pwa"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/stay-awake",
+      "item_url": "https://stayawake.pages.dev",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9316,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.98,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.77,
+      "category": {
+        "choice": "productivity",
+        "p": 0.51
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "stayawake.pages.dev",
+    "title": "Stay Awake – Keep Your Screen Awake",
+    "site_name": "Stay Awake",
+    "description": "Prevents your device from sleeping and provides draggable widgets with saved settings. Installable as a PWA."
+  },
+  "image": {
+    "src": "https://stayawake.pages.dev",
+    "alt": "Screenshot of Stay Awake - Keep Your Screen Awake",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

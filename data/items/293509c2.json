@@ -1,0 +1,94 @@
+{
+  "id": "293509c2",
+  "url": "https://shalx.github.io/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Fix-Pin",
+  "summary": "Fix-Pin is a simple application that allows users to save specific locations with notes and view them later within Google Maps.",
+  "why": "A straightforward tool for bookmarking places and adding context, useful for travel planning or local reference.",
+  "category": "life-home",
+  "subcategory": "travel-maps",
+  "tags": [
+    "location",
+    "maps",
+    "notes",
+    "utility",
+    "travel"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/fix-pin",
+      "item_url": "https://shalx.github.io/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://pwa.directory/directory/fix-pin"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.8562,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.91,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.39,
+      "category": {
+        "choice": "life-home",
+        "p": 0.49
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 1
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "shalx.github.io",
+    "title": "Fix-Pin",
+    "site_name": "",
+    "description": "Fix-Pin helps you save locations with notes and open them later in Google Maps."
+  },
+  "image": {
+    "src": "https://shalx.github.io/",
+    "alt": "Screenshot of Fix-Pin",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "f84dae54",
+  "url": "https://puzzle.grrd.ch",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "grrd's Puzzle",
+  "summary": "A free HTML5 jigsaw puzzle game where users can solve puzzles from various themes or upload their own custom images.",
+  "why": "A simple, free, and customizable jigsaw puzzle game playable on both desktop and mobile devices.",
+  "category": "games",
+  "subcategory": "puzzle-word",
+  "tags": [
+    "jigsaw",
+    "puzzle",
+    "html5",
+    "mobile",
+    "free",
+    "game"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/grrds-puzzle",
+      "item_url": "https://puzzle.grrd.ch",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9126,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.96,
+      "is_game": 0.98,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "games",
+        "p": 1.0
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [
+    "game"
+  ],
+  "fingerprint": {
+    "host": "puzzle.grrd.ch",
+    "title": "grrd's Puzzle",
+    "site_name": "",
+    "description": "grrd's Puzzle is a HTML5 jigsaw puzzle game for your smartphone or desktop. You can choose from various images or play with your own pictures at the level of difficulty of your choice."
+  },
+  "image": {
+    "src": "https://puzzle.grrd.ch",
+    "alt": "Screenshot of grrd's Puzzle",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

@@ -1,0 +1,59 @@
+/* Default theme tokens, light and dark. A pack restyles by overriding these in its
+   own theme.css (loaded after, unlayered, so it always wins). See docs/THEMING.md.
+   Fonts are system stacks only: no third-party font requests. */
+
+@layer tokens {
+  :root {
+    /* surfaces and ink */
+    --bg: #f7f7f5;
+    --surface: #ffffff;
+    --surface-2: #f0f0ed;
+    --text: #18191b;
+    --muted: #61646b;
+    --border: #e2e2de;
+    --border-strong: #c9c9c3;
+
+    /* one accent, plus its readable foreground and a soft tint */
+    --accent: #3157d5;
+    --accent-contrast: #ffffff;
+    --accent-soft: color-mix(in srgb, var(--accent) 11%, transparent);
+    --ok: #1d7a4d;
+    --warn: #a35a00;
+
+    /* type */
+    --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-display: var(--font-body);
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Roboto Mono", Menlo, monospace;
+    --display-weight: 650;
+    --display-tracking: -0.015em;
+
+    /* shape and depth */
+    --radius: 12px;
+    --radius-sm: 8px;
+    --shadow: 0 1px 2px rgb(20 20 20 / 0.05);
+    --shadow-hover: 0 8px 24px -10px rgb(20 20 20 / 0.22);
+    --focus: 0 0 0 3px color-mix(in srgb, var(--accent) 40%, transparent);
+
+    /* rhythm */
+    --space-1: 4px; --space-2: 8px; --space-3: 16px; --space-4: 24px; --space-5: 40px; --space-6: 64px;
+    --max-w: 1180px;
+    color-scheme: light;
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #111214;
+    --surface: #18191c;
+    --surface-2: #202226;
+    --text: #ececea;
+    --muted: #9b9ea6;
+    --border: #2a2c31;
+    --border-strong: #3b3e45;
+    --accent: #7d9bff;
+    --accent-contrast: #0b1430;
+    --ok: #5fd39a;
+    --warn: #f0b35a;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.4);
+    --shadow-hover: 0 10px 28px -12px rgb(0 0 0 / 0.7);
+    color-scheme: dark;
+  }
+}

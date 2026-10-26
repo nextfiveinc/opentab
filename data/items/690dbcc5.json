@@ -1,0 +1,96 @@
+{
+  "id": "690dbcc5",
+  "url": "https://tools.simonwillison.net/pretext-explainer",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Pretext - Under the Hood",
+  "summary": "Interactive walkthrough of a pure-JS text layout pipeline: normalize, segment, measure via canvas, break lines, and verify against real DOM rendering.",
+  "why": "Type text and watch each stage of browser-style line breaking run live, from whitespace collapse to pixel-accurate line heights.",
+  "category": "experiments",
+  "subcategory": "toys-visualisers",
+  "tags": [
+    "text-layout",
+    "canvas",
+    "typography",
+    "javascript",
+    "interactive",
+    "visualisation"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "device": [
+      "desktop",
+      "mobile"
+    ],
+    "offline": false,
+    "open_source": false
+  },
+  "dates": {
+    "first_seen": "2026-10-23",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/pretext-explainer",
+      "seen": "2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.922,
+    "classify_mode": "decide",
+    "mentions": 1,
+    "needs": "review",
+    "decisions": {
+      "is_web_app": 0.96,
+      "is_free_to_use": 0.98,
+      "is_game": 0.02,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.39,
+      "category": {
+        "choice": "experiments",
+        "p": 0.37
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.88
+      },
+      "listing_quality": {
+        "level": 3
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014"
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Pretext — Under the Hood",
+    "site_name": "",
+    "description": ""
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/pretext-explainer",
+    "alt": "Screenshot of Pretext - Under the Hood",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

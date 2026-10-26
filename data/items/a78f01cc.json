@@ -1,0 +1,88 @@
+{
+  "id": "a78f01cc",
+  "url": "https://m3u8-player.net/",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "M3U8 Downloader | M3U8 to MP4 | M3U8 Player - Free Online Tools",
+  "summary": "An online tool for playing and downloading M3U8 and HLS streams. It allows users to convert streams to MP4, WEBM, or MKV directly in the browser.",
+  "why": "Provides a free, browser-based solution for streaming and converting various M3U8/HLS content without needing software installation.",
+  "category": "utilities",
+  "subcategory": "converters",
+  "tags": [
+    "m3u8",
+    "hls",
+    "downloader",
+    "converter",
+    "streaming",
+    "media"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": true,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/m3u8-player",
+      "item_url": "https://m3u8-player.net/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8936,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.14,
+      "category": {
+        "choice": "utilities",
+        "p": 0.69
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://m3u8-player.net/logo.png",
+    "alt": "Preview of M3U8 Downloader | M3U8 to MP4 | M3U8 Player - Free Online Tools"
+  },
+  "fingerprint": {
+    "host": "m3u8-player.net",
+    "title": "M3U8 Downloader | M3U8 to MP4 | M3U8 Player - Free Online Tools",
+    "site_name": "M3U8 Player",
+    "description": "Free M3U8 downloader, converter and player. Download M3U8 streams, convert to MP4, play HLS online. No installation required."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

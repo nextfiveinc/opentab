@@ -1,0 +1,90 @@
+{
+  "id": "5ff725d5",
+  "url": "https://mermaid.live",
+  "source": "pwa-directory-picks",
+  "tier": "A",
+  "title": "Online FlowChart & Diagrams Editor - Mermaid Live Editor",
+  "summary": "An online editor that uses Mermaid syntax to generate flowcharts and diagrams from text input, serving as a lightweight alternative to complex diagramming tools",
+  "why": "Useful for quickly creating documentation and visual aids by generating diagrams directly from simple text scripts.",
+  "category": "data-viz",
+  "subcategory": "charts-dashboards",
+  "tags": [
+    "diagram",
+    "flowchart",
+    "markdown",
+    "editor",
+    "visualization",
+    "mermaid"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": true,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "pwa-directory-picks",
+      "url": "https://pwa.directory/directory/mermaid-live",
+      "item_url": "https://mermaid.live",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.9127,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.97,
+      "is_game": 0.01,
+      "is_chat_wrapper": 0.03,
+      "needs_sign_in": 0.05,
+      "is_open_source": 0.73,
+      "category": {
+        "choice": "data-viz",
+        "p": 0.73
+      },
+      "cost": {
+        "choice": "free",
+        "p": 0.99
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 1.0
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "mermaid.live",
+    "title": "Online FlowChart & Diagrams Editor - Mermaid Live Editor",
+    "site_name": "",
+    "description": "Simplify documentation and avoid heavy tools. Open source Visio Alternative. Commonly used for explaining your code! Mermaid is a simple markdown-like script language for generating charts from text via javascript."
+  },
+  "image": {
+    "src": "https://mermaid.live",
+    "alt": "Screenshot of Online FlowChart & Diagrams Editor - Mermaid Live Editor",
+    "kind": "screenshot",
+    "taken": "2026-10-24"
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

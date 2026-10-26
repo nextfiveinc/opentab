@@ -1,0 +1,88 @@
+{
+  "id": "d17311eb",
+  "url": "https://tlaloc.cloud/",
+  "source": "hn-tools-since-ai",
+  "tier": "A",
+  "title": "Tláloc - ¿Va a llover en la Ciudad de México?",
+  "summary": "Tláloc is a 3D weather forecasting tool that predicts rain in Mexico City (CDMX) using meteorological data.",
+  "why": "Provides a detailed 3D visualization of rain forecasts for Mexico City.",
+  "category": "data-viz",
+  "subcategory": "maps",
+  "tags": [
+    "weather",
+    "forecast",
+    "cdmx",
+    "rain",
+    "3d",
+    "visualization"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-25"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "hn-tools-since-ai",
+      "url": "https://news.ycombinator.com/item?id=48461235",
+      "item_url": "https://tlaloc.cloud/",
+      "seen": "2026-10-24"
+    }
+  ],
+  "evidence": [],
+  "ai_claim": "none",
+  "quality": {
+    "confidence": 0.8659,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.94,
+      "is_free_to_use": 0.94,
+      "is_game": 0.07,
+      "is_chat_wrapper": 0.02,
+      "needs_sign_in": 0.04,
+      "is_open_source": 0.2,
+      "category": {
+        "choice": "data-viz",
+        "p": 0.78
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "none",
+        "p": 0.96
+      },
+      "listing_quality": {
+        "level": 2
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "image": {
+    "src": "https://tlaloc.cloud/og.png?v=996023",
+    "alt": "Preview of Tláloc - ¿Va a llover en la Ciudad de México?"
+  },
+  "fingerprint": {
+    "host": "tlaloc.cloud",
+    "title": "Tláloc — ¿Va a llover en la Ciudad de México?",
+    "site_name": "Tláloc",
+    "description": "¿Va a llover en la Ciudad de México? Pronóstico de lluvia 3D para la CDMX."
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-25"
+  }
+}

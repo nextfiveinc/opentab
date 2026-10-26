@@ -1,0 +1,50 @@
+# Open Tab: free, working web apps and games without any sign-up or installation requirement.
+id: webapps
+name: "Open Tab (working title)"
+noun: { one: app, many: apps }
+tagline: "Free, working web apps and games without any sign-up or installation requirement."
+locale: en
+license: { code: MIT, data: CC-BY-4.0 }
+
+classifier:
+  mode: decide          # decide (decision model + text pass, see decide.yml) | hybrid (one chat pass) | rules (no AI)
+  decide: decide.yml    # pass-1 decision model, questions and thresholds
+  provider: openrouter
+  models:
+    triage: "z-ai/glm-5.3-flash"   # hybrid mode, and the fallback if a decision call fails
+    enrich: "z-ai/glm-5.3-flash"   # decide mode pass 2: writes summary, why, tags
+  prompt: classify.prompt.md
+  max_calls_per_run: 300   # safety fuse; the real budget is the OpenRouter key's credit limit
+
+# Working data (review queue, caches, run report, eval set, hand-picked lists, the
+# source list) lives in the private data repo, cloned here. See README_LOCAL.md.
+private_data: private
+
+analytics: { provider: goatcounter, code: opentab }   # remove to switch analytics off
+# Report and suggest forms (Tally). Each opens as a popup over the page; the report
+# form gets the listing as hidden fields `item` (id) and `url`.
+links:
+  report: https://tally.so/r/Gex2QO
+  suggest_app: https://tally.so/r/aOQ8lX
+  suggest_source: https://tally.so/r/NqpeEO
+  # issues: https://github.com/<owner>/<repo>/issues    # GitHub issue forms instead
+
+gate:
+  auto_publish: 0.85
+  review: 0.60
+  review_mode: queue    # queue | auto | off
+
+qualify:
+  # Connect errors, timeouts, 429 and 5xx are retried on later runs for this many
+  # days after the first failure; 404/403 and robots blocks are final.
+  retry_failed_fetch_days: 14
+
+lifecycle:
+  recheck_days: 7
+  stale_after_failures: 2
+  dead_after_failures: 4
+
+views: [grid, digest]
+card_layout: tile
+theme: theme.css       # optional; falls back to the built-in default theme
+outputs: [changelog]   # no rss/jsonfeed: curated for people, not feed readers
