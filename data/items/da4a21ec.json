@@ -27,7 +27,8 @@
     ]
   },
   "dates": {
-    "first_seen": "2026-10-24"
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-10-26"
   },
   "status": "active",
   "provenance": [
@@ -81,9 +82,7 @@
     "description": "Create shared music tapes, build playlists together, and keep the conversation around every song."
   },
   "liveness": {
-    "last_check": "2026-10-25",
-    "unsure": 1,
-    "failures": 0,
-    "reason": "unknown (checked before reasons were recorded)"
+    "last_check": "2026-10-26",
+    "failures": 0
   }
 }

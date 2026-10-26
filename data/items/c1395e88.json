@@ -80,9 +80,9 @@
     "description": "The translator can translate between Morse code and Latin, Hebrew, Arabic and Cyrillic alphabets. It can play, flash or vibrate the Morse code. You can also save the sound and share a link to use it to send messages to your friends. The speed, Farnsworth speed and frequency of the sound are all full"
   },
   "liveness": {
-    "last_check": "2026-10-25",
-    "unsure": 1,
+    "last_check": "2026-10-26",
+    "unsure": 2,
     "failures": 0,
-    "reason": "unknown (checked before reasons were recorded)"
+    "reason": "http-403"
   }
 }

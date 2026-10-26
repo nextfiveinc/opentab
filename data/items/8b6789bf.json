@@ -88,9 +88,9 @@
     "taken": "2026-10-24"
   },
   "liveness": {
-    "last_check": "2026-10-25",
-    "unsure": 1,
+    "last_check": "2026-10-26",
+    "unsure": 2,
     "failures": 0,
-    "reason": "unknown (checked before reasons were recorded)"
+    "reason": "http-403"
   }
 }

@@ -81,9 +81,9 @@
     "description": "Free live weather for Ireland: rain radar, hourly & 7-day forecast, wind, road surface temperature, UV, air quality and sea conditions for every county and town. Built for drivers, riders and outdoor workers."
   },
   "liveness": {
-    "last_check": "2026-10-25",
-    "unsure": 1,
+    "last_check": "2026-10-26",
+    "unsure": 2,
     "failures": 0,
-    "reason": "unknown (checked before reasons were recorded)"
+    "reason": "http-403"
   }
 }

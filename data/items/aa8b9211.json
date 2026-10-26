@@ -1,0 +1,94 @@
+{
+  "id": "aa8b9211",
+  "url": "https://tools.simonwillison.net/seam-cutter",
+  "source": "simon-tools",
+  "tier": "A",
+  "title": "Seam Cutter",
+  "summary": "Browser tool that opens a pasted or dropped image, cuts seams from it, and exports the result, with undo.",
+  "why": "A focused single-purpose image tool that runs in the browser, useful for trimming pictures without a full editor.",
+  "category": "utilities",
+  "subcategory": "file-image-tools",
+  "tags": [
+    "images",
+    "editing",
+    "browser",
+    "seam-carving",
+    "undo"
+  ],
+  "attrs": {
+    "cost": "free",
+    "access": "none",
+    "open_source": false,
+    "offline": false,
+    "device": [
+      "desktop",
+      "mobile"
+    ]
+  },
+  "dates": {
+    "first_seen": "2026-10-26",
+    "last_verified": "2026-10-26"
+  },
+  "status": "active",
+  "provenance": [
+    {
+      "source": "simon-tools",
+      "url": "https://tools.simonwillison.net/",
+      "item_url": "https://tools.simonwillison.net/seam-cutter",
+      "seen": "2026-10-26"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "creator-statement",
+      "url": "https://tools.simonwillison.net/"
+    }
+  ],
+  "ai_claim": "self-declared",
+  "quality": {
+    "confidence": 0.8846,
+    "classify_mode": "decide",
+    "decisions": {
+      "is_web_app": 0.97,
+      "is_free_to_use": 0.95,
+      "is_game": 0.04,
+      "is_chat_wrapper": 0.04,
+      "needs_sign_in": 0.03,
+      "is_open_source": 0.32,
+      "category": {
+        "choice": "utilities",
+        "p": 0.69
+      },
+      "cost": {
+        "choice": "free",
+        "p": 1.0
+      },
+      "ai_claim": {
+        "choice": "self-declared",
+        "p": 0.99
+      },
+      "listing_quality": {
+        "level": 1
+      }
+    },
+    "decide_model": "typesafe/jev-1.14-20261014",
+    "mentions": 1
+  },
+  "flags": [],
+  "fingerprint": {
+    "host": "tools.simonwillison.net",
+    "title": "Seam Cutter",
+    "site_name": "",
+    "description": ""
+  },
+  "liveness": {
+    "failures": 0,
+    "last_check": "2026-10-26"
+  },
+  "image": {
+    "src": "https://tools.simonwillison.net/seam-cutter",
+    "alt": "Screenshot of Seam Cutter",
+    "kind": "screenshot",
+    "taken": "2026-10-26"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "date": "2026-10-26",
-  "added": [],
+  "added": [
+    {
+      "id": "aa8b9211",
+      "title": "Seam Cutter"
+    }
+  ],
   "removed": [],
   "changed": [],
   "counts": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
     "changed": 0,
-    "active": 278
+    "active": 279
   },
   "active_ids": [
     "010eca6e",
@@ -228,6 +233,7 @@
     "a745e4f6",
     "a747bacb",
     "a78f01cc",
+    "aa8b9211",
     "ad2b77ad",
     "ad4055dd",
     "ae7249ef",
@@ -508,6 +514,7 @@
     "a745e4f6": "64bc5a1a72d8",
     "a747bacb": "53daed0ee531",
     "a78f01cc": "c2b030c89a05",
+    "aa8b9211": "afd0e0c64944",
     "ad2b77ad": "3e918e9807b8",
     "ad4055dd": "d658b6bae79c",
     "ae7249ef": "9fd1d1efe527",
