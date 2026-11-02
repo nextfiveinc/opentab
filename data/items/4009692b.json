@@ -83,6 +83,8 @@
   },
   "liveness": {
     "failures": 0,
-    "last_check": "2026-10-26"
+    "last_check": "2026-11-02",
+    "reason": "http-522",
+    "unsure": 1
   }
 }

@@ -81,8 +81,8 @@
     "description": "Convert any image into clean, scalable SVG paths — fully local, no uploads, no servers."
   },
   "liveness": {
-    "last_check": "2026-10-26",
-    "unsure": 2,
+    "last_check": "2026-11-02",
+    "unsure": 3,
     "failures": 0,
     "reason": "http-403"
   }

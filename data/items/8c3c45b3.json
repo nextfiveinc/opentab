@@ -88,8 +88,8 @@
     "description": "Play NES games online instantly in your browser with bundled homebrew and public-domain titles, drag-and-drop ROM support, touch controls, and fullscreen retro play."
   },
   "liveness": {
-    "last_check": "2026-10-26",
-    "unsure": 2,
+    "last_check": "2026-11-02",
+    "unsure": 3,
     "failures": 0,
     "reason": "http-403"
   }

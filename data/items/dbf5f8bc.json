@@ -28,7 +28,7 @@
   },
   "dates": {
     "first_seen": "2026-10-24",
-    "last_verified": "2026-10-26"
+    "last_verified": "2026-11-02"
   },
   "status": "active",
   "provenance": [
@@ -82,7 +82,7 @@
     "description": "Convert JPG, PNG, WebP, HEIC, GIF & 15+ formats free online. Fast, private in-browser image converter with batch processing and compression. No signup required."
   },
   "liveness": {
-    "last_check": "2026-10-26",
+    "last_check": "2026-11-02",
     "failures": 0
   }
 }
