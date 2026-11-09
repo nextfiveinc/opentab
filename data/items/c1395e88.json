@@ -26,7 +26,8 @@
     ]
   },
   "dates": {
-    "first_seen": "2026-10-24"
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-11-09"
   },
   "status": "active",
   "provenance": [
@@ -80,9 +81,7 @@
     "description": "The translator can translate between Morse code and Latin, Hebrew, Arabic and Cyrillic alphabets. It can play, flash or vibrate the Morse code. You can also save the sound and share a link to use it to send messages to your friends. The speed, Farnsworth speed and frequency of the sound are all full"
   },
   "liveness": {
-    "last_check": "2026-11-02",
-    "unsure": 3,
-    "failures": 0,
-    "reason": "http-403"
+    "last_check": "2026-11-09",
+    "failures": 0
   }
 }

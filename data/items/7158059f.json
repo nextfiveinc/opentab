@@ -27,7 +27,8 @@
     ]
   },
   "dates": {
-    "first_seen": "2026-10-24"
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-11-09"
   },
   "status": "active",
   "provenance": [
@@ -81,9 +82,7 @@
     "description": "Free live weather for Ireland: rain radar, hourly & 7-day forecast, wind, road surface temperature, UV, air quality and sea conditions for every county and town. Built for drivers, riders and outdoor workers."
   },
   "liveness": {
-    "last_check": "2026-11-02",
-    "unsure": 3,
-    "failures": 0,
-    "reason": "http-403"
+    "last_check": "2026-11-09",
+    "failures": 0
   }
 }

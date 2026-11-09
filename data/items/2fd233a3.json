@@ -27,7 +27,8 @@
     ]
   },
   "dates": {
-    "first_seen": "2026-10-24"
+    "first_seen": "2026-10-24",
+    "last_verified": "2026-11-09"
   },
   "status": "active",
   "provenance": [
@@ -81,9 +82,7 @@
     "description": "Convert any image into clean, scalable SVG paths — fully local, no uploads, no servers."
   },
   "liveness": {
-    "last_check": "2026-11-02",
-    "unsure": 3,
-    "failures": 0,
-    "reason": "http-403"
+    "last_check": "2026-11-09",
+    "failures": 0
   }
 }
