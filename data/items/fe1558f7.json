@@ -27,7 +27,7 @@
   },
   "dates": {
     "first_seen": "2026-10-24",
-    "last_verified": "2026-11-09"
+    "last_verified": "2026-11-16"
   },
   "status": "active",
   "provenance": [
@@ -36,6 +36,12 @@
       "url": "https://nextfive.xyz/blog/2026/04/11/careermap.html",
       "item_url": "https://careermap.nextfive.in/",
       "seen": "2026-10-24"
+    },
+    {
+      "source": "nextfive-library",
+      "url": "https://nextfive.xyz/library",
+      "item_url": "https://careermap.nextfive.in/",
+      "seen": "2026-11-16"
     }
   ],
   "evidence": [],
@@ -70,7 +76,7 @@
     "disagreements": [
       "access:none-but-login-detected"
     ],
-    "mentions": 1
+    "mentions": 2
   },
   "flags": [],
   "fingerprint": {
@@ -87,6 +93,6 @@
   },
   "liveness": {
     "failures": 0,
-    "last_check": "2026-11-09"
+    "last_check": "2026-11-16"
   }
 }

@@ -28,7 +28,7 @@
   },
   "dates": {
     "first_seen": "2026-10-24",
-    "last_verified": "2026-11-09"
+    "last_verified": "2026-11-16"
   },
   "status": "active",
   "provenance": [
@@ -82,7 +82,7 @@
     "description": "Interactive periodic table of the chemical elements; Properties, history, name origin, facts, applications, isotopes, electronic configuation, crystal structure, hazards and more."
   },
   "liveness": {
-    "last_check": "2026-11-09",
+    "last_check": "2026-11-16",
     "failures": 0
   }
 }
